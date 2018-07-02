@@ -5,7 +5,7 @@
 ## 泛型
 ## IO
 ## JVM
-## 并发
+## [并发](https://github.com/YinglishZhi/struggle-object/blob/master/JavaCore/并发/Concurrency.md)
 ### 基础知识
 ### 并发理论
 ### 并发关键字
