@@ -105,11 +105,62 @@ Found 1 deadlock.
 
 #### 4.线程的优先级
   现在操作系统基本采用时分的形式调度运行的线程，操作系统会分出一个个时间片，线程会分配到若干时间片，当线程的时间片用完了就会发生线程调度，并等待下次分配。线程分配到的时间片多少也就决定了线程使用处理器资源的多少，而线程优先级就是决定线程需要多或者少分配一些处理器资源的线程属性。<br>
-  在java线程中，通过一个整型成员变量priority来控制优先级，优先级的范围从1～10，在线程构建的时候可以通过setPriority方法来修改优先级，默认优先级是5，优先级高的线程分配时间片的数量要多于优先级的线程。设置优先级时，针对频繁阻塞（休眠或者I/O操作）的线程需要设置较高优先级，而偏重计算（需要较多CPU时间或者偏运算）的线程则设置较低的优先级，确保处理器不会被独占。在不同的JVM以及操作系统上，线程规划会存在差异，有些操作系统甚至会忽略对线程优先级的设定。
+  在java线程中，通过一个整型成员变量priority来控制优先级，优先级的范围从1～10，在线程构建的时候可以通过<font color=green>*setPriority()*</font> 方法来修改优先级，默认优先级是5，优先级高的线程分配时间片的数量要多于优先级的线程。设置优先级时，针对频繁阻塞（休眠或者I/O操作）的线程需要设置较高优先级，而偏重计算（需要较多CPU时间或者偏运算）的线程则设置较低的优先级，确保处理器不会被独占。在不同的JVM以及操作系统上，线程规划会存在差异，有些操作系统甚至会忽略对线程优先级的设定。
 ## 2.线程的状态和基本操作
 ### 1.如何创建新线程
+  一个java程序从main()方法开始执行，然后按照既定的代码逻辑执行，看似没有其他线程参与，但实际上java程序天生就是一个多线程程序，包含了：<br>
+  （1）分发处理发送给给JVM信号的线程；<br>
+  （2）调用对象的finalize方法的线程；<br>
+  （3）清除Reference的线程；<br>
+  （4）main线程，用户程序的入口。<br>
+  那么，如何在用户程序中新建一个线程了，只要有三种方式：
+
+-  通过继承Thread类，重写run方法；
+
+-  通过实现runable接口；
+
+-  通过实现callable接口这三种方式，下面看具体demo。
+```Java
+public class CreateThreadDemo {
+
+     public static void main(String[] args) {
+         //1.继承Thread
+         Thread thread = new Thread() {
+             @Override
+             public void run() {
+                 System.out.println("继承Thread");
+                 super.run();
+             }
+         };
+         thread.start();
+         //2.实现runable接口
+         Runnable r = ()-{
+           System.out.println("实现runable接口");
+         };
+         Thread thread1 = new Thread(r);
+         thread1.start();
+         //3.实现callable接口
+         ExecutorService service = Executors.newSingleThreadExecutor();
+         Future<String> future = service.submit(new Callable() {
+             @Override
+             public String call() throws Exception {
+                 return "通过实现Callable接口";
+             }
+         });
+         try {
+             String result = future.get();
+             System.out.println(result);
+         } catch (InterruptedException e) {
+             e.printStackTrace();
+         } catch (ExecutionException e) {
+             e.printStackTrace();
+         }
+     }
+
+ }
+```
 ### 2.线程状态
-![线程状态转换图](https://github.com/YinglishZhi/struggle-object/blob/master/img/2.2_1%20线程状态图.jpeg)
+  ！[线程状态转化图](https://github.com/YinglishZhi/struggle-object/blob/master/img/2.2_1 线程状态图.jpeg)
 ### 3.线程的基本操作
 ### 4.守护线程
 # 并发理论
