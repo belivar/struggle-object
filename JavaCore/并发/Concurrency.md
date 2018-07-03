@@ -109,6 +109,7 @@ Found 1 deadlock.
 ## 2.线程的状态和基本操作
 ### 1.如何创建新线程
 ### 2.线程状态
+![线程状态转换图](https://github.com/YinglishZhi/struggle-object/blob/master/img/2.2_1%20线程状态图.jpeg)
 ### 3.线程的基本操作
 ### 4.守护线程
 # 并发理论
