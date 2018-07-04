@@ -5,7 +5,7 @@
 -  行为型模式：策略模式、模版方法模式、观察者模式、迭代子模式、责任链模式、命令模式、备忘录模式、状态模式、访问者模式、中介者模式、解释器模式。
 -  其他模式：并发模式、线程池模式
 
-！[设计模式之间的关系](https://github.com/YinglishZhi/struggle-object/blob/master/img/1_1设计模式之间的关系.jpg)
+![设计模式之间的关系](https://github.com/YinglishZhi/struggle-object/blob/master/img/1_1设计模式之间的关系.jpg)
 
 ## 2.设计模式六大原则
 
@@ -92,7 +92,7 @@
 - 由于在客户端和真实主题之间增加了代理对象，因此有些类型的代理模式可能会造成请求的处理速度*变慢*
 - 实现代理模式需要额外的工作，有些代理模式的实现非常*复杂*
 
-！[代理模式结构图](https://github.com/YinglishZhi/struggle-object/blob/master/img/代理模式.png)
+![代理模式结构图](https://github.com/YinglishZhi/struggle-object/blob/master/img/代理模式.png)
 
 ```Java
 /**
