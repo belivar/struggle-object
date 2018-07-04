@@ -59,6 +59,69 @@
 
 1. 工厂方法模式(Factory Method)
 
+在工厂模式中，创建对象时不会对客户端暴露创建逻辑，并且是通过使用一个共同的接口来指向新创建的对象。
+
+**意图** 定义一个创建对象的接口，让其子类自己决定实例化哪一个工厂类，工厂模式使其创建过程延迟到子类进行。
+**主要解决** 主要解决接口选择的问题。
+
+**何时使用** 明确地计划不同条件下创建不同实例时。
+
+**优点**
+- 一个调用者想创建一个对象，只要知道其名称就可以了
+- 扩展性高，如果想增加一个产品，只要扩展一个工厂类就可以
+- 屏蔽产品的具体实现，调用者只关心产品的接口。
+
+**缺点**
+- 每次增加一个产品时，都需要增加一个具体类和对象实现工厂，使得系统中类的个数成倍增加，在一定程度上增加了系统的*复杂*度，同时也增加了系统具体类的依赖。这并不是什么好事。
+
+![工厂方法模式]()
+
+```Java
+public interface Product {
+   void func();
+}
+```
+```Java
+public class ConcreateProduct1 implements Product{
+  void func(){
+    System.out.println("ConcreateProduct1");
+  }
+}
+
+public class ConcreateProduct2 implements Product{
+  void func(){
+    System.out.println("ConcreateProduct2");
+  }
+}
+
+public class ConcreateProduct3 implements Product{
+  void func(){
+    System.out.println("ConcreateProduct3");
+  }
+}
+```
+
+```Java
+public class ConcreateFactory{
+  public Product getProduct(String ClassName){
+    Product p = null;
+    try{
+      p = (Product)Class.forName(ClassName).newInstance();
+    }catch (Exception e) {
+      e.printStackTrace();
+    }
+    return p;
+  }
+}
+```
+客户端代码
+```Java
+public static void main(String[] args) {
+  Product p = ConcreateFactory.getProduct(ConcreateProduct1.getClass());
+}
+
+```
+
 2. 抽象工厂模式
 
 3. 单例模式
