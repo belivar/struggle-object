@@ -5,7 +5,7 @@
 -  行为型模式：策略模式、模版方法模式、观察者模式、迭代子模式、责任链模式、命令模式、备忘录模式、状态模式、访问者模式、中介者模式、解释器模式。
 -  其他模式：并发模式、线程池模式
 
-！[设计模式之间的关系](https://github.com/YinglishZhi/struggle-object/blob/master/img/1_1 设计模式之间的关系.jpg)
+！[设计模式之间的关系](https://github.com/YinglishZhi/struggle-object/blob/master/img/1_1设计模式之间的关系.jpg)
 
 ## 2.设计模式六大原则
 
