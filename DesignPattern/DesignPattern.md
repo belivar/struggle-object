@@ -74,7 +74,7 @@
 **缺点**
 - 每次增加一个产品时，都需要增加一个具体类和对象实现工厂，使得系统中类的个数成倍增加，在一定程度上增加了系统的*复杂*度，同时也增加了系统具体类的依赖。这并不是什么好事。
 
-![工厂方法模式]()
+![工厂方法模式](https://github.com/YinglishZhi/struggle-object/blob/master/img/工厂模式.png)
 
 ```Java
 public interface Product {
