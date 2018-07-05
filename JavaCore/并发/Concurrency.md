@@ -161,6 +161,58 @@ public class CreateThreadDemo {
 ```
 ### 2.线程状态
   ![线程状态转化图](https://github.com/YinglishZhi/struggle-object/blob/master/img/2.2_1线程状态图.jpeg)
+
+  线程可以有六种如下状态：
+- New（新创建）
+- Runnable（可运行）
+- Blocked（被阻塞）
+- Waiting（等待）
+- Time waiting（计时等待）
+- Terminated（被终止）
+
+**新创建线程**
+
+  当用new操作符创建一个新线程时(new Thread(r))，该线程还没开始运行。这意味着他的状态时new，当一个线程处于新创建状态时，程序还没有开始运行线程中的代码。
+
+**可运行线程**
+
+  一旦调用start方法，线程处于runnable状态。一个可运行的线程可能正在运行，也可能没有运行，这取决于操作系统给线程提供运行的时间。（Java的规范说明没有将他作为一个独立状态，一个正在运行中的线程仍然处于可运行的状态）
+
+**被阻塞线程**
+
+  暂时不活动，不运行任何代码且消耗最少的资源，直到线程调度器重新激活他。当一个线程试图获取一个内部的对象锁，而该锁被其他线程持有，就会进入阻塞状态。当所有其他线程释放该锁，并且线程调度器允许本线程持有他，该线程变成非阻塞状态。
+
+**等待线程**
+
+  当线程等待另一个线程通知调度器一个条件时，自己就会进入等待状态。在调用Object.wait方法或Thread.join方法等等，，，就会出现该情况
+
+**计时等待线程**
+
+  带有超时参数的方法Thread.sleep、Object.wait、Thead.join....，调用这些方法就会进入计时等待状态，
+
+**被终止线程**
+
+  线程终止有两种常规原因：
+- run方法正常退出而自然死亡
+- 一个没有捕获的异常终止了run方法而意外死亡
+
+![线程状态]()
+
+```Java
+//等待终止指定的线程
+void join()
+//等待指定的线程死亡或者经过指定的毫秒数
+void join(long millis)
+//得到这一线程的状态：NEW、RUNNABLE、BLOCKED、WAITING、TIMED_WAITING、TERMINATED
+Thead.State gerState()
+//停止线程（已过时）
+void stop()
+//暂停这一线程的执行（已过时）
+void suspend()
+//恢复线程，仅仅在调用suspend()之后调用（已经过时）
+void resume()
+```
+
 ### 3.线程的基本操作
 ### 4.守护线程
 # 并发理论
