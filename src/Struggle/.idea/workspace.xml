@@ -266,6 +266,52 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="YinglishZhi" type="462c0819:PsiDirectoryNode" />
+              <item name="FactoryPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="Factory" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Struggle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Struggle" type="462c0819:PsiDirectoryNode" />
+              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="YinglishZhi" type="462c0819:PsiDirectoryNode" />
+              <item name="FactoryPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="Factory" type="462c0819:PsiDirectoryNode" />
+              <item name="Creator" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="Struggle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Struggle" type="462c0819:PsiDirectoryNode" />
+              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="YinglishZhi" type="462c0819:PsiDirectoryNode" />
+              <item name="FactoryPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="Product" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Struggle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Struggle" type="462c0819:PsiDirectoryNode" />
+              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="YinglishZhi" type="462c0819:PsiDirectoryNode" />
+              <item name="FactoryPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="Product" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Struggle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Struggle" type="462c0819:PsiDirectoryNode" />
+              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="YinglishZhi" type="462c0819:PsiDirectoryNode" />
               <item name="ProxyPattern" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -445,12 +491,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1530747475351</updated>
-      <workItem from="1530747477064" duration="2065000" />
+      <workItem from="1530747477064" duration="2277000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2065000" />
+    <option name="totallyTimeSpent" value="2277000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -558,14 +604,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/designpattern/src/main/java/com/YinglishZhi/FactoryPattern/Factory/Creator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/designpattern/src/main/java/com/YinglishZhi/ProxyPattern/Subject/Isubject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -603,6 +641,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpattern/src/main/java/com/YinglishZhi/FactoryPattern/Factory/Creator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
           <folding />
         </state>
       </provider>

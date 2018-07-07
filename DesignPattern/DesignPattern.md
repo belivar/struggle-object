@@ -117,18 +117,201 @@ public class ConcreateFactory{
 客户端代码
 ```Java
 public static void main(String[] args) {
-  Product p = ConcreateFactory.getProduct(ConcreateProduct1.getClass());
+  Product p = ConcreateFactory.getProduct(ConcreateProduct1.class.getName());
 }
 
 ```
 
 2. 抽象工厂模式
 
-3. 单例模式
+3. 单例模式(Singleton)
+
+**意图** 保证一个类仅有一个实例，并提供一个访问它的全局访问点。
+
+**主要解决** 一个全局使用的类频繁地创建与销毁。
+
+**何时使用** 当您想控制实例数目，节省系统资源的时候。
+
+**优点**
+- 在内存里只有一个实例，减少了内存的开销，尤其是频繁的创建和销毁实例
+- 避免对资源的多重占用（比如写文件操作）。
+
+**缺点**
+- 没有接口，不能继承，与单一职责原则冲突，一个类应该只关心内部逻辑，而不关心外面怎么样来实例化。
+
+-[单例模式]()
+
+懒汉式：只有第一次调用的时候才会去初始化，避免了内存的浪费
+
+- 懒汉式（线程不安全）
+  懒加载、线程不安全
+```Java
+Class Singleton{
+
+  //持有私有静态实例，防止被引用，实现延迟加载
+  private static Singleton instance;
+
+  //私有构造方法，防止被实例化
+  private Singleton(){
+
+  }
+  //创建实例
+  public static Singleton getInstance(){
+    if (instance == null) {
+      instance = new Singleton();
+    }
+    return instance;
+  }
+}
+```
+
+- 懒汉式（线程安全）
+懒加载、线程安全
+
+必须加锁才能保证单例，但是加锁会影响效率
+```Java
+Class Singleton{
+private static Singleton instance;
+
+private Singleton(){
+
+}
+//防止由于多线程可能产生的冗余对象，加上synchronized，但是效率咔咔降。每次调用getInstance都上锁 mmd！
+public static synchronized Singleton getInstance(){
+  if (instance == null) {
+    instance = new Singleton();
+  }
+  return instance;
+}
+}
+```
+
+饿汉式： 没有加锁，会提升工作效率
+
+- 饿汉式 不是懒加载，线程安全
+
+类加载就会初始化，浪费内存，很容易产生垃圾对象。它基于 classloder 机制避免了多线程的同步问题，不过，instance 在类装载时就实例化，虽然导致类装载的原因有很多种，在单例模式中大多数都是调用 getInstance 方法， 但是也不能确定有其他的方式（或者其他的静态方法）导致类装载，这时候初始化 instance 显然没有达到 lazy loading 的效果。
+
+```Java
+Class Singleton{
+  private static Singleton instance = new Singleton();
+
+  private Singleton(){
+
+  }
+  public static Singleton getInstance(){
+    return instance;
+  }
+
+}
+
+```
+
+双检锁/双重校验锁（DCL，即 double-checked locking）
+
+JDK版本要求1.5以上，懒加载，线程安全，但是实现比较复杂
+
+```Java
+Class Singleton{
+  private volatile static Singleton singleton;
+
+  private Singleton(){
+
+  }
+
+  public static Singleton getInstance(){
+    if (singleton == null) {
+      synchronized (Singleton.class){
+        if (singleton == null) {
+          singleton = new Singleton();
+        }
+      }
+    }
+    return singleton;
+  }
+}
+```
+
+**习惯** 懒汉式用的比较少，饿汉式用的多，B事多的时候可以用双检锁方式。
 
 4. 建造者模式(Builder)
 
 5. 原型模式(Prototype)
+
+**意图** 用原型实例指定创建对象的种类，并且通过拷贝这些原型创建新的对象。
+
+**主要解决** 在运行期建立和删除原型。
+
+**何时使用**
+- 当一个系统应该独立于它的产品创建，构成和表示时
+- 当要实例化的类是在运行时刻指定时，例如，通过动态装载
+- 为了避免创建一个与产品类层次平行的工厂类层次时
+- 当一个类的实例只能有几个不同状态组合中的一种时。建立相应数目的原型并克隆它们可能比每次用合适的状态手工实例化该类更方便一些。
+**优点**
+- 性能提高
+- 逃避构造函数的约束。
+
+**缺点**
+- 配备克隆方法需要对类的功能进行通盘考虑，这对于全新的类不是很难，但对于已有的类不一定很容易，特别当一个类引用不支持串行化的间接对象，或者引用含有循环结构的时候
+- 必须实现 Cloneable 接口
+
+-[原型模式]()
+
+原型模式主要包含如下三个角色：
+- Prototype：抽象原型类。声明克隆自身的接口。
+- ConcretePrototype：具体原型类。实现克隆的具体操作。
+- Client：客户类。让一个原型克隆自身，从而获得一个新的对象。
+
+```Java
+public abstract class Prototype implements Cloneable{
+  private int id;
+
+  abstract void draw();
+
+  public String getId(){
+    return id;
+  }
+
+  public void setId(int id){
+    this.id = id;
+  }
+
+  public Object clone() {
+      Object clone = null;
+      try {
+         clone = super.clone();
+      } catch (CloneNotSupportedException e) {
+         e.printStackTrace();
+      }
+      return clone;
+   }
+}
+
+public class ConcretePrototype1 extends Prototype{
+  public ConcretePrototype1(){
+
+  }
+
+  public void draw(){
+    System.out.println("ConcretePrototype1");
+  }
+}
+
+public class Clienr(){
+  ConcretePrototype1 c = new ConcretePrototype1();
+  c.setId(1);
+
+  Prototype clone = c.clone();
+}
+
+```
+
+原型模式涉及到[浅拷贝和深拷贝]()
+
+**瞎BB**
+- 原型模式向客户隐藏了创建对象的复杂性。客户只需要知道要创建对象的类型，然后通过请求就可以获得和该对象一模一样的新对象，无须知道具体的创建过程。
+- 克隆分为浅克隆和深克隆两种。
+- 我们虽然可以利用原型模式来获得一个新对象，但有时对象的复制可能会相当的复杂，比如深克隆。
 
 -  **结构型模式**
 
