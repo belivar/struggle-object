@@ -8,5 +8,10 @@ public class Client {
     public static void main(String[] args) {
         Product p = Creator.getProduct(ConcreteProduct1.class.getName());
         p.func();
+
+
+        String s = "1111";
+
+        s.replace(0,3,s);
     }
 }
