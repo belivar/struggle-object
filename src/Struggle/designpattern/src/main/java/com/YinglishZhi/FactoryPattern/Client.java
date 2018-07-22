@@ -33,32 +33,5 @@ public class Client {
 
 
     private List<List<Integer[]>> result = new ArrayList<List<Integer[]>>();
-
-    public List<List<Integer[]>> permute(int[] nums) {
-        // write your code here
-        return this.permute(nums, 0);
-    }
-
-    public List<List<Integer[]>> permute(int[] nums, int start) {
-        // write your code here
-
-        if(start == nums.length){
-            List<Integer[]> tem = new ArrayList<Integer[]>();
-            tem.add(nums);
-             result.add(tem);
-        }else{
-            for (int i = start; i < nums.length;++i){
-                swap(nums, i, start);
-                permute(nums, start + 1);
-                swap(nums, i, start);
-            }
-        }
-        return result;
-    }
-
-    public void swap(int[] nums, int i, int j){
-        int temp = nums[i];
-        nums[i] = nums[j];
-        nums[j] = temp;
-    }
+    
 }
