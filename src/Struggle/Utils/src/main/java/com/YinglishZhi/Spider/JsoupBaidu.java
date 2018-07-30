@@ -35,6 +35,7 @@ public class JsoupBaidu {
 
             String reg = "objURL\":\"http://.+?\\.jpg";
             Pattern pattern = Pattern.compile(reg);
+
             Matcher matcher = pattern.matcher(XMLSource);
             while (matcher.find()) {
                 imagerUrl = matcher.group().substring(9);
