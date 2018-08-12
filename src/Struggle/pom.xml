@@ -11,6 +11,7 @@
     <modules>
         <module>designpattern</module>
         <module>Utils</module>
+        <module>javaCore</module>
     </modules>
 
 

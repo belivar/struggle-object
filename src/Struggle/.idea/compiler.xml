@@ -7,13 +7,17 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="designpattern" />
+        <module name="javaCore" />
+        <module name="spring" />
         <module name="Utils" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="designpattern" target="1.6" />
-      <module name="Struggle" target="1.5" />
+      <module name="javaCore" target="1.7" />
+      <module name="spring" target="1.8" />
       <module name="Utils" target="1.8" />
+      <module name="YinglishZhi" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

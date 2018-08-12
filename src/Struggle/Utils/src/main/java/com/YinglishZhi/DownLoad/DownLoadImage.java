@@ -11,7 +11,9 @@ import java.net.URL;
 @Slf4j
 public class DownLoadImage {
     public static void downloadImg(String url, String path) {
-        if (!url.startsWith("http") || null == url || null == path) return;
+        if (!url.startsWith("http") || null == url || null == path) {
+            return;
+        }
         //根据传进来的url构造文件名
         String filename = url.substring(url.lastIndexOf("/") + 1);
 
