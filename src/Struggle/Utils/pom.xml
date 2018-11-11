@@ -51,6 +51,13 @@
             <version>1.7.25</version>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/com.squareup.okhttp3/okhttp -->
+        <dependency>
+            <groupId>com.squareup.okhttp3</groupId>
+            <artifactId>okhttp</artifactId>
+            <version>3.11.0</version>
+        </dependency>
+
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-simple</artifactId>
@@ -61,6 +68,7 @@
             <artifactId>YinglishZhi</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
+
 
     </dependencies>
 
