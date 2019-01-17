@@ -15,35 +15,16 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="src" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="JavaSE8.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Struggle/javaCore/src/main/java/com/YinglishZhi/JavaSE8.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding>
-                <element signature="e#111#112#0" expanded="true" />
-                <element signature="e#147#148#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Client.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Struggle/designpattern/src/main/java/com/YinglishZhi/FactoryPattern/Client.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Struggle/LintCode/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="378">
-              <caret line="21" column="35" lean-forward="true" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+              <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -51,18 +32,6 @@
       <file leaf-file-name="LintCode.iml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Struggle/LintCode/LintCode.iml">
           <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="DownLoadImage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Struggle/Utils/src/main/java/com/YinglishZhi/DownLoad/DownLoadImage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
         </entry>
       </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
@@ -75,7 +44,7 @@
         </entry>
       </file>
       <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Struggle/LintCode/src/main/java/com.YinglishZhi/LintCode_3/Solution.java">
+        <entry file="file://$PROJECT_DIR$/Struggle/LintCode/src/main/java/com/YinglishZhi/LintCode_3/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="72">
               <caret line="4" selection-start-line="4" selection-end-line="4" />
@@ -83,11 +52,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Struggle/LintCode/src/main/java/com/YinglishZhi/LintCode_49/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="44" selection-end-column="9" />
+            <state relative-caret-position="540">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#916#917#0" expanded="true" />
@@ -97,6 +66,41 @@
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Struggle/LintCode/src/main/java/com/YinglishZhi/LintCode_66/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="485">
+              <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TreeNode.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/javax/swing/tree/TreeNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="441">
+              <caret line="65" column="6" selection-start-line="65" selection-start-column="6" selection-end-line="65" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="javaCore.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Struggle/javaCore/javaCore.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Struggle/javaCore/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="Integer.java" pinned="false" current-in-tab="false">
@@ -134,6 +138,7 @@
         <option value="$PROJECT_DIR$/Struggle/LintCode/src/main/java/com.YinglishZhi/LintCode_3/solution.java" />
         <option value="$PROJECT_DIR$/Struggle/LintCode/src/main/java/com.YinglishZhi/LintCode_3/Solution.java" />
         <option value="$PROJECT_DIR$/Struggle/LintCode/src/main/java/com/YinglishZhi/LintCode_49/Solution.java" />
+        <option value="$PROJECT_DIR$/Struggle/LintCode/src/main/java/com/YinglishZhi/LintCode_66/Solution.java" />
       </list>
     </option>
   </component>
@@ -614,6 +619,12 @@
               <item name="src" type="b2602c69:ProjectViewProjectNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Struggle" type="462c0819:PsiDirectoryNode" />
+              <item name="javaCore" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Struggle" type="462c0819:PsiDirectoryNode" />
               <item name="LintCode" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -648,6 +659,17 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="YinglishZhi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Struggle" type="462c0819:PsiDirectoryNode" />
+              <item name="LintCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="YinglishZhi" type="462c0819:PsiDirectoryNode" />
               <item name="LintCode_3" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -658,7 +680,19 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="YinglishZhi" type="462c0819:PsiDirectoryNode" />
               <item name="LintCode_49" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Struggle" type="462c0819:PsiDirectoryNode" />
+              <item name="LintCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="YinglishZhi" type="462c0819:PsiDirectoryNode" />
+              <item name="LintCode_66" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="src" type="b2602c69:ProjectViewProjectNode" />
@@ -733,6 +767,11 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.YinglishZhi.LintCode_3" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -745,7 +784,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution (1)">
+  <component name="RunManager" selected="Application.Solution (2)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -767,6 +806,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.YinglishZhi.LintCode_49.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.YinglishZhi.LintCode_66.Solution" />
+      <module name="LintCode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.YinglishZhi.LintCode_66.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -832,9 +882,11 @@
       <item itemvalue="Application.SingleLinkedList" />
       <item itemvalue="Application.Solution" />
       <item itemvalue="Application.Solution (1)" />
+      <item itemvalue="Application.Solution (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.SingleLinkedList" />
@@ -853,43 +905,44 @@
       <updated>1535766667174</updated>
       <workItem from="1535766671159" duration="24000" />
       <workItem from="1541917366066" duration="114000" />
-      <workItem from="1547565642529" duration="8609000" />
+      <workItem from="1547565642529" duration="11312000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10557000" />
+    <option name="totallyTimeSpent" value="13260000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1057" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Redis Servers" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.32960597" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info id="Capture Tool" order="2" />
+      <window_info id="Capture Tool" order="1" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Structure" order="7" sideWeight="0.50152904" visible="true" weight="0.22257721" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.32952183" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
+      <window_info id="Image Layers" order="4" />
       <window_info anchor="bottom" id="Java Enterprise" order="8" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32916668" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32916668" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.31875" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22257721" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.31875" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49847096" weight="0.22257721" />
       <window_info anchor="right" id="Bean Validation" order="4" />
-      <window_info id="Web" order="3" side_tool="true" />
+      <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Favorites" order="5" sideWeight="0.50152904" side_tool="true" weight="0.22257721" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="9" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -945,7 +998,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Struggle/LintCode/src/main/java/com.YinglishZhi/LintCode_3/Solution.java</url>
+          <url>file://$PROJECT_DIR$/Struggle/LintCode/src/main/java/com/YinglishZhi/LintCode_3/Solution.java</url>
           <line>29</line>
           <properties />
           <option name="timeStamp" value="1" />
@@ -957,7 +1010,7 @@
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="4" />
+      <option name="time" value="7" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -1015,13 +1068,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Struggle/datastructure/src/linkedlist/Node.java" />
     <entry file="file://$PROJECT_DIR$/Struggle/datastructure/src/linkedlist/SingleLinkedList.java" />
-    <entry file="file://$PROJECT_DIR$/Struggle/javaCore/javaCore.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Struggle/datastructure/src/main/java/linkedlist/Node.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
@@ -1136,7 +1182,7 @@
     <entry file="file://$PROJECT_DIR$/Struggle/LintCode/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
-          <caret line="21" column="35" lean-forward="true" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+          <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -1165,23 +1211,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Struggle/LintCode/src/main/java/com.YinglishZhi/LintCode_3/Solution.java">
+    <entry file="file://$PROJECT_DIR$/Struggle/LintCode/src/main/java/com/YinglishZhi/LintCode_3/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Struggle/javaCore/javaCore.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Struggle/javaCore/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Struggle/LintCode/src/main/java/com/YinglishZhi/LintCode_49/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="44" selection-end-column="9" />
+        <state relative-caret-position="540">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#916#917#0" expanded="true" />
             <element signature="e#961#962#0" expanded="true" />
             <element signature="e#1012#1013#0" expanded="true" />
             <element signature="e#1057#1058#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/javax/swing/tree/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="65" column="6" selection-start-line="65" selection-start-column="6" selection-end-line="65" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Struggle/LintCode/src/main/java/com/YinglishZhi/LintCode_66/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
