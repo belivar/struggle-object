@@ -2,15 +2,16 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="datastructure" />
-        <module name="designpattern" />
         <module name="javaCore" />
-        <module name="LintCode" />
+        <module name="datastructure" />
         <module name="yinglishzhi" />
+        <module name="designpattern" />
+        <module name="LintCode" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -21,5 +22,10 @@
       <module name="Utils" target="1.8" />
       <module name="yinglishzhi" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="yinglishzhi" options="-parameters" />
+    </option>
   </component>
 </project>
