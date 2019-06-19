@@ -19,7 +19,7 @@ public class Client {
         List<Integer> te = new ArrayList<Integer>();
         List<Integer> numsList = Arrays.asList(nums);
 
-        re.add((List<Integer[]>) numsList);
+
 
         String[] string=new String[]{"s1","s2","s3","s4","s5"};
 

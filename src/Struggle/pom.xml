@@ -13,6 +13,7 @@
         <module>Utils</module>
         <module>javaCore</module>
         <module>datastructure</module>
+        <module>Algorithm</module>
     </modules>
 
 

@@ -5,6 +5,6 @@ package com.YinglishZhi;
  */
 public class JavaSE8 {
     public static void main(String[] args) {
-        Integer.compare(1,2);
+       System.out.println( Integer.compare(1,2));
     }
 }

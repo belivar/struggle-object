@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - JavaSE8",
+            "request": "launch",
+            "mainClass": "com.YinglishZhi.JavaSE8",
+            "projectName": "javaCore"
+        }
+    ]
+}

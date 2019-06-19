@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Solution",
+            "request": "launch",
+            "mainClass": "leetcode._1_TwoSum.Solution",
+            "projectName": "Algorithm"
+        }
+    ]
+}
