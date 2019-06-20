@@ -2,28 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77fff2c1-a066-4db3-a62b-e0be4af82274" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/main/java/binary/solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_5.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Utils/Utils.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Utils/Utils.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datastructure/target/classes/linkedlist/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/datastructure/target/classes/linkedlist/Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datastructure/target/classes/linkedlist/SingleLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/datastructure/target/classes/linkedlist/SingleLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designpattern/src/main/java/com/YinglishZhi/FactoryPattern/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/src/main/java/com/YinglishZhi/FactoryPattern/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designpattern/target/classes/com/YinglishZhi/FactoryPattern/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/target/classes/com/YinglishZhi/FactoryPattern/Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designpattern/target/classes/com/YinglishZhi/FactoryPattern/Factory/Creator.class" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/target/classes/com/YinglishZhi/FactoryPattern/Factory/Creator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designpattern/target/classes/com/YinglishZhi/FactoryPattern/Product/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/target/classes/com/YinglishZhi/FactoryPattern/Product/Product.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designpattern/target/classes/com/YinglishZhi/FactoryPattern/Product/impl/ConcreteProduct1.class" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/target/classes/com/YinglishZhi/FactoryPattern/Product/impl/ConcreteProduct1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designpattern/target/classes/com/YinglishZhi/FactoryPattern/Product/impl/ConcreteProduct2.class" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/target/classes/com/YinglishZhi/FactoryPattern/Product/impl/ConcreteProduct2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designpattern/target/classes/com/YinglishZhi/FactoryPattern/Product/impl/ConcreteProduct3.class" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/target/classes/com/YinglishZhi/FactoryPattern/Product/impl/ConcreteProduct3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designpattern/target/classes/com/YinglishZhi/ProxyPattern/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/target/classes/com/YinglishZhi/ProxyPattern/Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designpattern/target/classes/com/YinglishZhi/ProxyPattern/Proxy/Proxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/target/classes/com/YinglishZhi/ProxyPattern/Proxy/Proxy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designpattern/target/classes/com/YinglishZhi/ProxyPattern/Subject/Impl/RealSubject.class" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/target/classes/com/YinglishZhi/ProxyPattern/Subject/Impl/RealSubject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designpattern/target/classes/com/YinglishZhi/ProxyPattern/Subject/Isubject.class" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/target/classes/com/YinglishZhi/ProxyPattern/Subject/Isubject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaCore/src/main/java/com/YinglishZhi/JavaSE8.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaCore/src/main/java/com/YinglishZhi/JavaSE8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/src/main/java/binary/solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/main/java/binary/solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/target/classes/binary/solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/target/classes/binary/solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LintCode/LintCode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/LintCode/LintCode.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/javaCore/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,6 +16,7 @@
     <ignored path="$PROJECT_DIR$/designpattern/target/" />
     <ignored path="$PROJECT_DIR$/datastructure/target/" />
     <ignored path="$PROJECT_DIR$/Algorithm/target/" />
+    <ignored path="$PROJECT_DIR$/LintCode/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,8 +89,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Algorithm/src/main/java/binary/solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="104" column="23" selection-start-line="104" selection-start-column="23" selection-end-line="104" selection-end-column="23" />
+            <state relative-caret-position="152">
+              <caret line="115" column="41" selection-start-line="115" selection-start-column="41" selection-end-line="115" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -734,12 +720,12 @@
       <updated>1542452420864</updated>
       <workItem from="1542452423742" duration="5087000" />
       <workItem from="1553508939334" duration="1377000" />
-      <workItem from="1560948779624" duration="3272000" />
+      <workItem from="1560948779624" duration="5800000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9736000" />
+    <option name="totallyTimeSpent" value="12264000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
@@ -756,16 +742,16 @@
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33956045" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33956045" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32967034" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32857144" />
+      <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.32857144" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="12" />
       <window_info anchor="right" id="Maven" />
       <window_info anchor="right" id="RestServices" />
@@ -783,17 +769,24 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Algorithm/src/main/java/binary/solution.java</url>
-          <line>97</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>dividend &gt;&gt; i</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>a &lt; 0</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>dividend&gt;&gt;1</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Algorithm/pom.xml">
@@ -852,8 +845,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Algorithm/src/main/java/binary/solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="104" column="23" selection-start-line="104" selection-start-column="23" selection-end-line="104" selection-end-column="23" />
+        <state relative-caret-position="152">
+          <caret line="115" column="41" selection-start-line="115" selection-start-column="41" selection-end-line="115" selection-end-column="41" />
         </state>
       </provider>
     </entry>

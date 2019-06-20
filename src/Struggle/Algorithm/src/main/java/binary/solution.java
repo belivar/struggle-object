@@ -41,6 +41,24 @@ public class solution {
         return sum;
     }
 
+    public static long addByBitV2(long a, long b) {
+        long sum = a ^ b;
+        long carry = (a & b) << 1;
+        while (0 != carry) {
+            long at = sum;
+            long bt = carry;
+            sum = at ^ bt;
+            carry = (at & bt) << 1;
+        }
+        return sum;
+    }
+
+    public static long substractByBit(long a, long b) {
+        // 先求减数的补码 取反 +1
+        long subtractor = addByBitV2(~b, 1);
+        return addByBitV2(a, subtractor);
+    }
+
     public static int substractByBit(int a, int b) {
         // 先求减数的补码 取反 +1
         int subtractor = addByBitV2(~b, 1);
@@ -94,27 +112,34 @@ public class solution {
     }
 
     public static int divideByBitV2(int a, int b) {
+
+        if (a == Integer.MIN_VALUE && b == -1) {
+            return Integer.MAX_VALUE;
+        }
+        long aa = (long) a;
+        long bb = (long) b;
         // 除数
-        int dividend = a < 0 ? addByBitV2(~a, 1) : a;
+        long dividend = aa < 0 ? addByBitV2(~aa, 1) : aa;
         // 被除数
-        int divisor = b < 0 ? addByBitV2(~b, 1) : b;
+        long divisor = bb < 0 ? addByBitV2(~bb, 1) : bb;
         // 商
-        int quotient = 0;
+        long quotient = 0;
         // 余数
-        int remainder = 0;
         for (int i = 31; i >= 0; i--) {
             if ((dividend >> i) >= divisor) {
-                quotient = addByBitV2(quotient, 1 << i);
-                dividend = substractByBit(dividend, divisor << i);
+                quotient = addByBitV2(quotient, (1L << i));
+                dividend = substractByBit(dividend, (long) (divisor << i));
             }
         }
-        return (a ^ b) < 0 ? addByBitV2(~quotient, 1) : quotient;
+        return (int) ((aa ^ bb) < 0 ? addByBitV2(~quotient, 1l) : quotient);
     }
 
     public static void main(String[] args) {
+
+
 //        logger.info(String.valueOf(addByBit(71, 22)));
 //        logger.info(String.valueOf(addByBitV2(43, 11)));
-//        logger.info(String.valueOf(substractByBit(99, 22)));
+        logger.info(String.valueOf(substractByBit(99l, 22l)));
 //        logger.info(String.valueOf(multifyByBit(99, 22)));
 //        logger.info(String.valueOf(multifyByBitV2(99, 22)));
 //        logger.info(String.valueOf(divideByBit(10, 3)));
