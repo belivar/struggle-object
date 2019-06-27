@@ -41,6 +41,7 @@ public class solution {
         return sum;
     }
 
+
     public static long addByBitV2(long a, long b) {
         long sum = a ^ b;
         long carry = (a & b) << 1;
@@ -136,13 +137,13 @@ public class solution {
 
     public static void main(String[] args) {
 
-
+        logger.info(String.valueOf(1 << 1));
 //        logger.info(String.valueOf(addByBit(71, 22)));
 //        logger.info(String.valueOf(addByBitV2(43, 11)));
-        logger.info(String.valueOf(substractByBit(99l, 22l)));
+//        logger.info(String.valueOf(substractByBit(99l, 22l)));
 //        logger.info(String.valueOf(multifyByBit(99, 22)));
 //        logger.info(String.valueOf(multifyByBitV2(99, 22)));
 //        logger.info(String.valueOf(divideByBit(10, 3)));
-        logger.info(String.valueOf(divideByBitV2(-2147483648, -1)));
+//        logger.info(String.valueOf(divideByBitV2(-2147483648, -1)));
     }
 }
