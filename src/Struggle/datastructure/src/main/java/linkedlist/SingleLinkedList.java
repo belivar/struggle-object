@@ -1,5 +1,7 @@
 package linkedlist;
 
+import java.util.ArrayList;
+
 /**
  * 单链表
  */
