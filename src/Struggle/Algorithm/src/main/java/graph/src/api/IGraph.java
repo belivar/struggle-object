@@ -9,9 +9,8 @@ import graph.src.GraphMatrix;
 public interface IGraph {
 
     /**
-     * 创建图
-     *
-     * @param graphMatrix
+     * DFS
      */
-    void creatGraph(char[] vertex);
+    void depthFirstSearch(GraphMatrix graphMatrix);
+
 }
