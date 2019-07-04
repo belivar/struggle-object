@@ -24,9 +24,9 @@ public class Graph implements IGraph {
 
     public void depthFirstSearch(GraphMatrix graphMatrix) {
         int i;
-        for (i = 0; i < graphMatrix.size; i++) {
-            graphMatrix.visited[i] = false;
-        }
+//        for (i = 0; i < graphMatrix.size; i++) {
+//            graphMatrix.visited[i] = false;
+//        }
         for (i = 0; i < graphMatrix.size; i++) {
             System.out.println(graphMatrix.visited[i]);
             System.out.println(graphMatrix.vertex[i]);

@@ -41,7 +41,7 @@ public class GraphMatrix {
     GraphMatrix(char[] vertex, char[][] edges, boolean direction) {
         size = vertex.length;
         matrix = new int[size][size];
-
+        visited = new boolean[ size];
         this.vertex = vertex;
 
         for (char[] c : edges) {
