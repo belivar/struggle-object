@@ -14,31 +14,21 @@ public class GraphMatrix {
     private static final int MAX_NUM = 20;
 
     private static final int MAX_VALUE = 0x8000 - 1;
-    /**
-     * 类型
-     * 0 无向图
-     * 1 有向图
-     */
-    int gType;
 
     /**
-     * 顶点数量
+     * 图顶点个数
      */
-    int vertexNum;
+    int size;
 
     /**
-     * 边的数量
+     * 图顶点个数
      */
-    int edgeNum;
+    char[] vertex;
 
     /**
-     * 顶点信息
+     * 图关系矩阵
      */
-    char[] vertex = new char[MAX_NUM];
+    int[][] matrix;
 
-    /**
-     * 保存权
-     */
-    int[][] edgeWeight = new int[MAX_VALUE][MAX_VALUE];
-
+    GraphMatrix(char[][] )
 }

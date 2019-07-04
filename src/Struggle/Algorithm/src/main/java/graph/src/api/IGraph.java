@@ -13,5 +13,5 @@ public interface IGraph {
      *
      * @param graphMatrix
      */
-    void creatGraph(char[] vertex,);
+    void creatGraph(char[] vertex);
 }
