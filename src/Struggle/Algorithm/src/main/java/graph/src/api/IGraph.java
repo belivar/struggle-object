@@ -10,7 +10,15 @@ public interface IGraph {
 
     /**
      * DFS
+     *
+     * @param graphMatrix 图
      */
     void depthFirstSearch(GraphMatrix graphMatrix);
 
+    /**
+     * BFS
+     *
+     * @param graphMatrix 图
+     */
+    void breadthFirstSearch(GraphMatrix graphMatrix);
 }
