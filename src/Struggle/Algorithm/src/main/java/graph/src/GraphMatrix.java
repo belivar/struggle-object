@@ -41,7 +41,7 @@ public class GraphMatrix {
     GraphMatrix(char[] vertex, char[][] edges, boolean direction) {
         size = vertex.length;
         matrix = new int[size][size];
-        visited = new boolean[ size];
+        visited = new boolean[size];
         this.vertex = vertex;
 
         for (char[] c : edges) {
@@ -66,34 +66,14 @@ public class GraphMatrix {
 
     @Override
     public String toString() {
-        StringBuffer stringBuffer = new StringBuffer();
+        StringBuilder stringBuilder = new StringBuilder();
         for (int[] i : matrix) {
             for (int j : i) {
-                stringBuffer.append(j).append("-");
+                stringBuilder.append(j).append("-");
             }
-            stringBuffer.append("\n");
+            stringBuilder.append("\n");
         }
-        return stringBuffer.toString();
+        return stringBuilder.toString();
     }
 
-    public static void main(String[] args) {
-        char[] vexs = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K'};
-        char[][] edges = new char[][]{
-                {'A', 'C'},
-                {'A', 'D'},
-                {'A', 'F'},
-                {'B', 'C'},
-                {'C', 'D'},
-                {'E', 'G'},
-                {'D', 'G'},
-                {'I', 'J'},
-                {'J', 'G'},};
-        GraphMatrix pG;
-        // 自定义"图"(输入矩阵队列)
-        //pG = new MatrixUDG();
-        // 采用已有的"图"
-        pG = new GraphMatrix(vexs, edges, true);
-        System.out.println(pG.toString());
-
-    }
 }
