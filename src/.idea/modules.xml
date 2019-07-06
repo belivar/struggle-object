@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Struggle/Algorithm/Algorithm.iml" filepath="$PROJECT_DIR$/Struggle/Algorithm/Algorithm.iml" />
       <module fileurl="file://$PROJECT_DIR$/Struggle/LintCode/LintCode.iml" filepath="$PROJECT_DIR$/Struggle/LintCode/LintCode.iml" />
       <module fileurl="file://$PROJECT_DIR$/Struggle/Utils/Utils.iml" filepath="$PROJECT_DIR$/Struggle/Utils/Utils.iml" />
       <module fileurl="file://$PROJECT_DIR$/Struggle/datastructure/datastructure.iml" filepath="$PROJECT_DIR$/Struggle/datastructure/datastructure.iml" />
