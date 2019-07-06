@@ -21,4 +21,6 @@ public interface IGraph {
      * @param graphMatrix 图
      */
     void breadthFirstSearch(GraphMatrix graphMatrix);
+
+    
 }

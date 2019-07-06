@@ -12,6 +12,11 @@ import java.util.LinkedList;
 @Slf4j
 public class Graph implements IGraph {
 
+    /**
+     * DFS
+     *
+     * @param graphMatrix 图
+     */
     public void depthFirstSearch(GraphMatrix graphMatrix) {
         int i;
         for (i = 0; i < graphMatrix.size; i++) {
@@ -31,7 +36,11 @@ public class Graph implements IGraph {
         }
     }
 
-
+    /**
+     * BFS
+     *
+     * @param graphMatrix 图
+     */
     public void breadthFirstSearch(GraphMatrix graphMatrix) {
 
         LinkedList<Integer> queue = new LinkedList<Integer>();

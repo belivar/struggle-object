@@ -51,7 +51,7 @@ public class JsoupBaidu {
 
 
     public static void main(String[] args) {
-        String downCatalog = "火影忍者壁纸 海贼王壁纸 银魂壁纸";
+        String downCatalog = "美女";
         List<String> downCatalogs = StringUtils.String2List(downCatalog);
         for (String keyword : downCatalogs) {
             Runnable r = () -> {

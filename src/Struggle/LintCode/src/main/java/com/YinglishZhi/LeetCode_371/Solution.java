@@ -1,4 +1,4 @@
-package com.YinglishZhi.LeetCode_345.LeetCode_371;
+package com.YinglishZhi.LeetCode_371;
 
 /**
  * 两数之和
