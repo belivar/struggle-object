@@ -79,6 +79,65 @@ public class Graph implements IGraph {
         }
     }
 
+    public void miniSpanTreeKruskal(GraphMatrix graphMatrix) {
+
+    }
+
+    /**
+     * 1 shortestPathTable 计算结点到哪最短路径的结果 多短
+     * 2 pathMatrix 前驱结点 前一个是啥才能这么短
+     *
+     * @param graphMatrix 图
+     * @param vertex
+     */
+    public void shortestPathDijkstra(GraphMatrix graphMatrix, int vertex) {
+        int size = graphMatrix.size;
+        // 最短路径
+        int[] shortestPathTable = new int[size];
+        int[] pathMatrix = new int[size];
+// 表征 计算完 v0 到 某顶点的最短路径
+        boolean[] result = new boolean[size];
+
+        // 初始化
+        for (int i = 0; i < graphMatrix.size; i++) {
+            // 全都没开始
+            result[i] = false;
+            // 当前最短的就是第一个顶点连的所有点的权值 没有连的算 MAX_VALUE
+            shortestPathTable[i] = graphMatrix.matrix[vertex][i] > 0 ? graphMatrix.matrix[vertex][i] : Integer.MAX_VALUE;
+            // 前驱节点初始化
+            pathMatrix[i] = 0;
+        }
+        // 当前结点不用算
+        shortestPathTable[vertex] = 0;
+        result[vertex] = true;
+
+        // 计算最短路径
+        int min;
+        int k = 0;
+        for (int v = 1; v < size; v++) {
+            min = Integer.MAX_VALUE;
+            // 找到当前下没算过的结点里最短的路径
+            for (int w = 0; w < size; w++) {
+                if (!result[w] && shortestPathTable[w] < min) {
+                    k = w;
+                    min = shortestPathTable[w];
+                }
+            }
+            result[k] = true;
+            System.out.println("第" + v + "个顶点 = " + graphMatrix.vertex[k]);
+            // 修正最短路径 最短的更新一下
+            for (int w = 0; w < size; w++) {
+                if (!result[w] && graphMatrix.matrix[k][w] > 0 && (min + graphMatrix.matrix[k][w]) < shortestPathTable[w]) {
+                    shortestPathTable[w] = min + graphMatrix.matrix[k][w];
+                    pathMatrix[w] = k;
+                }
+            }
+        }
+        for (int i : shortestPathTable) {
+            System.out.println(i);
+        }
+    }
+
     /**
      * BFS
      *

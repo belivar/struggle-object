@@ -10,26 +10,29 @@ public class GraphMatrixTest {
      */ //                                 0    1    2    3    4    5    6    7    8
     private static final char[] VERTEX = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I'};
     private static final char[][] EDGE = new char[][]{
-            {'A', 'B', '0' + 10},
-            {'A', 'F', '0' + 11},
+            {'A', 'B', '0' + 1},
+            {'A', 'C', '0' + 5},
 
-            {'B', 'C', '0' + 18},
-            {'B', 'G', '0' + 16},
-            {'B', 'I', '0' + 12},
+            {'B', 'C', '0' + 3},
+            {'B', 'D', '0' + 7},
+            {'B', 'E', '0' + 5},
 
-            {'C', 'D', '0' + 22},
-            {'C', 'I', '0' + 8},
+            {'C', 'E', '0' + 1},
+            {'C', 'F', '0' + 7},
 
-            {'D', 'E', '0' + 20},
-            {'D', 'F', '0' + 16},
-            {'D', 'I', '0' + 21},
+            {'D', 'E', '0' + 2},
+            {'D', 'G', '0' + 3},
 
-            {'E', 'F', '0' + 26},
-            {'E', 'H', '0' + 7},
+            {'E', 'F', '0' + 3},
+            {'E', 'G', '0' + 6},
+            {'E', 'H', '0' + 9},
 
-            {'F', 'G', '0' + 17},
+            {'F', 'H', '0' + 5},
 
-            {'G', 'H', '0' + 19},
+            {'G', 'H', '0' + 2},
+            {'G', 'I', '0' + 7},
+
+            {'H', 'I', '0' + 4},
 
     };
 
@@ -39,7 +42,7 @@ public class GraphMatrixTest {
         IGraph graph = new Graph();
 
         GraphMatrix graphMatrix = new GraphMatrix(VERTEX, EDGE, false);
-        graph.miniSpanTreePrim(graphMatrix);
+        graph.shortestPathDijkstra(graphMatrix, 0);
         System.out.println(graphMatrix.toString());
     }
 

@@ -26,9 +26,21 @@ public interface IGraph {
     /**
      * 最小生成树 prim (普里姆算法)
      *
-     *
-     * @param graphMatrix
+     * @param graphMatrix 图
      */
     void miniSpanTreePrim(GraphMatrix graphMatrix);
 
+    /**
+     * 最小生成树 kruskal (克鲁斯卡算法)
+     *
+     * @param graphMatrix 图
+     */
+    void miniSpanTreeKruskal(GraphMatrix graphMatrix);
+
+    /**
+     * 狄杰斯特拉 算法
+     *
+     * @param graphMatrix 图
+     */
+    void shortestPathDijkstra(GraphMatrix graphMatrix, int vertex);
 }
