@@ -22,5 +22,13 @@ public interface IGraph {
      */
     void breadthFirstSearch(GraphMatrix graphMatrix);
 
-    
+
+    /**
+     * 最小生成树 prim (普里姆算法)
+     *
+     *
+     * @param graphMatrix
+     */
+    void miniSpanTreePrim(GraphMatrix graphMatrix);
+
 }
