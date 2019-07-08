@@ -47,10 +47,13 @@ public class GraphMatrix {
         for (char[] c : edges) {
             int p0 = getPosition(c[0]);
             int p1 = getPosition(c[1]);
-
-            matrix[p0][p1] = 1;
+            int power = 1;
+            if (c.length > 2) {
+                power = c[2] - '0';
+            }
+            matrix[p0][p1] = power;
             if (!direction) {
-                matrix[p1][p0] = 1;
+                matrix[p1][p0] = power;
             }
         }
     }
