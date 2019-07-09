@@ -3,7 +3,7 @@ package com.YinglishZhi.LeetCode_7;
 public class Solution {
 
     private static int reverse(int x) {
-        int result = 0;
+        long result = 0;
         if (x == 0) {
             return 0;
         }
@@ -11,8 +11,7 @@ public class Solution {
             result = result * 10 + x % 10;
             x = x / 10;
         }
-
-        return result;
+        return (result < Integer.MAX_VALUE && result > Integer.MIN_VALUE) ? (int) result : 0;
     }
 
     public static void main(String[] args) {
