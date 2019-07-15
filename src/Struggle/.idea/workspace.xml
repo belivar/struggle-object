@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77fff2c1-a066-4db3-a62b-e0be4af82274" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_dubbo_2_6_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_20_0_GA.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_netty_netty_3_2_5_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_16_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_16_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_16_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_16_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_16_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LintCode/src/main/java/com/YinglishZhi/LeetCode_575/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LintCode/src/main/java/com/YinglishZhi/LeetCode_633/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/Algorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/Algorithm.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/src/main/java/binary/solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/main/java/binary/solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/target/classes/binary/solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/target/classes/binary/solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/target/classes/graph/src/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/target/classes/graph/src/Graph.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LintCode/src/main/java/com/YinglishZhi/LeetCode_633/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/LintCode/src/main/java/com/YinglishZhi/LeetCode_633/Solution.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/javaCore/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -78,8 +62,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LintCode/src/main/java/com/YinglishZhi/LeetCode_633/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+            <state relative-caret-position="388">
+              <caret line="45" column="8" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
               <folding>
                 <element signature="e#1521#1522#0" expanded="true" />
                 <element signature="e#1576#1577#0" expanded="true" />
@@ -931,7 +915,7 @@
       <workItem from="1560948779624" duration="13871000" />
       <workItem from="1562242925729" duration="2020000" />
       <workItem from="1562294441065" duration="18421000" />
-      <workItem from="1562923903145" duration="7170000" />
+      <workItem from="1562923903145" duration="7347000" />
     </task>
     <servers />
   </component>
@@ -968,7 +952,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47946000" />
+    <option name="totallyTimeSpent" value="48123000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1680" y="23" width="1902" height="1032" extended-state="0" />
@@ -985,13 +969,13 @@
       <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23240939" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.23240939" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.24506749" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32917964" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3283582" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.48805815" />
@@ -1310,8 +1294,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LintCode/src/main/java/com/YinglishZhi/LeetCode_633/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        <state relative-caret-position="388">
+          <caret line="45" column="8" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
           <folding>
             <element signature="e#1521#1522#0" expanded="true" />
             <element signature="e#1576#1577#0" expanded="true" />
