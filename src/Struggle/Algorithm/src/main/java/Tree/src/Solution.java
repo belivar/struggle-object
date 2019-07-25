@@ -29,11 +29,12 @@ public class Solution {
     public static void main(String[] args) {
 
         ITree tree = new Tree();
-//        tree.preorderTraversal(ROOT);
+//        tree.preOrderTraversal(ROOT);
 //        tree.inorderTraversal(ROOT);
 //        tree.postOrderTraversal(ROOT);
 //        tree.nonRecPreOrderTraversal(ROOT);
-        tree.nonRecInOrderTraversal(ROOT);
+//        tree.nonRecInOrderTraversal(ROOT);
+        tree.levelOrderTraversal(ROOT);
     }
 
 }

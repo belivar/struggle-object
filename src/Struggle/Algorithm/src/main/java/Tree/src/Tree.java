@@ -2,6 +2,8 @@ package Tree.src;
 
 import Tree.src.api.ITree;
 
+import java.util.ArrayDeque;
+import java.util.Queue;
 import java.util.Stack;
 
 /**
@@ -46,6 +48,22 @@ public class Tree implements ITree {
             postOrderTraversal(node.getLeftChild());
             postOrderTraversal(node.getRightChild());
             System.out.println(node.toString());
+        }
+    }
+
+    @Override
+    public void levelOrderTraversal(Node node) {
+        Queue<Node> queue = new ArrayDeque<Node>();
+        queue.add(node);
+        while (!queue.isEmpty()) {
+            Node p = queue.poll();
+            System.out.println(p.toString());
+            if (null != p.getLeftChild()) {
+                queue.add(p.getLeftChild());
+            }
+            if (null != p.getRightChild()) {
+                queue.add(p.getRightChild());
+            }
         }
     }
 

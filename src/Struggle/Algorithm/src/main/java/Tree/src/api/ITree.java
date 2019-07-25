@@ -42,6 +42,12 @@ public interface ITree {
     void postOrderTraversal(Node node);
 
     /**
+     * level order
+     * @param node root of the tree
+     */
+    void levelOrderTraversal(Node node);
+
+    /**
      * non rec pre order
      *
      * @param node root of the tree
