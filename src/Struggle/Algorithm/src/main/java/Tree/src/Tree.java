@@ -1,0 +1,91 @@
+package Tree.src;
+
+import Tree.src.api.ITree;
+
+import java.util.Stack;
+
+/**
+ * tree
+ *
+ * @author LDZ
+ * @date 2019-07-25 23:47
+ */
+public class Tree implements ITree {
+    @Override
+    public int height(Node node) {
+        return 0;
+    }
+
+    @Override
+    public int size(Node node) {
+        return 0;
+    }
+
+    @Override
+    public void preOrderTraversal(Node node) {
+        if (null != node) {
+            System.out.println(node.toString());
+            preOrderTraversal(node.getLeftChild());
+            preOrderTraversal(node.getRightChild());
+        }
+
+    }
+
+    @Override
+    public void inOrderTraversal(Node node) {
+        if (null != node) {
+            inOrderTraversal(node.getLeftChild());
+            System.out.println(node.toString());
+            inOrderTraversal(node.getRightChild());
+        }
+    }
+
+    @Override
+    public void postOrderTraversal(Node node) {
+        if (null != node) {
+            postOrderTraversal(node.getLeftChild());
+            postOrderTraversal(node.getRightChild());
+            System.out.println(node.toString());
+        }
+    }
+
+    @Override
+    public void nonRecPreOrderTraversal(Node node) {
+        Stack<Node> stack = new Stack<Node>();
+        stack.push(node);
+        while (!stack.isEmpty()) {
+            Node p = stack.pop();
+            System.out.println(p.toString());
+            if (null != p.getRightChild()) {
+                stack.push(p.getRightChild());
+            }
+            if (null != p.getLeftChild()) {
+                stack.push(p.getLeftChild());
+            }
+        }
+
+    }
+
+    @Override
+    public void nonRecInOrderTraversal(Node node) {
+        Stack<Node> stack = new Stack<Node>();
+        Node p = node;
+        while (null != p || stack.size() > 0) {
+            while (null != p) {
+                stack.push(p);
+                p = p.getLeftChild();
+            }
+
+            if (stack.size() > 0) {
+                p = stack.pop();
+                System.out.println(p.toString());
+                p = p.getRightChild();
+            }
+        }
+    }
+
+    @Override
+    public void nonRecPostOrderTraversal(Node node) {
+
+    }
+}

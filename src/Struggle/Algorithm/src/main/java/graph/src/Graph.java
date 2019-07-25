@@ -17,6 +17,7 @@ public class Graph implements IGraph {
      *
      * @param graphMatrix 图
      */
+    @Override
     public void depthFirstSearch(GraphMatrix graphMatrix) {
         int i;
         for (i = 0; i < graphMatrix.size; i++) {
@@ -143,6 +144,7 @@ public class Graph implements IGraph {
      *
      * @param graphMatrix 图
      */
+    @Override
     public void breadthFirstSearch(GraphMatrix graphMatrix) {
 
         LinkedList<Integer> queue = new LinkedList<Integer>();
