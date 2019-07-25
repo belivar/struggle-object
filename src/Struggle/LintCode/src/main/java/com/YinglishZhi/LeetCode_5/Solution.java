@@ -9,6 +9,6 @@ package com.YinglishZhi.LeetCode_5;
 public class Solution {
 
     public static String longestPalindrome(String s) {
-
+        return "";
     }
 }
