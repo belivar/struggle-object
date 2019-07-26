@@ -40,7 +40,6 @@ public class Solution {
             // 找到最小值
             for (int w = 0; w < N + 1; w++) {
                 if (!result[w] && shortestPathTable[w] < min) {
-                    k = w;
                     min = shortestPathTable[w];
                 }
             }
