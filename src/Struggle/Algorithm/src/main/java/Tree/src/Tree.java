@@ -104,6 +104,23 @@ public class Tree implements ITree {
 
     @Override
     public void nonRecPostOrderTraversal(Node node) {
-
+        Stack<Node> stack = new Stack<Node>();
+        Node p = node;
+        Node pre = null;
+        while (null != p || !stack.isEmpty()) {
+            while (null != p) {
+                stack.push(p);
+                p = p.getLeftChild();
+            }
+            p = stack.peek();
+            if (null == p.getRightChild() || p.getRightChild() == pre) {
+                p = stack.pop();
+                System.out.println(p.toString());
+                pre = p;
+                p = null;
+            } else {
+                p = p.getRightChild();
+            }
+        }
     }
 }

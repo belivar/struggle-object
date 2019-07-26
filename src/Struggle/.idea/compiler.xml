@@ -6,15 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="javaCore" />
         <module name="designpattern" />
         <module name="Algorithm" />
         <module name="datastructure" />
         <module name="LintCode" />
-        <module name="javaCore" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Algorithm" target="1.5" />
+      <module name="Algorithm" target="6" />
       <module name="datastructure" target="1.5" />
       <module name="designpattern" target="1.6" />
       <module name="javaCore" target="1.7" />

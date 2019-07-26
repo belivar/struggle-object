@@ -34,7 +34,9 @@ public class Solution {
 //        tree.postOrderTraversal(ROOT);
 //        tree.nonRecPreOrderTraversal(ROOT);
 //        tree.nonRecInOrderTraversal(ROOT);
-        tree.levelOrderTraversal(ROOT);
+
+//        tree.levelOrderTraversal(ROOT);
+        tree.nonRecPostOrderTraversal(ROOT);
     }
 
 }
