@@ -1,4 +1,4 @@
-package Tree.src;
+package tree.src;
 
 import lombok.Data;
 

@@ -1,6 +1,6 @@
-package Tree.src;
+package tree.src;
 
-import Tree.src.api.ITree;
+import tree.src.api.ITree;
 
 /**
  * solution
