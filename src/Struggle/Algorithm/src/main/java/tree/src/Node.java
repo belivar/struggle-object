@@ -2,6 +2,8 @@ package tree.src;
 
 import lombok.Data;
 
+import java.util.Comparator;
+
 /**
  * 树结构
  *
@@ -9,7 +11,7 @@ import lombok.Data;
  * @date 2019-07-25 23:03
  */
 @Data
-public class Node<T> {
+public class Node<T> implements Comparable<Node<T>> {
 
     /**
      * 存储数据
@@ -41,5 +43,13 @@ public class Node<T> {
     @Override
     public String toString() {
         return data.toString();
+    }
+
+    @Override
+    public int compareTo(Node<T> o) {
+        if (o.data instanceof Integer) {
+            return Integer.compare((Integer) data, (Integer) o.data);
+        }
+        return 0;
     }
 }

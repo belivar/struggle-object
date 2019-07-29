@@ -9,4 +9,6 @@ package search.src.api;
 public interface ISearch {
 
     int binarySearch(int[] nums, int key);
+
+
 }

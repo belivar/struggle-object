@@ -1,6 +1,8 @@
 package tree.src;
 
-import tree.src.api.ITree;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 
 /**
  * solution
@@ -26,9 +28,14 @@ public class Solution {
     private static final Node<String> NODE_C = new Node<String>("C", NODE_F, NODE_G);
     private static final Node<String> ROOT = new Node<String>("A", NODE_B, NODE_C);
 
+    private static final Node<Integer> NODE_1 = new Node<Integer>(1);
+    private static final Node<Integer> NODE_2 = new Node<Integer>(2);
+
     public static void main(String[] args) {
 
-        ITree tree = new Tree();
+        BsTree bsTree = new BsTree();
+
+
 //        tree.preOrderTraversal(ROOT);
 //        tree.inorderTraversal(ROOT);
 //        tree.postOrderTraversal(ROOT);
@@ -36,7 +43,20 @@ public class Solution {
 //        tree.nonRecInOrderTraversal(ROOT);
 
 //        tree.levelOrderTraversal(ROOT);
-        tree.nonRecPostOrderTraversal(ROOT);
+//        tree.nonRecPostOrderTraversal(ROOT);
+//        int res = NODE_1.compareTo(NODE_2);
+//        System.out.println(res);
+
+        List<Integer> NUMS = new ArrayList();
+        NUMS.add(1);
+        NUMS.add(2);
+        NUMS.add(4);
+        NUMS.add(5);
+        Node root = bsTree.createBsTree(NUMS);
+        bsTree.inOrderTraversal(root);
+        System.out.println("=========");
+        bsTree.insert(new Node(3));
+        bsTree.inOrderTraversal(root);
     }
 
 }
