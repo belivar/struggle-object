@@ -2,10 +2,69 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3346cb09-b268-4239-9eb9-3d34be95924e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Struggle/Algorithm/src/main/java/Tree/src/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/Struggle/Algorithm/src/main/java/Tree/src/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Struggle/Algorithm/src/main/java/Tree/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/Struggle/Algorithm/src/main/java/Tree/src/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Struggle/Algorithm/src/main/java/Tree/src/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/Struggle/Algorithm/src/main/java/Tree/src/Tree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Struggle/Algorithm/src/main/java/Tree/src/api/ITree.java" beforeDir="false" afterPath="$PROJECT_DIR$/Struggle/Algorithm/src/main/java/Tree/src/api/ITree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Struggle/Algorithm/src/main/java/search/src/Search.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Struggle/Algorithm/src/main/java/search/src/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Struggle/Algorithm/src/main/java/search/src/api/ISearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Struggle/Algorithm/src/main/java/tree/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Struggle/Algorithm/src/main/java/tree/src/BsTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Struggle/Algorithm/src/main/java/tree/src/api/IBsTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Struggle/Algorithm/target/classes/search/src/Search.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Struggle/Algorithm/target/classes/search/src/Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Struggle/Algorithm/target/classes/search/src/api/ISearch.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Struggle/Algorithm/target/classes/tree/src/BsTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Struggle/Algorithm/target/classes/tree/src/api/IBsTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Struggle/LintCode/src/main/java/com/YinglishZhi/LeetCode_1/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Struggle/LintCode/src/main/java/com/YinglishZhi/LeetCode_13/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Struggle/LintCode/src/main/java/com/YinglishZhi/LeetCode_2/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Struggle/LintCode/src/main/java/com/YinglishZhi/LeetCode_404/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Struggle/LintCode/src/main/java/com/YinglishZhi/LeetCode_508/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Struggle/LintCode/src/main/java/com/YinglishZhi/LeetCode_6/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Struggle/LintCode/src/main/java/com/YinglishZhi/LeetCode_66/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Struggle/LintCode/src/main/java/com/YinglishZhi/LeetCode_8/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Struggle/LintCode/src/main/java/com/YinglishZhi/LeetCode_965/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Struggle/LintCode/src/main/java/com/YinglishZhi/LeetCode_970/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Struggle/LintCode/src/main/java/com/YinglishZhi/struct/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Struggle/LintCode/target/classes/com/YinglishZhi/LeetCode_1/Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Struggle/LintCode/target/classes/com/YinglishZhi/LeetCode_2/Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Struggle/LintCode/target/classes/com/YinglishZhi/LeetCode_404/Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Struggle/LintCode/target/classes/com/YinglishZhi/LeetCode_508/Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Struggle/LintCode/target/classes/com/YinglishZhi/LeetCode_6/Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Struggle/LintCode/target/classes/com/YinglishZhi/LeetCode_66/Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Struggle/LintCode/target/classes/com/YinglishZhi/LeetCode_8/Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Struggle/LintCode/target/classes/com/YinglishZhi/LeetCode_965/Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Struggle/LintCode/target/classes/com/YinglishZhi/LeetCode_970/Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Struggle/LintCode/target/classes/com/YinglishZhi/struct/ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Struggle/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Struggle/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Struggle/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Struggle/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Struggle/Algorithm/Algorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Struggle/Algorithm/Algorithm.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Struggle/Algorithm/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Struggle/Algorithm/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Struggle/Algorithm/src/main/java/Tree/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Struggle/Algorithm/src/main/java/search/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Struggle/Algorithm/src/main/java/Tree/src/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/Struggle/Algorithm/src/main/java/tree/src/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Struggle/Algorithm/src/main/java/Tree/src/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Struggle/Algorithm/src/main/java/Tree/src/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/Struggle/Algorithm/src/main/java/tree/src/Tree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Struggle/Algorithm/src/main/java/Tree/src/api/ITree.java" beforeDir="false" afterPath="$PROJECT_DIR$/Struggle/Algorithm/src/main/java/tree/src/api/ITree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Struggle/Algorithm/src/main/java/tree/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/Struggle/Algorithm/src/main/java/tree/src/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Struggle/Algorithm/target/classes/SnowFlake/SnowFlakeGenerator$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Struggle/Algorithm/target/classes/SnowFlake/SnowFlakeGenerator$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Struggle/Algorithm/target/classes/SnowFlake/SnowFlakeGenerator$Factory.class" beforeDir="false" afterPath="$PROJECT_DIR$/Struggle/Algorithm/target/classes/SnowFlake/SnowFlakeGenerator$Factory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Struggle/Algorithm/target/classes/SnowFlake/SnowFlakeGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/Struggle/Algorithm/target/classes/SnowFlake/SnowFlakeGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Struggle/Algorithm/target/classes/Tree/src/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/Struggle/Algorithm/target/classes/Tree/src/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Struggle/Algorithm/target/classes/Tree/src/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/Struggle/Algorithm/target/classes/Tree/src/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Struggle/Algorithm/target/classes/Tree/src/Tree.class" beforeDir="false" afterPath="$PROJECT_DIR$/Struggle/Algorithm/target/classes/Tree/src/Tree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Struggle/Algorithm/target/classes/Tree/src/api/ITree.class" beforeDir="false" afterPath="$PROJECT_DIR$/Struggle/Algorithm/target/classes/Tree/src/api/ITree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Struggle/Algorithm/target/classes/binary/solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/Struggle/Algorithm/target/classes/binary/solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Struggle/Algorithm/target/classes/graph/src/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/Struggle/Algorithm/target/classes/graph/src/Graph.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Struggle/Algorithm/target/classes/graph/src/GraphMatrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/Struggle/Algorithm/target/classes/graph/src/GraphMatrix.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Struggle/Algorithm/target/classes/graph/src/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/Struggle/Algorithm/target/classes/graph/src/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Struggle/Algorithm/target/classes/graph/src/api/IGraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/Struggle/Algorithm/target/classes/graph/src/api/IGraph.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Struggle/Algorithm/target/classes/leetcode/_1_TwoSum/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/Struggle/Algorithm/target/classes/leetcode/_1_TwoSum/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Struggle/Algorithm/target/classes/leetcode/_2_AddTwoNumbers/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/Struggle/Algorithm/target/classes/leetcode/_2_AddTwoNumbers/ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Struggle/Algorithm/target/classes/leetcode/_2_AddTwoNumbers/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/Struggle/Algorithm/target/classes/leetcode/_2_AddTwoNumbers/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Struggle/Algorithm/target/classes/sort/ISort.class" beforeDir="false" afterPath="$PROJECT_DIR$/Struggle/Algorithm/target/classes/sort/ISort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Struggle/Algorithm/target/classes/sort/impl/Sort.class" beforeDir="false" afterPath="$PROJECT_DIR$/Struggle/Algorithm/target/classes/sort/impl/Sort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Struggle/Algorithm/target/test-classes/graph/src/GraphMatrixTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Struggle/Algorithm/target/test-classes/graph/src/GraphMatrixTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Struggle/LintCode/src/main/java/com/YinglishZhi/LeetCode_5/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/Struggle/LintCode/src/main/java/com/YinglishZhi/LeetCode_5/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Struggle/LintCode/target/classes/com/YinglishZhi/LeetCode_5/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/Struggle/LintCode/target/classes/com/YinglishZhi/LeetCode_5/Solution.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/Struggle/datastructure/target/" />
     <ignored path="$PROJECT_DIR$/Struggle/designpattern/target/" />
@@ -32,10 +91,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Struggle/Algorithm/src/main/java/Tree/src/api/ITree.java">
+        <entry file="file://$PROJECT_DIR$/Struggle/Algorithm/src/main/java/tree/src/api/ITree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
-              <caret line="34" column="20" lean-forward="true" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+            <state relative-caret-position="81">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -74,31 +133,30 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Struggle/Algorithm/src/main/java/Tree/src/Node.java">
+        <entry file="file://$PROJECT_DIR$/Struggle/Algorithm/src/main/java/tree/src/Node.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="708">
-              <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
+            <state relative-caret-position="762">
+              <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
               <folding>
-                <element signature="e#634#635#0" expanded="true" />
                 <element signature="e#672#673#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Struggle/Algorithm/src/main/java/Tree/src/Tree.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Struggle/Algorithm/src/main/java/tree/src/Tree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="491">
-              <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+            <state relative-caret-position="326">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#215#216#0" expanded="true" />
                 <element signature="e#239#240#0" expanded="true" />
-                <element signature="e#1254#1260#0" expanded="true" />
-                <element signature="e#1200#1206#0" expanded="true" />
-                <element signature="e#1682#1688#0" expanded="true" />
-                <element signature="e#2707#2713#0" expanded="true" />
+                <element signature="e#2342#2348#0" expanded="true" />
+                <element signature="e#2822#2828#0" expanded="true" />
+                <element signature="e#3304#3310#0" expanded="true" />
+                <element signature="e#3795#3801#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -122,15 +180,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Struggle/Algorithm/src/main/java/Tree/src/Solution.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Struggle/Algorithm/src/main/java/tree/src/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="38" column="46" lean-forward="true" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
+            <state relative-caret-position="559">
+              <caret line="30" column="57" selection-start-line="30" selection-start-column="57" selection-end-line="30" selection-end-column="57" />
               <folding>
-                <element signature="e#457#465#0" expanded="true" />
-                <element signature="e#597#605#0" expanded="true" />
-                <element signature="e#767#775#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -164,6 +220,7 @@
       <find>int[]</find>
       <find>inorderTraversal</find>
       <find>preorderTraversal</find>
+      <find>&lt;&lt;&lt;</find>
     </findStrings>
     <replaceStrings>
       <replace>{</replace>
@@ -181,8 +238,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Struggle/spring/src/main/java/com/example/yinglishzhi/service/Dog.java" />
-        <option value="$PROJECT_DIR$/Struggle/spring/src/main/java/com/example/yinglishzhi/service/Cat.java" />
         <option value="$PROJECT_DIR$/Struggle/spring/src/main/java/com/example/yinglishzhi/service/OrderServiceImpl.java" />
         <option value="$PROJECT_DIR$/Struggle/spring/src/main/resources/META-INF/services/com.example.yinglishzhi.service.api" />
         <option value="$PROJECT_DIR$/Struggle/spring/src/main/java/com/example/yinglishzhi/service/ApiClient.java" />
@@ -229,9 +284,11 @@
         <option value="$PROJECT_DIR$/Struggle/Algorithm/src/main/java/Tree/readme.md" />
         <option value="$PROJECT_DIR$/Struggle/Algorithm/src/main/java/graph/src/Graph.java" />
         <option value="$PROJECT_DIR$/Struggle/Algorithm/src/main/java/Tree/src/Node.java" />
+        <option value="$PROJECT_DIR$/Struggle/Algorithm/src/main/java/Tree/src/Solution.java" />
         <option value="$PROJECT_DIR$/Struggle/Algorithm/src/main/java/Tree/src/api/ITree.java" />
         <option value="$PROJECT_DIR$/Struggle/Algorithm/src/main/java/Tree/src/Tree.java" />
-        <option value="$PROJECT_DIR$/Struggle/Algorithm/src/main/java/Tree/src/Solution.java" />
+        <option value="$PROJECT_DIR$/Struggle/Algorithm/src/main/java/tree/src/Tree.java" />
+        <option value="$PROJECT_DIR$/Struggle/Algorithm/src/main/java/tree/src/Solution.java" />
       </list>
     </option>
   </component>
@@ -323,7 +380,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Tree" type="462c0819:PsiDirectoryNode" />
+              <item name="tree" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="src" type="b2602c69:ProjectViewProjectNode" />
@@ -333,7 +390,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Tree" type="462c0819:PsiDirectoryNode" />
+              <item name="tree" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -344,7 +401,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Tree" type="462c0819:PsiDirectoryNode" />
+              <item name="tree" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="api" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -431,20 +488,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tree.src.Solution" />
-      <module name="Algorithm" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tree.src.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Solution (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.YinglishZhi.LeetCode_35.Solution" />
       <module name="LintCode" />
@@ -466,6 +509,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.YinglishZhi.LeetCode_28.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tree.src.Solution" />
+      <module name="Algorithm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tree.src.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -556,18 +613,18 @@
       <workItem from="1561734931693" duration="8956000" />
       <workItem from="1562417661093" duration="884000" />
       <workItem from="1562419008174" duration="8684000" />
-      <workItem from="1563680662185" duration="18428000" />
+      <workItem from="1563680662185" duration="19320000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90070000" />
+    <option name="totallyTimeSpent" value="90962000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1057" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49791667" visible="true" weight="0.19595315" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49791667" visible="true" weight="0.19595315" />
       <window_info id="Capture Tool" order="1" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -578,7 +635,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32908705" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.2834395" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3089172" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3089172" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -1061,7 +1118,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Struggle/Algorithm/src/main/java/Tree/readme.md">
+    <entry file="file://$PROJECT_DIR$/Struggle/Algorithm/src/main/java/tree/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor />
@@ -1124,48 +1181,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Struggle/Algorithm/src/main/java/Tree/src/Node.java">
+    <entry file="file://$PROJECT_DIR$/Struggle/Algorithm/src/main/java/tree/src/Node.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="708">
-          <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
+        <state relative-caret-position="762">
+          <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
           <folding>
-            <element signature="e#634#635#0" expanded="true" />
             <element signature="e#672#673#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Struggle/Algorithm/src/main/java/Tree/src/api/ITree.java">
+    <entry file="file://$PROJECT_DIR$/Struggle/Algorithm/src/main/java/tree/src/api/ITree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="34" column="20" lean-forward="true" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+        <state relative-caret-position="81">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Struggle/Algorithm/src/main/java/Tree/src/Solution.java">
+    <entry file="file://$PROJECT_DIR$/Struggle/Algorithm/src/main/java/tree/src/Tree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="38" column="46" lean-forward="true" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
-          <folding>
-            <element signature="e#457#465#0" expanded="true" />
-            <element signature="e#597#605#0" expanded="true" />
-            <element signature="e#767#775#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Struggle/Algorithm/src/main/java/Tree/src/Tree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+        <state relative-caret-position="326">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#215#216#0" expanded="true" />
             <element signature="e#239#240#0" expanded="true" />
-            <element signature="e#1254#1260#0" expanded="true" />
-            <element signature="e#1200#1206#0" expanded="true" />
-            <element signature="e#1682#1688#0" expanded="true" />
-            <element signature="e#2707#2713#0" expanded="true" />
+            <element signature="e#2342#2348#0" expanded="true" />
+            <element signature="e#2822#2828#0" expanded="true" />
+            <element signature="e#3304#3310#0" expanded="true" />
+            <element signature="e#3795#3801#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Struggle/Algorithm/src/main/java/tree/src/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="559">
+          <caret line="30" column="57" selection-start-line="30" selection-start-column="57" selection-end-line="30" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

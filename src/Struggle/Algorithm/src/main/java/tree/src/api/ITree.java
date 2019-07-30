@@ -1,6 +1,6 @@
-package Tree.src.api;
+package tree.src.api;
 
-import Tree.src.Node;
+import tree.src.Node;
 
 public interface ITree {
 
