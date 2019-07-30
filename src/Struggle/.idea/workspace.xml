@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77fff2c1-a066-4db3-a62b-e0be4af82274" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/LintCode/src/main/java/com/YinglishZhi/LeetCode_6/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LintCode/src/main/java/com/YinglishZhi/LeetCode_66/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LintCode/src/main/java/com/YinglishZhi/LeetCode_970/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LintCode/target/classes/com/YinglishZhi/LeetCode_508/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/LintCode/target/classes/com/YinglishZhi/LeetCode_508/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LintCode/src/main/java/com/YinglishZhi/LeetCode_5/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/LintCode/src/main/java/com/YinglishZhi/LeetCode_5/Solution.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/javaCore/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -54,18 +50,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LintCode/src/main/java/com/YinglishZhi/LeetCode_508/Solution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2034">
-              <caret line="77" column="5" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LintCode/src/main/java/com/YinglishZhi/LeetCode_965/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="376">
@@ -102,11 +86,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LintCode/src/main/java/com/YinglishZhi/LeetCode_6/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
+            <state relative-caret-position="405">
               <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LintCode/src/main/java/com/YinglishZhi/LeetCode_5/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="398">
+              <caret line="27" column="45" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
+              <folding>
+                <element signature="e#1453#1454#0" expanded="true" />
+                <element signature="e#1487#1488#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -185,7 +182,6 @@
         <option value="$PROJECT_DIR$/LintCode/src/main/java/com/YinglishZhi/LeetCode_3/Solution.java" />
         <option value="$PROJECT_DIR$/LintCode/src/main/java/com/YinglishZhi/LeetCode/Solution.java" />
         <option value="$PROJECT_DIR$/LintCode/src/main/java/com/YinglishZhi/LeetCode_4/Solution.java" />
-        <option value="$PROJECT_DIR$/LintCode/src/main/java/com/YinglishZhi/LeetCode_5/Solution.java" />
         <option value="$PROJECT_DIR$/LintCode/src/main/java/com/YinglishZhi/LeetCode_50/Solution.java" />
         <option value="$PROJECT_DIR$/LintCode/src/main/java/com/YinglishZhi/LeetCode_1108/Solution.java" />
         <option value="$PROJECT_DIR$/LintCode/src/main/java/com/YinglishZhi/LeetCode_1078/Solution.java" />
@@ -210,6 +206,7 @@
         <option value="$PROJECT_DIR$/LintCode/src/main/java/com/YinglishZhi/LeetCode_970/Solution.java" />
         <option value="$PROJECT_DIR$/LintCode/src/main/java/com/YinglishZhi/LeetCode_66/Solution.java" />
         <option value="$PROJECT_DIR$/LintCode/src/main/java/com/YinglishZhi/LeetCode_6/Solution.java" />
+        <option value="$PROJECT_DIR$/LintCode/src/main/java/com/YinglishZhi/LeetCode_5/Solution.java" />
       </list>
     </option>
   </component>
@@ -794,6 +791,24 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="YinglishZhi" type="462c0819:PsiDirectoryNode" />
+              <item name="LeetCode_5" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="YinglishZhi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LintCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="YinglishZhi" type="462c0819:PsiDirectoryNode" />
+              <item name="LeetCode_6" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="YinglishZhi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LintCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="YinglishZhi" type="462c0819:PsiDirectoryNode" />
               <item name="struct" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -842,7 +857,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution (2)">
+  <component name="RunManager" selected="Application.Solution (5)">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -877,20 +892,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="search.src.Solution" />
-      <module name="Algorithm" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="search.src.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Solution (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.YinglishZhi.LeetCode_970.Solution" />
       <module name="LintCode" />
@@ -898,6 +899,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.YinglishZhi.LeetCode_970.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.YinglishZhi.LeetCode_5.Solution" />
+      <module name="LintCode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.YinglishZhi.LeetCode_5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -965,19 +980,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution (3)" />
       <item itemvalue="Application.Solution" />
       <item itemvalue="Application.Solution (4)" />
       <item itemvalue="Application.Solution (1)" />
       <item itemvalue="Application.Solution (2)" />
+      <item itemvalue="Application.Solution (5)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (5)" />
         <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution (4)" />
         <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.Solution (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -1001,7 +1016,7 @@
       <workItem from="1563950937204" duration="2697000" />
       <workItem from="1563963856347" duration="8374000" />
       <workItem from="1564112206203" duration="19612000" />
-      <workItem from="1564366503348" duration="13029000" />
+      <workItem from="1564366503348" duration="14632000" />
     </task>
     <servers />
   </component>
@@ -1038,7 +1053,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99973000" />
+    <option name="totallyTimeSpent" value="101576000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1680" y="23" width="1920" height="1057" extended-state="6" />
@@ -1055,7 +1070,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.23156802" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.41017655" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.41017655" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -1145,6 +1160,12 @@
           <properties />
           <option name="timeStamp" value="36" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LintCode/src/main/java/com/YinglishZhi/LeetCode_5/Solution.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -1225,17 +1246,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="621">
           <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LintCode/src/main/java/com/YinglishZhi/LeetCode_5/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-          <folding>
-            <element signature="e#177#178#0" expanded="true" />
-            <element signature="e#202#203#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1611,8 +1621,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LintCode/src/main/java/com/YinglishZhi/LeetCode_6/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
+        <state relative-caret-position="405">
           <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LintCode/src/main/java/com/YinglishZhi/LeetCode_5/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="27" column="45" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
+          <folding>
+            <element signature="e#1453#1454#0" expanded="true" />
+            <element signature="e#1487#1488#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
