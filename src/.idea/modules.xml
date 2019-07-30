@@ -3,11 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Struggle/Algorithm/Algorithm.iml" filepath="$PROJECT_DIR$/Struggle/Algorithm/Algorithm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Struggle/leetcode/LintCode.iml" filepath="$PROJECT_DIR$/Struggle/leetcode/LintCode.iml" />
       <module fileurl="file://$PROJECT_DIR$/Struggle/Utils/Utils.iml" filepath="$PROJECT_DIR$/Struggle/Utils/Utils.iml" />
       <module fileurl="file://$PROJECT_DIR$/Struggle/datastructure/datastructure.iml" filepath="$PROJECT_DIR$/Struggle/datastructure/datastructure.iml" />
       <module fileurl="file://$PROJECT_DIR$/Struggle/designpattern/designpattern.iml" filepath="$PROJECT_DIR$/Struggle/designpattern/designpattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/Struggle/javaCore/javaCore.iml" filepath="$PROJECT_DIR$/Struggle/javaCore/javaCore.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Struggle/leetcode/leetcode.iml" filepath="$PROJECT_DIR$/Struggle/leetcode/leetcode.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/src.iml" filepath="$PROJECT_DIR$/.idea/src.iml" />
       <module fileurl="file://$PROJECT_DIR$/Struggle/spring/yinglishzhi.iml" filepath="$PROJECT_DIR$/Struggle/spring/yinglishzhi.iml" />
     </modules>
