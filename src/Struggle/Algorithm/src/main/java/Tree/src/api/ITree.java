@@ -21,6 +21,22 @@ public interface ITree {
     int size(Node node);
 
     /**
+     * the mininum depth of tree
+     *
+     * @param node root of the tree
+     * @return depth
+     */
+    int minDepth(Node node);
+
+    /**
+     * the maxinum depth of tree
+     *
+     * @param node root of the tree
+     * @return depth
+     */
+    int maxDepth(Node node);
+
+    /**
      * pre order
      *
      * @param node root of the tree
@@ -43,6 +59,7 @@ public interface ITree {
 
     /**
      * level order
+     *
      * @param node root of the tree
      */
     void levelOrderTraversal(Node node);

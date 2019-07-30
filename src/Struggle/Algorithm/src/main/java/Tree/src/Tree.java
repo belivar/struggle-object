@@ -15,12 +15,49 @@ import java.util.Stack;
 public class Tree implements ITree {
     @Override
     public int height(Node node) {
-        return 0;
+        if (null == node) {
+            return 0;
+        }
+        int left = height(node.getLeftChild());
+        int right = height(node.getRightChild());
+        return 1 + Math.max(left, right);
     }
 
     @Override
     public int size(Node node) {
         return 0;
+    }
+
+    @Override
+    public int minDepth(Node node) {
+        if (null == node) {
+            return 0;
+        }
+        if (null == node.getRightChild() && null == node.getLeftChild()) {
+            return 1;
+        }
+        int left = minDepth(node.getLeftChild()) + 1;
+        int right = minDepth(node.getRightChild()) + 1;
+        if (1 == left) {
+            left = Integer.MAX_VALUE;
+        }
+        if (1 == right) {
+            right = Integer.MAX_VALUE;
+        }
+        return left > right ? right : left;
+    }
+
+    @Override
+    public int maxDepth(Node node) {
+        if (null == node) {
+            return 0;
+        }
+        if (null == node.getRightChild() && null == node.getLeftChild()) {
+            return 1;
+        }
+        int left = maxDepth(node.getLeftChild()) + 1;
+        int right = maxDepth(node.getRightChild()) + 1;
+        return left < right ? right : left;
     }
 
     @Override

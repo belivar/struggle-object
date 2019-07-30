@@ -26,13 +26,13 @@ public class Node<T> {
      */
     private Node<T> rightChild;
 
-    public Node(T data) {
+    Node(T data) {
         this.data = data;
         this.leftChild = null;
         this.rightChild = null;
     }
 
-    public Node(T data, Node<T> leftChild, Node<T> rightChild) {
+    Node(T data, Node<T> leftChild, Node<T> rightChild) {
         this.data = data;
         this.leftChild = leftChild;
         this.rightChild = rightChild;

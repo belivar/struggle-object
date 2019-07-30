@@ -30,13 +30,13 @@ public class Solution {
 
         ITree tree = new Tree();
 //        tree.preOrderTraversal(ROOT);
-//        tree.inorderTraversal(ROOT);
+//        tree.inOrderTraversal(ROOT);
 //        tree.postOrderTraversal(ROOT);
 //        tree.nonRecPreOrderTraversal(ROOT);
 //        tree.nonRecInOrderTraversal(ROOT);
-
 //        tree.levelOrderTraversal(ROOT);
-        tree.nonRecPostOrderTraversal(ROOT);
+//        tree.nonRecPostOrderTraversal(ROOT);
+        System.out.println(tree.height(ROOT));
     }
 
 }

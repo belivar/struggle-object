@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3346cb09-b268-4239-9eb9-3d34be95924e" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/Struggle/Algorithm/src/main/java/Tree/src/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/Struggle/Algorithm/src/main/java/Tree/src/Node.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Struggle/Algorithm/src/main/java/Tree/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/Struggle/Algorithm/src/main/java/Tree/src/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Struggle/Algorithm/src/main/java/Tree/src/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/Struggle/Algorithm/src/main/java/Tree/src/Tree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Struggle/Algorithm/src/main/java/Tree/src/api/ITree.java" beforeDir="false" afterPath="$PROJECT_DIR$/Struggle/Algorithm/src/main/java/Tree/src/api/ITree.java" afterDir="false" />
@@ -33,8 +34,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Struggle/Algorithm/src/main/java/Tree/src/api/ITree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="45" column="35" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="35" />
+            <state relative-caret-position="423">
+              <caret line="34" column="20" lean-forward="true" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -75,8 +76,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Struggle/Algorithm/src/main/java/Tree/src/Node.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="679">
-              <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+            <state relative-caret-position="708">
+              <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
               <folding>
                 <element signature="e#634#635#0" expanded="true" />
                 <element signature="e#672#673#0" expanded="true" />
@@ -88,17 +89,16 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Struggle/Algorithm/src/main/java/Tree/src/Tree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="61" column="44" lean-forward="true" selection-start-line="61" selection-start-column="44" selection-end-line="61" selection-end-column="44" />
+            <state relative-caret-position="491">
+              <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#143#144#0" expanded="true" />
-                <element signature="e#167#168#0" expanded="true" />
                 <element signature="e#215#216#0" expanded="true" />
                 <element signature="e#239#240#0" expanded="true" />
                 <element signature="e#1254#1260#0" expanded="true" />
                 <element signature="e#1200#1206#0" expanded="true" />
                 <element signature="e#1682#1688#0" expanded="true" />
+                <element signature="e#2707#2713#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -117,7 +117,7 @@
         <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/ArrayDeque.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="512">
-              <caret line="422" column="12" lean-forward="true" selection-start-line="422" selection-start-column="12" selection-end-line="422" selection-end-column="12" />
+              <caret line="422" column="12" selection-start-line="422" selection-start-column="12" selection-end-line="422" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -125,11 +125,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Struggle/Algorithm/src/main/java/Tree/src/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
-              <caret line="28" column="44" lean-forward="true" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
+            <state relative-caret-position="495">
+              <caret line="38" column="46" lean-forward="true" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
               <folding>
                 <element signature="e#457#465#0" expanded="true" />
                 <element signature="e#597#605#0" expanded="true" />
+                <element signature="e#767#775#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -229,8 +230,8 @@
         <option value="$PROJECT_DIR$/Struggle/Algorithm/src/main/java/graph/src/Graph.java" />
         <option value="$PROJECT_DIR$/Struggle/Algorithm/src/main/java/Tree/src/Node.java" />
         <option value="$PROJECT_DIR$/Struggle/Algorithm/src/main/java/Tree/src/api/ITree.java" />
-        <option value="$PROJECT_DIR$/Struggle/Algorithm/src/main/java/Tree/src/Solution.java" />
         <option value="$PROJECT_DIR$/Struggle/Algorithm/src/main/java/Tree/src/Tree.java" />
+        <option value="$PROJECT_DIR$/Struggle/Algorithm/src/main/java/Tree/src/Solution.java" />
       </list>
     </option>
   </component>
@@ -555,12 +556,12 @@
       <workItem from="1561734931693" duration="8956000" />
       <workItem from="1562417661093" duration="884000" />
       <workItem from="1562419008174" duration="8684000" />
-      <workItem from="1563680662185" duration="14092000" />
+      <workItem from="1563680662185" duration="18428000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85734000" />
+    <option name="totallyTimeSpent" value="90070000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1057" extended-state="6" />
@@ -576,8 +577,8 @@
       <window_info id="Structure" order="7" sideWeight="0.50152904" side_tool="true" weight="0.22257721" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32908705" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2834395" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3089172" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2834395" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3089172" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -730,12 +731,6 @@
           <line>5</line>
           <properties />
           <option name="timeStamp" value="71" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Struggle/Algorithm/src/main/java/Tree/src/Tree.java</url>
-          <line>55</line>
-          <properties />
-          <option name="timeStamp" value="92" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1098,17 +1093,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Struggle/Algorithm/src/main/java/Tree/src/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="679">
-          <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
-          <folding>
-            <element signature="e#634#635#0" expanded="true" />
-            <element signature="e#672#673#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Struggle/Algorithm/src/main/java/graph/src/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
@@ -1126,24 +1110,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Struggle/Algorithm/src/main/java/Tree/src/api/ITree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="45" column="35" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Struggle/Algorithm/src/main/java/Tree/src/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="28" column="44" lean-forward="true" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
-          <folding>
-            <element signature="e#457#465#0" expanded="true" />
-            <element signature="e#597#605#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/Queue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="201">
@@ -1154,23 +1120,52 @@
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/ArrayDeque.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="512">
-          <caret line="422" column="12" lean-forward="true" selection-start-line="422" selection-start-column="12" selection-end-line="422" selection-end-column="12" />
+          <caret line="422" column="12" selection-start-line="422" selection-start-column="12" selection-end-line="422" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Struggle/Algorithm/src/main/java/Tree/src/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="708">
+          <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
+          <folding>
+            <element signature="e#634#635#0" expanded="true" />
+            <element signature="e#672#673#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Struggle/Algorithm/src/main/java/Tree/src/api/ITree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="34" column="20" lean-forward="true" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Struggle/Algorithm/src/main/java/Tree/src/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="38" column="46" lean-forward="true" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
+          <folding>
+            <element signature="e#457#465#0" expanded="true" />
+            <element signature="e#597#605#0" expanded="true" />
+            <element signature="e#767#775#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Struggle/Algorithm/src/main/java/Tree/src/Tree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="61" column="44" lean-forward="true" selection-start-line="61" selection-start-column="44" selection-end-line="61" selection-end-column="44" />
+        <state relative-caret-position="491">
+          <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#143#144#0" expanded="true" />
-            <element signature="e#167#168#0" expanded="true" />
             <element signature="e#215#216#0" expanded="true" />
             <element signature="e#239#240#0" expanded="true" />
             <element signature="e#1254#1260#0" expanded="true" />
             <element signature="e#1200#1206#0" expanded="true" />
             <element signature="e#1682#1688#0" expanded="true" />
+            <element signature="e#2707#2713#0" expanded="true" />
           </folding>
         </state>
       </provider>
