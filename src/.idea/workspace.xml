@@ -476,7 +476,7 @@
     </configuration>
     <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.YinglishZhi.LeetCode_38.Solution" />
-      <module name="LintCode" />
+      <module name="leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -488,9 +488,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.YinglishZhi.LeetCode_8.Solution" />
+      <module name="leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.YinglishZhi.LeetCode_8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Solution (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.YinglishZhi.LeetCode_35.Solution" />
-      <module name="LintCode" />
+      <module name="leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -504,7 +518,7 @@
     </configuration>
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.YinglishZhi.LeetCode_28.Solution" />
-      <module name="LintCode" />
+      <module name="leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -584,10 +598,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Solution (2)" />
+        <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.Sort" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution (4)" />
-        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
