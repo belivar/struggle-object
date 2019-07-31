@@ -16,5 +16,6 @@
     <orderEntry type="library" name="Maven: com.squareup.okhttp3:okhttp:3.11.0" level="project" />
     <orderEntry type="library" name="Maven: com.squareup.okio:okio:1.14.0" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-simple:1.6.4" level="project" />
+    <orderEntry type="library" name="Maven: com.alibaba:fastjson:1.2.58" level="project" />
   </component>
 </module>

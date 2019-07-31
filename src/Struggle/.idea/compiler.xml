@@ -2,15 +2,17 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="javaCore" />
         <module name="designpattern" />
-        <module name="Algorithm" />
-        <module name="datastructure" />
         <module name="LintCode" />
+        <module name="Algorithm" />
+        <module name="javaCore" />
+        <module name="LeetCode" />
+        <module name="datastructure" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -18,9 +20,9 @@
       <module name="datastructure" target="1.5" />
       <module name="designpattern" target="1.6" />
       <module name="javaCore" target="1.7" />
+      <module name="LeetCode" target="1.8" />
       <module name="LintCode" target="1.8" />
       <module name="Utils" target="1.8" />
-      <module name="YinglishZhi" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

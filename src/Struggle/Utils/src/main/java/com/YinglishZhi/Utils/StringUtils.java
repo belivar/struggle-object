@@ -3,6 +3,7 @@ package com.YinglishZhi.Utils;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.function.Function;
 import java.util.stream.Collectors;
 
 public class StringUtils {
@@ -26,6 +27,11 @@ public class StringUtils {
     }
 
     public static void main(String[] args) {
-        String2List("1 2 2 3");
+
+        Function<Integer, Integer> function = a -> ((a >> 2) << 2);
+
+        System.out.println(function.apply(17));
+
+
     }
 }
