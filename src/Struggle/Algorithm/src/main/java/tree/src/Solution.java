@@ -43,26 +43,26 @@ public class Solution {
 //        int res = NODE_1.compareTo(NODE_2);
 //        System.out.println(res);
 
-        BsTree<Integer> bsTree = new BsTree<>();
-        Node<Integer> root;
-        root = bsTree.insert(null, 1);
-        root = bsTree.insert(root, 2);
-        root = bsTree.insert(root, 4);
-        root = bsTree.insert(root, 5);
-        bsTree.inOrderTraversal(root);
-        System.out.println("=========");
-        root = bsTree.insert(root, 3);
-        bsTree.inOrderTraversal(root);
+//        BsTree<Integer> bsTree = new BsTree<>();
+//        Node<Integer> root;
+//        root = bsTree.insert(null, 1);
+//        root = bsTree.insert(root, 2);
+//        root = bsTree.insert(root, 4);
+//        root = bsTree.insert(root, 5);
+//        bsTree.inOrderTraversal(root);
+//        System.out.println("=========");
+//        root = bsTree.insert(root, 3);
+//        bsTree.inOrderTraversal(root);
 
         // AVL TREE
-//        AvlTree<Integer> avlTree = new AvlTree<>();
-//        Node<Integer> root;
-//        root = avlTree.insert(null, 1);
-//        root = avlTree.insert(root, 2);
-//        root = avlTree.insert(root, 4);
-//        root = avlTree.insert(root, 5);
-//        root = avlTree.insert(root, 3);
-//        avlTree.nonRecInOrderTraversal(root);
+        AvlTree<Integer> avlTree = new AvlTree<>();
+        Node<Integer> root;
+        root = avlTree.insert(null, 1);
+        root = avlTree.insert(root, 2);
+        root = avlTree.insert(root, 4);
+        root = avlTree.insert(root, 5);
+        root = avlTree.insert(root, 3);
+        avlTree.nonRecInOrderTraversal(root);
     }
 
 }

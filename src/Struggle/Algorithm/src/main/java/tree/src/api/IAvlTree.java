@@ -19,4 +19,6 @@ public interface IAvlTree<T> {
      */
     Node<T> insert(Node<T> avlNode, T t);
 
+    Node<T> insert1(Node<T> avlNode, T t);
+
 }

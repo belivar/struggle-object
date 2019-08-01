@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77fff2c1-a066-4db3-a62b-e0be4af82274" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/main/java/tree/src/AvlTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/main/java/tree/src/api/IAvlTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/Algorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/Algorithm.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/src/main/java/tree/src/BsTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/main/java/tree/src/BsTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/src/main/java/tree/src/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/main/java/tree/src/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/src/main/java/tree/src/AvlTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/main/java/tree/src/AvlTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithm/src/main/java/tree/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/main/java/tree/src/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/src/main/java/tree/src/api/IBsTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/main/java/tree/src/api/IBsTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/src/main/java/tree/src/api/IAvlTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/main/java/tree/src/api/IAvlTree.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/javaCore/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -41,7 +34,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Algorithm/src/main/java/tree/src/BsTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
+            <state relative-caret-position="27">
               <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -54,11 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Algorithm/src/main/java/tree/src/AvlTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="18" selection-start-line="18" selection-end-line="20" selection-end-column="5" />
+            <state relative-caret-position="544">
+              <caret line="84" column="31" selection-start-line="84" selection-start-column="31" selection-end-line="84" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#386#387#0" expanded="true" />
@@ -71,8 +64,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Algorithm/src/main/java/tree/src/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="717">
-              <caret line="51" column="38" lean-forward="true" selection-start-line="51" selection-start-column="38" selection-end-line="51" selection-end-column="38" />
+            <state relative-caret-position="321">
+              <caret line="60" column="37" selection-start-line="60" selection-start-column="37" selection-end-line="60" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -89,11 +82,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Algorithm/src/main/java/tree/src/api/IAvlTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+            <state relative-caret-position="567">
+              <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -223,11 +216,11 @@
         <option value="$PROJECT_DIR$/leetcode/src/main/java/com/YinglishZhi/LeetCode_1029/Solution.java" />
         <option value="$PROJECT_DIR$/Algorithm/src/main/java/tree/src/AvlNode.java" />
         <option value="$PROJECT_DIR$/Algorithm/src/main/java/tree/src/Node.java" />
-        <option value="$PROJECT_DIR$/Algorithm/src/main/java/tree/src/AvlTree.java" />
         <option value="$PROJECT_DIR$/Algorithm/src/main/java/tree/src/BsTree.java" />
-        <option value="$PROJECT_DIR$/Algorithm/src/main/java/tree/src/Solution.java" />
         <option value="$PROJECT_DIR$/Algorithm/src/main/java/tree/src/api/IBsTree.java" />
         <option value="$PROJECT_DIR$/Algorithm/src/main/java/tree/src/api/IAvlTree.java" />
+        <option value="$PROJECT_DIR$/Algorithm/src/main/java/tree/src/Solution.java" />
+        <option value="$PROJECT_DIR$/Algorithm/src/main/java/tree/src/AvlTree.java" />
       </list>
     </option>
   </component>
@@ -554,7 +547,7 @@
       <workItem from="1564112206203" duration="19612000" />
       <workItem from="1564366503348" duration="24853000" />
       <workItem from="1564557911586" duration="3710000" />
-      <workItem from="1564630914899" duration="10408000" />
+      <workItem from="1564630914899" duration="12999000" />
     </task>
     <servers />
   </component>
@@ -591,13 +584,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125915000" />
+    <option name="totallyTimeSpent" value="128506000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1680" y="-51" width="1920" height="1057" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15388711" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15388711" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -607,8 +600,8 @@
       <window_info id="JRebel" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23779854" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.24195223" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.23779854" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.24195223" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -713,9 +706,15 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/Algorithm/src/main/java/tree/src/AvlTree.java</url>
-          <line>64</line>
+          <line>105</line>
           <properties />
           <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Algorithm/src/main/java/tree/src/Solution.java</url>
+          <line>64</line>
+          <properties />
+          <option name="timeStamp" value="47" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1017,42 +1016,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/src/main/java/tree/src/AvlTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="18" selection-start-line="18" selection-end-line="20" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#386#387#0" expanded="true" />
-            <element signature="e#445#446#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/src/main/java/tree/src/BsTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#246#247#0" expanded="true" />
-            <element signature="e#305#306#0" expanded="true" />
-            <element signature="e#409#410#0" expanded="true" />
-            <element signature="e#446#447#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/src/main/java/tree/src/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="717">
-          <caret line="51" column="38" lean-forward="true" selection-start-line="51" selection-start-column="38" selection-end-line="51" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Algorithm/src/main/java/tree/src/Tree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2119">
@@ -1072,8 +1035,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Algorithm/src/main/java/tree/src/api/IAvlTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+        <state relative-caret-position="567">
+          <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithm/src/main/java/tree/src/BsTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#246#247#0" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#409#410#0" expanded="true" />
+            <element signature="e#446#447#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithm/src/main/java/tree/src/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="60" column="37" selection-start-line="60" selection-start-column="37" selection-end-line="60" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithm/src/main/java/tree/src/AvlTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="84" column="31" selection-start-line="84" selection-start-column="31" selection-end-line="84" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#386#387#0" expanded="true" />
+            <element signature="e#445#446#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
