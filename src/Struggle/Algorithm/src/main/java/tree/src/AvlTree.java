@@ -97,12 +97,18 @@ public class AvlTree<T> extends Tree implements IAvlTree<T> {
 
     /**
      * 右旋
+     * 1. 取左子树
+     * 2. 新根结点的左子树 是左子树的右子树
+     * 3. 新左子树右子树是根结点
+     * 4. 返回左子树
      *
      * @param avlNode 根结点
      * @return 根结点
      */
     private Node<T> rotateRight(Node<T> avlNode) {
+        // 左子树
         Node<T> left = avlNode.getLeftChild();
+        // 旋转
         avlNode.setLeftChild(left.getRightChild());
         left.setRightChild(avlNode);
         // 更新高度
