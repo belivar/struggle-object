@@ -32,9 +32,6 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        BsTree bsTree = new BsTree();
-
-
 //        tree.preOrderTraversal(ROOT);
 //        tree.inOrderTraversal(ROOT);
 //        tree.postOrderTraversal(ROOT);
@@ -46,16 +43,26 @@ public class Solution {
 //        int res = NODE_1.compareTo(NODE_2);
 //        System.out.println(res);
 
-        List<Integer> NUMS = new ArrayList();
-        NUMS.add(1);
-        NUMS.add(2);
-        NUMS.add(4);
-        NUMS.add(5);
-        Node root = bsTree.createBsTree(NUMS);
+        BsTree<Integer> bsTree = new BsTree<>();
+        Node<Integer> root;
+        root = bsTree.insert(null, 1);
+        root = bsTree.insert(root, 2);
+        root = bsTree.insert(root, 4);
+        root = bsTree.insert(root, 5);
         bsTree.inOrderTraversal(root);
         System.out.println("=========");
-        bsTree.insert(new Node(3));
+        root = bsTree.insert(root, 3);
         bsTree.inOrderTraversal(root);
+
+        // AVL TREE
+//        AvlTree<Integer> avlTree = new AvlTree<>();
+//        Node<Integer> root;
+//        root = avlTree.insert(null, 1);
+//        root = avlTree.insert(root, 2);
+//        root = avlTree.insert(root, 4);
+//        root = avlTree.insert(root, 5);
+//        root = avlTree.insert(root, 3);
+//        avlTree.nonRecInOrderTraversal(root);
     }
 
 }

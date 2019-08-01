@@ -16,8 +16,8 @@ public interface IBsTree<T> {
     /**
      * create bs tree
      *
-     * @param list
-     * @return
+     * @param list list
+     * @return root
      */
     Node<T> createBsTree(List<T> list);
 
@@ -28,5 +28,14 @@ public interface IBsTree<T> {
      * @param node
      */
     void insert(Node<T> node);
+
+    /**
+     * insert node non rec
+     *
+     * @param node root
+     * @param t    t
+     * @return root
+     */
+    Node<T> insert(Node<T> node, T t);
 
 }

@@ -7,16 +7,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="designpattern" />
-        <module name="LintCode" />
-        <module name="Algorithm" />
-        <module name="javaCore" />
-        <module name="LeetCode" />
         <module name="datastructure" />
+        <module name="LeetCode" />
+        <module name="Algorithm" />
+        <module name="LintCode" />
+        <module name="designpattern" />
+        <module name="javaCore" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Algorithm" target="7" />
+      <module name="Algorithm" target="8" />
       <module name="datastructure" target="1.5" />
       <module name="designpattern" target="1.6" />
       <module name="javaCore" target="1.7" />
