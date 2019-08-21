@@ -12,12 +12,12 @@ public class Solution {
 
         int res = 0;
         int nTimes = 0;
-        for(int n : nums){
-            if (0 == nTimes){
+        for (int n : nums) {
+            if (0 == nTimes) {
                 res = n;
                 nTimes = 1;
             } else {
-                nTimes = nTimes + (res == n ?1 : -1);
+                nTimes = nTimes + (res == n ? 1 : -1);
             }
         }
         return res;

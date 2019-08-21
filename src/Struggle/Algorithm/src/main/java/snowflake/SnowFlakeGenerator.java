@@ -1,4 +1,4 @@
-package SnowFlake;
+package snowflake;
 
 /**
  * 雪花算法

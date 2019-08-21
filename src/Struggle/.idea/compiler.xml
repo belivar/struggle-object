@@ -19,7 +19,7 @@
       <module name="Algorithm" target="8" />
       <module name="datastructure" target="1.5" />
       <module name="designpattern" target="1.6" />
-      <module name="javaCore" target="1.7" />
+      <module name="javaCore" target="8" />
       <module name="LeetCode" target="1.8" />
       <module name="LintCode" target="1.8" />
       <module name="Utils" target="1.8" />

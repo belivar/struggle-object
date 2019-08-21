@@ -2,8 +2,15 @@ package com.YinglishZhi.test;
 
 import com.alibaba.fastjson.JSON;
 
+import javax.script.ScriptException;
+import java.time.LocalDateTime;
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
+import java.util.concurrent.Callable;
+import java.util.concurrent.Future;
+import java.util.concurrent.FutureTask;
 
 /**
  * @author LDZ
@@ -12,24 +19,55 @@ import java.util.Map;
 public class Solution {
 
     public static void main(String[] args) {
-        Map<String, Object> eventData = new HashMap<>();
-        eventData.put("orderId", "123");
-        eventData.put("isExpanded", 1);
-        eventData.put("expansionCouponName", "xxx");
-        eventData.put("boxCount", 1);
-        eventData.put("orderItemCount", 2);
-        eventData.put("daysFromLastOrder", 1);
-        eventData.put("membershipRemain", 12);
-        eventData.put("recipientPhone", "13728182838");
-        eventData.put("recipientName", "xx");
-        eventData.put("recipientProvince", "xxxx");
-        eventData.put("recipientCity", "xxxx");
-        eventData.put("recipientDistrict", "ssss");
-        eventData.put("recipientAddress", "xxx");
-        eventData.put("courierName", "未知");
-        eventData.put("fromType", "未知");
-        eventData.put("numberOfOrder", 10);
+        Solution s = new Solution();
 
-        System.out.println(JSON.toJSONString(eventData));
+        new Thread(s::showService1).start();
+        new Thread(s::showService2).start();
+
+        Callable<Integer> callable = new Callable<Integer>() {
+            @Override
+            public Integer call() throws Exception {
+                System.out.println(111);
+                return 11;
+            }
+        };
+
+        FutureTask<Integer> future = new FutureTask<>(callable);
+
+        Thread thread = new Thread(future);
+
+        thread.start();
     }
+
+
+    class MyThread<V> implements Callable<V> {
+
+        @Override
+        public V call() throws Exception {
+            return null;
+        }
+    }
+
+
+    private void showService1() {
+        try {
+            synchronized (Solution.class) {
+                System.out.println("HotProductService" + "A begin time=" + System.currentTimeMillis());
+                Thread.sleep(2000);
+                System.out.println("HotProductService" + "A end   time=" + System.currentTimeMillis());
+            }
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+
+    private void showService2() {
+        synchronized (Solution.class) {
+            System.out.println("HotProductService" + "B begin time=" + System.currentTimeMillis());
+            System.out.println("HotProductService" + "B end   time=" + System.currentTimeMillis());
+
+        }
+    }
+
+
 }
