@@ -28,6 +28,11 @@ public class Node<T> implements Comparable<Node<T>> {
      */
     private Node<T> rightChild;
 
+    /**
+     * 高度
+     */
+    private int height;
+
     Node(T data) {
         this.data = data;
         this.leftChild = null;

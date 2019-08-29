@@ -7,7 +7,7 @@ package com.YinglishZhi.LeetCode_1;
  * @date 2019-07-30 10:07
  */
 public class Solution {
-    public int[] twoSum(int[] nums, int target) {
+    public static int[] twoSum(int[] nums, int target) {
         int indexArrayMax = Integer.MAX_VALUE - 1;
         int[] indexArrays = new int[indexArrayMax + 1];
         int diff = 0;
@@ -19,5 +19,9 @@ public class Solution {
             indexArrays[nums[i] & indexArrayMax] = i + 1;
         }
         return null;
+    }
+
+    public static void main(String[] args) {
+
     }
 }
