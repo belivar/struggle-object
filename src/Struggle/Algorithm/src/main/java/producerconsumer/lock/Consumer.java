@@ -8,7 +8,7 @@ import java.util.concurrent.locks.Lock;
  * @author LDZ
  * @date 2019-08-19 23:37
  */
-public class Consumer {
+class Consumer {
 
     private ArrayList<Integer> list;
 
@@ -16,13 +16,13 @@ public class Consumer {
 
     private Lock lock;
 
-    public Consumer(ArrayList<Integer> list, Condition condition, Lock lock) {
+    Consumer(ArrayList<Integer> list, Condition condition, Lock lock) {
         this.list = list;
         this.condition = condition;
         this.lock = lock;
     }
 
-    public void consumer() {
+    void consumer() {
         lock.lock();
         try {
             while (list.isEmpty()) {

@@ -11,7 +11,7 @@ import java.util.concurrent.locks.Lock;
  * @author LDZ
  * @date 2019-08-19 23:29
  */
-public class Produce {
+class Produce {
 
     private ArrayList<Integer> list;
 
@@ -21,14 +21,14 @@ public class Produce {
 
     private Condition condition;
 
-    public Produce(ArrayList<Integer> list, Integer maxLength, Lock lock, Condition condition) {
+    Produce(ArrayList<Integer> list, Integer maxLength, Lock lock, Condition condition) {
         this.list = list;
         this.maxLength = maxLength;
         this.lock = lock;
         this.condition = condition;
     }
 
-    public void produce() {
+    void produce() {
         lock.lock();
         try {
             while (list.size() == maxLength) {

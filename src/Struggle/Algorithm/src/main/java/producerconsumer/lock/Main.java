@@ -55,7 +55,7 @@ public class Main {
     static class ProductThread extends Thread {
         Produce p;
 
-        public ProductThread(Produce p) {
+        ProductThread(Produce p) {
             this.p = p;
         }
 
