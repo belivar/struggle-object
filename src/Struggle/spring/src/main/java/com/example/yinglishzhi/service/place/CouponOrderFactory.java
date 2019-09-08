@@ -4,6 +4,12 @@ import com.example.yinglishzhi.service.AbstractPlaceOrderFactory;
 import com.example.yinglishzhi.vo.CommonPlaceOrderContextVO;
 import com.example.yinglishzhi.vo.CommonPlaceOrderResultVO;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.support.DefaultListableBeanFactory;
+import org.springframework.beans.factory.xml.XmlBeanDefinitionReader;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.context.support.FileSystemXmlApplicationContext;
+import org.springframework.core.io.ClassPathResource;
 import org.springframework.stereotype.Service;
 
 /**
@@ -23,7 +29,13 @@ public class CouponOrderFactory extends AbstractPlaceOrderFactory<CouponOrderFac
 
     @Override
     protected void verifyOrder(PlaceCouponOrderContext placeCouponOrderContext) {
+        ClassPathResource classPathResource = new ClassPathResource("bean.xml");
+        DefaultListableBeanFactory factory = new DefaultListableBeanFactory();
+        XmlBeanDefinitionReader reader = new XmlBeanDefinitionReader(factory);
+        reader.loadBeanDefinitions(classPathResource);
 
+        ApplicationContext applicationContext = new ClassPathXmlApplicationContext("bean.xml");
+        applicationContext.getBean()
     }
 
     @Override

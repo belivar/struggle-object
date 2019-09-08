@@ -24,7 +24,7 @@ public class Article {
         }};
     }
 
-@Resource
+    @Resource
     Map<String, Integer> integer1;
 
     @ResponseBody
@@ -35,4 +35,7 @@ public class Article {
 
 
     }
+
+
+
 }
