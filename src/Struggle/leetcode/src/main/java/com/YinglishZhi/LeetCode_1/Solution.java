@@ -10,7 +10,7 @@ public class Solution {
     public static int[] twoSum(int[] nums, int target) {
         int indexArrayMax = Integer.MAX_VALUE - 1;
         int[] indexArrays = new int[indexArrayMax + 1];
-        int diff = 0;
+        int diff;
         for (int i = 0; i < nums.length; i++) {
             diff = target - nums[i];
             if (indexArrays[diff & indexArrayMax] != 0) {
