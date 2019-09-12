@@ -8,15 +8,15 @@ import java.util.ArrayList;
  * @author LDZ
  * @date 2019-08-19 22:47
  */
-public class Consumer {
+class Consumer {
 
-    public ArrayList<Integer> list;
+    private final ArrayList<Integer> list;
 
-    public Consumer(ArrayList<Integer> list) {
+    Consumer(ArrayList<Integer> list) {
         this.list = list;
     }
 
-    public void consumer() {
+    void consumer() {
         synchronized (list) {
             try {
                 while (list.isEmpty()) {

@@ -11,16 +11,16 @@ import java.util.Random;
  */
 public class Produce{
 
-    public ArrayList<Integer> list;
+    private final ArrayList<Integer> list;
 
-    public int maxLength;
+    private int maxLength;
 
-    public Produce(int maxLength, ArrayList<Integer> list) {
+    Produce(int maxLength, ArrayList<Integer> list) {
         this.maxLength = maxLength;
         this.list = list;
     }
 
-    public void produce() {
+    void produce() {
         synchronized (list) {
             try {
                 while (list.size() == maxLength) {

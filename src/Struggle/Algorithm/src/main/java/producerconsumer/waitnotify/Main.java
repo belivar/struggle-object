@@ -31,7 +31,7 @@ public class Main {
     static class ProduceThread extends Thread {
         private Produce p;
 
-        public ProduceThread(Produce p) {
+        ProduceThread(Produce p) {
             this.p = p;
         }
 
@@ -46,7 +46,7 @@ public class Main {
     static class ConsumerThread extends Thread {
         private Consumer c;
 
-        public ConsumerThread(Consumer c) {
+        ConsumerThread(Consumer c) {
             this.c = c;
         }
 
