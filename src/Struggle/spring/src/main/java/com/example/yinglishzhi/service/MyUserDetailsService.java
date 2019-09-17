@@ -8,15 +8,15 @@ import org.springframework.stereotype.Component;
 @Component
 public class MyUserDetailsService implements IUserDetailsService {
 
-    private final PasswordEncoder passwordEncoder;
-
-    /**
-     * 通过构造函数注入 PasswordEncoder
-     */
-    @Autowired
-    public MyUserDetailsService(PasswordEncoder passwordEncoder) {
-        this.passwordEncoder = passwordEncoder;
-    }
+//    private final PasswordEncoder passwordEncoder;
+//
+//    /**
+//     * 通过构造函数注入 PasswordEncoder
+//     */
+//    @Autowired
+//    public MyUserDetailsService(PasswordEncoder passwordEncoder) {
+//        this.passwordEncoder = passwordEncoder;
+//    }
 
 
 }

@@ -20,7 +20,6 @@ public class Solution {
             boolean tempAEven = tempA % 2 == 0;
 
             boolean query0Even = query[0] % 2 == 0;
-String
             if (tempAEven && query0Even) {
                 // 都是偶数 安排上 query0
                 sumEven = sumEven + query[0];

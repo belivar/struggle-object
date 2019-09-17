@@ -29,13 +29,7 @@ public class CouponOrderFactory extends AbstractPlaceOrderFactory<CouponOrderFac
 
     @Override
     protected void verifyOrder(PlaceCouponOrderContext placeCouponOrderContext) {
-        ClassPathResource classPathResource = new ClassPathResource("bean.xml");
-        DefaultListableBeanFactory factory = new DefaultListableBeanFactory();
-        XmlBeanDefinitionReader reader = new XmlBeanDefinitionReader(factory);
-        reader.loadBeanDefinitions(classPathResource);
 
-        ApplicationContext applicationContext = new ClassPathXmlApplicationContext("bean.xml");
-        applicationContext.getBean()
     }
 
     @Override

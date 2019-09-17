@@ -1,7 +1,9 @@
 package com.example.yinglishzhi.controller.v1;
 
+import com.example.yinglishzhi.service.api.IOrderService;
 import com.example.yinglishzhi.vo.PlaceOrderRequestVO;
 import com.example.yinglishzhi.vo.PlaceOrderResultVO;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -34,9 +36,14 @@ public class Order extends AbstractController {
         return null;
     }
 
+    @Autowired
+    IOrderService orderService;
+
     @ResponseBody
     @RequestMapping(value = {"/api/placeOrder"}, method = RequestMethod.POST)
     protected PlaceOrderResultVO placeOrder(PlaceOrderRequestVO placeOrderRequestVO) {
+
+        orderService.placeOrder(placeOrderRequestVO);
 
         PlaceOrderResultVO placeOrderResultVO = new PlaceOrderResultVO();
         placeOrderResultVO.setOid(placeOrderRequestVO.getUid());
