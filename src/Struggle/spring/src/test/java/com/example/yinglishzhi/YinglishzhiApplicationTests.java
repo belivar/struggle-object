@@ -30,15 +30,12 @@ public class YinglishzhiApplicationTests {
 
         registerSpringBean("orderService", OrderServiceImpl.class.getName(), null);
 
-        ApplicationContext context = new ClassPathXmlApplicationContext("bean.xml");
-
         IOrderService orderService = (IOrderService) applicationContext.getBean("orderService");
 
         System.out.println(orderService.getClass().getClassLoader().getParent());
     }
 
     public void registerSpringBean(String beanId, String clazzName, Map propertyMap) {
-
         // beanDefinition
         BeanDefinitionBuilder beanDefinitionBuilder = BeanDefinitionBuilder.genericBeanDefinition(clazzName);
         if (propertyMap != null) {
@@ -52,7 +49,6 @@ public class YinglishzhiApplicationTests {
             }
         }
         BeanDefinition beanDefinition = beanDefinitionBuilder.getBeanDefinition();
-
         // beanFactory
         ConfigurableApplicationContext configurableApplicationContext = (ConfigurableApplicationContext) applicationContext;
         BeanDefinitionRegistry beanDefinitionRegistry = (BeanDefinitionRegistry) configurableApplicationContext.getBeanFactory();
