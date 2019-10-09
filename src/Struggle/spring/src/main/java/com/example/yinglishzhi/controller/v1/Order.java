@@ -36,14 +36,14 @@ public class Order extends AbstractController {
         return null;
     }
 
-    @Autowired
-    IOrderService orderService;
+//    @Autowired
+//    IOrderService orderService;
 
     @ResponseBody
     @RequestMapping(value = {"/api/placeOrder"}, method = RequestMethod.POST)
     protected PlaceOrderResultVO placeOrder(PlaceOrderRequestVO placeOrderRequestVO) {
 
-        orderService.placeOrder(placeOrderRequestVO);
+//        orderService.placeOrder(placeOrderRequestVO);
 
         PlaceOrderResultVO placeOrderResultVO = new PlaceOrderResultVO();
         placeOrderResultVO.setOid(placeOrderRequestVO.getUid());

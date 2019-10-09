@@ -1,5 +1,6 @@
 package com.example.yinglishzhi.controller.v1;
 
+import com.example.yinglishzhi.util.ThreadLocalUtils;
 import org.springframework.context.annotation.Bean;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -27,13 +28,8 @@ public class Article {
 
     @ResponseBody
     @GetMapping("/hello")
-    public String hello() {
-        System.out.println(integer1);
+    public String hello(String ss) {
+        System.out.println(ThreadLocalUtils.getThreadLocal());
         return "aa";
-
-
     }
-
-
-
 }

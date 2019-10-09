@@ -15,15 +15,6 @@ import java.util.Iterator;
  */
 public class NioSocketServer {
 
-
-    public void fun1(){
-
-    }
-
-    public void fun1(int a){
-
-    }
-
     public static void main(String[] args) {
         try {
             ServerSocketChannel serverSocketChannel = ServerSocketChannel.open();

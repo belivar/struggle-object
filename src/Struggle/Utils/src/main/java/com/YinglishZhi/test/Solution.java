@@ -19,24 +19,33 @@ import java.util.concurrent.FutureTask;
 public class Solution {
 
     public static void main(String[] args) {
-        Solution s = new Solution();
+//        Solution s = new Solution();
+//
+//        new Thread(s::showService1).start();
+//        new Thread(s::showService2).start();
+//
+//        Callable<Integer> callable = new Callable<Integer>() {
+//            @Override
+//            public Integer call() throws Exception {
+//                System.out.println(111);
+//                return 11;
+//            }
+//        };
+//
+//        FutureTask<Integer> future = new FutureTask<>(callable);
+//
+//        Thread thread = new Thread(future);
+//
+//        thread.start();
 
-        new Thread(s::showService1).start();
-        new Thread(s::showService2).start();
+       Thread t = new Thread(new Runnable() {
+           @Override
+           public void run() {
+               System.out.println(11);
+           }
+       });
 
-        Callable<Integer> callable = new Callable<Integer>() {
-            @Override
-            public Integer call() throws Exception {
-                System.out.println(111);
-                return 11;
-            }
-        };
-
-        FutureTask<Integer> future = new FutureTask<>(callable);
-
-        Thread thread = new Thread(future);
-
-        thread.start();
+       t.start();
     }
 
 
