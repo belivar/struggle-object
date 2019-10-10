@@ -51,9 +51,14 @@ public class YinglishzhiApplicationTests {
         BeanDefinition beanDefinition = beanDefinitionBuilder.getBeanDefinition();
         // beanFactory
         ConfigurableApplicationContext configurableApplicationContext = (ConfigurableApplicationContext) applicationContext;
+
+        System.out.println("configurableApplicationContext name = " + configurableApplicationContext.getClass().getName());
+
         BeanDefinitionRegistry beanDefinitionRegistry = (BeanDefinitionRegistry) configurableApplicationContext.getBeanFactory();
 
+        System.out.println("BeanDefinitionRegistry name = " + beanDefinitionRegistry.getClass().getName());
         beanDefinitionRegistry.registerBeanDefinition(beanId, beanDefinition);
+
 
     }
 
