@@ -1,5 +1,6 @@
 package com.example.yinglishzhi;
 
+import com.example.yinglishzhi.entity.User;
 import com.example.yinglishzhi.service.OrderServiceImpl;
 import com.example.yinglishzhi.service.api.IOrderService;
 import org.junit.Test;
@@ -7,12 +8,15 @@ import org.junit.runner.RunWith;
 import org.springframework.beans.factory.config.BeanDefinition;
 import org.springframework.beans.factory.support.BeanDefinitionBuilder;
 import org.springframework.beans.factory.support.BeanDefinitionRegistry;
+import org.springframework.beans.factory.support.DefaultListableBeanFactory;
+import org.springframework.beans.factory.xml.XmlBeanDefinitionReader;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.core.io.ClassPathResource;
+import org.springframework.core.io.DefaultResourceLoader;
 import org.springframework.test.context.junit4.SpringRunner;
-import sun.rmi.rmic.iiop.ClassPathLoader;
 
 import javax.annotation.Resource;
 import java.util.Iterator;
@@ -27,6 +31,19 @@ public class YinglishzhiApplicationTests {
 
     @Test
     public void contextLoads() {
+
+//        ApplicationContext context = new ClassPathXmlApplicationContext("bean.xml");
+//        User user = (User) context.getBean("helloWorld");
+//        System.out.println(user.getBrand());
+//        ClassPathResource classPathResource = new ClassPathResource("bean.xml");
+        org.springframework.core.io.Resource resource = new DefaultResourceLoader().getResource("bean.xml");
+        DefaultListableBeanFactory factory = new DefaultListableBeanFactory();
+        XmlBeanDefinitionReader reader = new XmlBeanDefinitionReader(factory);
+        reader.loadBeanDefinitions(resource);
+
+        User user = (User) factory.getBean("helloWorld");
+        System.out.println(user.getBrand());
+
 
         registerSpringBean("orderService", OrderServiceImpl.class.getName(), null);
 
