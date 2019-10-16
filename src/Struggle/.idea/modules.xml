@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/leetcode/LeetCode.iml" filepath="$PROJECT_DIR$/leetcode/LeetCode.iml" />
       <module fileurl="file://$PROJECT_DIR$/LintCode/LintCode.iml" filepath="$PROJECT_DIR$/LintCode/LintCode.iml" />
       <module fileurl="file://$PROJECT_DIR$/Utils/Utils.iml" filepath="$PROJECT_DIR$/Utils/Utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/agent/agent.iml" filepath="$PROJECT_DIR$/agent/agent.iml" />
       <module fileurl="file://$PROJECT_DIR$/datastructure/datastructure.iml" filepath="$PROJECT_DIR$/datastructure/datastructure.iml" />
       <module fileurl="file://$PROJECT_DIR$/designpattern/designpattern.iml" filepath="$PROJECT_DIR$/designpattern/designpattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaCore/javaCore.iml" filepath="$PROJECT_DIR$/javaCore/javaCore.iml" />

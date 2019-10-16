@@ -16,9 +16,7 @@ public class test {
         try {
             VirtualMachine vm = VirtualMachine.attach("1113");
             System.out.println(vm.toString());
-        } catch (AttachNotSupportedException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
+        } catch (AttachNotSupportedException | IOException e) {
             e.printStackTrace();
         }
     }

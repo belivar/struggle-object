@@ -1,0 +1,7 @@
+com/yinglishzhi/agentmain/TestMainJar.class
+com/yinglishzhi/agent/PrintClassFileAgent.class
+com/yinglishzhi/agentmain/Transformer.class
+com/yinglishzhi/agentmain/AttachThread.class
+com/yinglishzhi/agent/PreMainExecutor.class
+com/yinglishzhi/agentmain/AgentMain.class
+com/yinglishzhi/agentmain/TransClass.class
