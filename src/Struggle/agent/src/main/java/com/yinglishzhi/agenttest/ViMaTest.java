@@ -16,8 +16,8 @@ public class ViMaTest {
 
             AgentLoadException, AgentInitializationException, InterruptedException {
         // attach to target VM
-        VirtualMachine vm = VirtualMachine.attach("48359");
-        vm.loadAgent("/Users/zhiyinglish/share/agent.jar", "666");
+        VirtualMachine vm = VirtualMachine.attach("17508");
+        vm.loadAgent("/Users/zhiyinglish/share/agent.jar");
         Thread.sleep(1000);
         vm.detach();
     }

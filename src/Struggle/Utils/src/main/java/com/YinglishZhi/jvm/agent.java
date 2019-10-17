@@ -1,11 +1,14 @@
 package com.YinglishZhi.jvm;
 
+import lombok.extern.slf4j.Slf4j;
+
 import java.lang.instrument.Instrumentation;
 
 /**
  * @author LDZ
  * @date 2019-10-15 16:19
  */
+@Slf4j
 public class agent {
 
 
