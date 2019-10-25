@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/datastructure/datastructure.iml" filepath="$PROJECT_DIR$/datastructure/datastructure.iml" />
       <module fileurl="file://$PROJECT_DIR$/designpattern/designpattern.iml" filepath="$PROJECT_DIR$/designpattern/designpattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaCore/javaCore.iml" filepath="$PROJECT_DIR$/javaCore/javaCore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spy/spy.iml" filepath="$PROJECT_DIR$/spy/spy.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring/yinglishzhi.iml" filepath="$PROJECT_DIR$/spring/yinglishzhi.iml" />
     </modules>
   </component>

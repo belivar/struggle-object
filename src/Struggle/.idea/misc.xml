@@ -11,6 +11,7 @@
         <option value="$PROJECT_DIR$/leetcode/pom.xml" />
         <option value="$PROJECT_DIR$/spring/pom.xml" />
         <option value="$PROJECT_DIR$/agent/pom.xml" />
+        <option value="$PROJECT_DIR$/spy/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

@@ -15,37 +15,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77fff2c1-a066-4db3-a62b-e0be4af82274" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Utils/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/asm/MyClassLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/asm/agent/AttachThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/asm/agent/TestMainJar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/asm/agent/TransClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agent/src/main/java/com/yinglishzhi/agent/AgentClassLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agent/src/main/java/com/yinglishzhi/agent/AgentLauncher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agent/src/main/resources/com/yinglishzhi/res/logo.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agent/target/classes/com/yinglishzhi/res/logo.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spy/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spy/src/main/java/com/yinglishzhi/SpyCore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spy/src/main/java/com/yinglishzhi/test/TestMainJar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spy/src/main/java/com/yinglishzhi/test/TransClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Utils/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Utils/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/asm/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/asm/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Utils/target/classes/com/YinglishZhi/res/logo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Utils/src/main/resources/com/YinglishZhi/res/logo.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/agent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/agent/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/agent/src/main/java/com/yinglishzhi/agent/PreMainExecutor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/agent/src/main/java/com/yinglishzhi/agent/PrintClassFileAgent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/agent/src/main/java/com/yinglishzhi/agentmain/AgentMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/agent/src/main/java/com/yinglishzhi/agentmain/AgentMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/asm/agent/AttachThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/spy/src/main/java/com/yinglishzhi/attach/AttachThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/src/main/java/com/yinglishzhi/agent/AgentLauncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/agent/src/main/java/com/yinglishzhi/agent/AgentLauncher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/agent/target/agent-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/agent/target/agent-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/agent/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/agent/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/agent/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/agent/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/agent/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/agent/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Utils_jar/Utils.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Utils_jar/commons-lang3-3.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Utils_jar/fastjson-1.2.58.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Utils_jar/jsoup-1.11.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Utils_jar/okhttp-3.11.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Utils_jar/okio-1.14.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Utils_jar/slf4j-api-1.7.25.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Utils_jar/slf4j-simple-1.6.4.jar" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/javaCore/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -58,6 +39,7 @@
     <ignored path="$PROJECT_DIR$/spring/target/" />
     <ignored path="$PROJECT_DIR$/javaCore/agent/target/" />
     <ignored path="$PROJECT_DIR$/agent/target/" />
+    <ignored path="$PROJECT_DIR$/spy/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,8 +74,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/agent/src/main/java/com/yinglishzhi/agent/AgentLauncher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="696">
-              <caret line="47" selection-start-line="47" selection-end-line="47" />
+            <state relative-caret-position="452">
+              <caret line="36" column="53" selection-start-line="36" selection-start-column="53" selection-end-line="36" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -102,63 +84,57 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/agent/src/main/java/com/yinglishzhi/agent/AgentClassLoader.java">
+        <entry file="file://$PROJECT_DIR$/spy/src/main/java/com/yinglishzhi/attach/AttachThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#230#231#0" expanded="true" />
-                <element signature="e#257#258#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="312">
+              <caret line="63" column="34" lean-forward="true" selection-start-line="63" selection-start-column="34" selection-end-line="63" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/agent/src/main/java/com/yinglishzhi/agentmain/AgentMain.java">
+        <entry file="file://$PROJECT_DIR$/spy/src/main/java/com/yinglishzhi/test/TestMainJar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="783">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/agent/src/main/java/com/yinglishzhi/agenttest/MyAgentMain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/agent/src/main/java/com/yinglishzhi/asm/AddField.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/asm/agent/AttachThread.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="499">
-              <caret line="59" column="49" lean-forward="true" selection-start-line="59" selection-start-column="49" selection-end-line="59" selection-end-column="49" />
+            <state relative-caret-position="540">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spy/src/main/java/com/yinglishzhi/SpyCore.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="398">
+              <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spy/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="500">
+              <caret line="108" column="19" selection-start-line="108" selection-start-column="19" selection-end-line="108" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/asm/Demo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="260">
+              <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -167,34 +143,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/agent/pom.xml">
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+        <entry file="file://$PROJECT_DIR$/spy/src/main/java/com/yinglishzhi/test/TransClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Utils/pom.xml">
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="19" column="11" lean-forward="true" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/asm/agent/TransClass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
-              <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+            <state relative-caret-position="270">
+              <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#138#139#0" expanded="true" />
-                <element signature="e#162#163#0" expanded="true" />
+                <element signature="e#312#313#0" expanded="true" />
+                <element signature="e#336#337#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -212,7 +167,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>agent</find>
       <find>bouncycastle</find>
       <find>从文件中加载新的字节码进行替换</find>
       <find>加载了类</find>
@@ -242,6 +196,7 @@
       <find>执行了 agentmain 方法......</find>
       <find>tr</find>
       <find>Transclass</find>
+      <find>slf</find>
     </findStrings>
     <replaceStrings>
       <replace>}</replace>
@@ -256,12 +211,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/agent/src/main/java/com/yinglishzhi/agent.java" />
-        <option value="$PROJECT_DIR$/agent/src/main/java/com/yinglishzhi/Agent.java" />
-        <option value="$PROJECT_DIR$/agent/src/main/java/com/yinglishzhi/agent/PreMainExecutor.java" />
-        <option value="$PROJECT_DIR$/agent/src/main/java/com/yinglishzhi/agent/PrintClassFileAgent.java" />
-        <option value="$PROJECT_DIR$/agent/src/main/java/com/yinglishzhi/agentmain/TransClass.java" />
-        <option value="$PROJECT_DIR$/agent/src/main/java/com/yinglishzhi/agenttest/VMTest.java" />
         <option value="$PROJECT_DIR$/agent/src/main/java/com/yinglishzhi/agenttest/MyAgentMain.java" />
         <option value="$PROJECT_DIR$/agent/src/META-INF/MANIFEST.MF" />
         <option value="$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/security/pgp/PGPSecurity.java" />
@@ -303,10 +252,16 @@
         <option value="$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/asm/agent/AttachThread.java" />
         <option value="$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/asm/MyClassLoader.java" />
         <option value="$PROJECT_DIR$/agent/src/main/java/com/yinglishzhi/agent/AgentClassLoader.java" />
-        <option value="$PROJECT_DIR$/agent/src/main/java/com/yinglishzhi/agent/AgentLauncher.java" />
         <option value="$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/asm/agent/TransClass.java" />
-        <option value="$PROJECT_DIR$/agent/pom.xml" />
         <option value="$PROJECT_DIR$/Utils/pom.xml" />
+        <option value="$PROJECT_DIR$/agent/pom.xml" />
+        <option value="$PROJECT_DIR$/spy/src/main/java/com/yinglishzhi/test/TestMainJar.java" />
+        <option value="$PROJECT_DIR$/spy/src/main/java/com/yinglishzhi/test/MyClassLoader.java" />
+        <option value="$PROJECT_DIR$/spy/pom.xml" />
+        <option value="$PROJECT_DIR$/agent/src/main/java/com/yinglishzhi/agent/AgentLauncher.java" />
+        <option value="$PROJECT_DIR$/spy/src/main/java/com/yinglishzhi/attach/AttachThread.java" />
+        <option value="$PROJECT_DIR$/spy/src/main/java/com/yinglishzhi/test/TransClass.java" />
+        <option value="$PROJECT_DIR$/spy/src/main/java/com/yinglishzhi/SpyCore.java" />
       </list>
     </option>
   </component>
@@ -375,67 +330,51 @@
           <expand>
             <path>
               <item name="YinglishZhi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="agent" type="462c0819:PsiDirectoryNode" />
+              <item name="spy" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="YinglishZhi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="YinglishZhi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Utils" type="462c0819:PsiDirectoryNode" />
+              <item name="spy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="YinglishZhi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Utils" type="462c0819:PsiDirectoryNode" />
+              <item name="spy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="YinglishZhi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Utils" type="462c0819:PsiDirectoryNode" />
+              <item name="spy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="YinglishZhi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Utils" type="462c0819:PsiDirectoryNode" />
+              <item name="spy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="YinglishZhi" type="462c0819:PsiDirectoryNode" />
+              <item name="yinglishzhi" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="YinglishZhi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Utils" type="462c0819:PsiDirectoryNode" />
+              <item name="spy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="YinglishZhi" type="462c0819:PsiDirectoryNode" />
-              <item name="asm" type="462c0819:PsiDirectoryNode" />
+              <item name="yinglishzhi" type="462c0819:PsiDirectoryNode" />
+              <item name="attach" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="YinglishZhi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Utils" type="462c0819:PsiDirectoryNode" />
+              <item name="spy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="YinglishZhi" type="462c0819:PsiDirectoryNode" />
-              <item name="asm" type="462c0819:PsiDirectoryNode" />
-              <item name="agent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="YinglishZhi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Utils" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="YinglishZhi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Utils" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="yinglishzhi" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -457,7 +396,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Utils/src/main/resources/com/YinglishZhi/res" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spy/src/main/java/com/yinglishzhi/test" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -490,6 +429,7 @@
       <recent name="com.YinglishZhi.thread.synchronize.test" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spy/src/main/java/com/yinglishzhi/test" />
       <recent name="$PROJECT_DIR$/Utils/src/main/resources/com/YinglishZhi/res" />
       <recent name="$PROJECT_DIR$/Utils/src/main" />
       <recent name="$PROJECT_DIR$/agent/src/META-INF" />
@@ -510,20 +450,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TransClass">
+  <component name="RunManager" selected="Application.TestMainJar (1)">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AttachThread (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.YinglishZhi.asm.agent.AttachThread" />
-      <module name="Utils" />
+    <configuration name="AttachThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yinglishzhi.attach.AttachThread" />
+      <module name="spy" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.YinglishZhi.asm.agent.*" />
+          <option name="PATTERN" value="com.yinglishzhi.attach.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -531,13 +471,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AttachThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yinglishzhi.agentmain.AttachThread" />
-      <module name="agent" />
+    <configuration name="SpyCore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yinglishzhi.SpyCore" />
+      <module name="spy" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yinglishzhi.agentmain.*" />
+          <option name="PATTERN" value="com.yinglishzhi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -546,12 +486,12 @@
       </method>
     </configuration>
     <configuration name="TestMainJar (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.YinglishZhi.asm.agent.TestMainJar" />
-      <module name="Utils" />
+      <option name="MAIN_CLASS_NAME" value="com.yinglishzhi.test.TestMainJar" />
+      <module name="spy" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.YinglishZhi.asm.agent.*" />
+          <option name="PATTERN" value="com.yinglishzhi.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -560,12 +500,26 @@
       </method>
     </configuration>
     <configuration name="TestMainJar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yinglishzhi.agentmain.TestMainJar" />
-      <module name="agent" />
+      <option name="MAIN_CLASS_NAME" value="com.YinglishZhi.asm.agent.TestMainJar" />
+      <module name="Utils" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yinglishzhi.agentmain.*" />
+          <option name="PATTERN" value="com.yinglishzhi.attach.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TransClass (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yinglishzhi.test.TransClass" />
+      <module name="spy" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yinglishzhi.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -579,7 +533,7 @@
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.YinglishZhi.asm.agent.*" />
+          <option name="PATTERN" value="com.yinglishzhi.attach.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -626,20 +580,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TestMainJar" />
-      <item itemvalue="Application.AttachThread" />
       <item itemvalue="Spring Boot.YinglishzhiApplication" />
       <item itemvalue="Application.AttachThread (1)" />
       <item itemvalue="Application.TestMainJar (1)" />
       <item itemvalue="Application.TransClass" />
+      <item itemvalue="Application.SpyCore" />
+      <item itemvalue="Application.TransClass (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TransClass" />
         <item itemvalue="Application.TestMainJar (1)" />
         <item itemvalue="Application.AttachThread (1)" />
-        <item itemvalue="Application.TestMainJar" />
-        <item itemvalue="Application.AttachThread" />
+        <item itemvalue="Application.TransClass (1)" />
+        <item itemvalue="Application.SpyCore" />
+        <item itemvalue="Application.TransClass" />
       </list>
     </recent_temporary>
   </component>
@@ -708,7 +662,7 @@
       <workItem from="1571884148407" duration="55000" />
       <workItem from="1571884478779" duration="4895000" />
       <workItem from="1571911774234" duration="5762000" />
-      <workItem from="1571972104517" duration="9618000" />
+      <workItem from="1571972104517" duration="13419000" />
     </task>
     <servers />
   </component>
@@ -745,7 +699,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="396432000" />
+    <option name="totallyTimeSpent" value="400233000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -771,7 +725,7 @@
       <window_info id="Web" order="8" sideWeight="0.5005192" side_tool="true" weight="0.20979765" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32917964" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946752" weight="0.33852544" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946752" visible="true" weight="0.24922119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.2741433" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1116,75 +1070,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/netty/NettyTelnetServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/netty/NettyTelnetInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/repository/org/springframework/boot/spring-boot/2.0.4.RELEASE/spring-boot-2.0.4.RELEASE.jar!/org/springframework/boot/Banner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/repository/org/springframework/boot/spring-boot/2.0.4.RELEASE/spring-boot-2.0.4.RELEASE-sources.jar!/org/springframework/boot/SpringBootBanner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="32" column="36" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/repository/org/springframework/boot/spring-boot/2.0.4.RELEASE/spring-boot-2.0.4.RELEASE-sources.jar!/org/springframework/boot/Banner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="39" column="17" lean-forward="true" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/netty/NettyTelnetHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="34" column="40" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/repository/org/springframework/boot/spring-boot/2.0.4.RELEASE/spring-boot-2.0.4.RELEASE-sources.jar!/org/springframework/boot/SpringApplicationBannerPrinter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="68" column="14" lean-forward="true" selection-start-line="68" selection-start-column="14" selection-end-line="68" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/repository/org/springframework/boot/spring-boot/2.0.4.RELEASE/spring-boot-2.0.4.RELEASE-sources.jar!/org/springframework/boot/SpringApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="597">
-          <caret line="565" column="30" lean-forward="true" selection-start-line="565" selection-start-column="30" selection-end-line="565" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/repository/org/springframework/boot/spring-boot/2.0.4.RELEASE/spring-boot-2.0.4.RELEASE-sources.jar!/org/springframework/boot/ImageBanner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="55" column="16" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/repository/org/springframework/boot/spring-boot/2.0.4.RELEASE/spring-boot-2.0.4.RELEASE-sources.jar!/org/springframework/boot/ResourceBanner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="382">
@@ -1315,13 +1200,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/agent/src/main/java/com/yinglishzhi/agentmain/TestMainJar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/agent/src/main/java/com/yinglishzhi/agentmain/Transformer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-301">
@@ -1406,13 +1284,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/agent/src/main/java/com/yinglishzhi/agentmain/AgentMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="783">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/agent/src/main/java/com/yinglishzhi/agenttest/MyAgentMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -1430,28 +1301,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/agent/src/main/java/com/yinglishzhi/agent/AgentClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#230#231#0" expanded="true" />
-            <element signature="e#257#258#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/agent/src/main/java/com/yinglishzhi/agent/AgentLauncher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="696">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Utils/.project">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
@@ -1459,36 +1308,150 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/agent/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    <entry file="file://$PROJECT_DIR$/spy/target/spy-core/META-INF/MANIFEST.MF">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="189">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/asm/AddField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-158">
+          <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Utils/pom.xml">
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="19" column="11" lean-forward="true" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+        <state relative-caret-position="2376">
+          <caret line="132" column="18" selection-start-line="132" selection-start-column="18" selection-end-line="132" selection-end-column="18" />
+          <folding>
+            <element signature="n#build#1;n#project#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/asm/agent/AttachThread.java">
+    <entry file="file://$PROJECT_DIR$/agent/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
-          <caret line="59" column="49" lean-forward="true" selection-start-line="59" selection-start-column="49" selection-end-line="59" selection-end-column="49" />
+        <state relative-caret-position="409">
+          <caret line="38" column="20" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/agent/src/main/java/com/yinglishzhi/agent/AgentClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#230#231#0" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/agent/src/main/java/com/yinglishzhi/agentmain/AgentMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/agent/src/main/java/com/yinglishzhi/agentmain/TestMainJar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/asm/Demo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="260">
+          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/agent/src/main/java/com/yinglishzhi/agent/AgentLauncher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="36" column="53" selection-start-line="36" selection-start-column="53" selection-end-line="36" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spy/target/spy-core/com/yinglishzhi/SpyCore.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spy/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="108" column="19" selection-start-line="108" selection-start-column="19" selection-end-line="108" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spy/src/main/java/com/yinglishzhi/test/MyClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spy/src/main/java/com/yinglishzhi/attach/AttachThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="63" column="34" lean-forward="true" selection-start-line="63" selection-start-column="34" selection-end-line="63" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spy/src/main/java/com/yinglishzhi/test/TestMainJar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spy/src/main/java/com/yinglishzhi/test/TransClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+          <folding>
+            <element signature="e#312#313#0" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spy/src/main/java/com/yinglishzhi/SpyCore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
         </state>
       </provider>
     </entry>

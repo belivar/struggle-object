@@ -30,8 +30,9 @@ public class AgentLauncher {
 
     private static synchronized void main(String args, final Instrumentation inst) {
         try {
+
             ClassLoader agentClassLoader = loadOrDefineClassLoader(args);
-            final Class<?> server = agentClassLoader.loadClass("com.YinglishZhi.asm.Demo");
+            final Class<?> server = agentClassLoader.loadClass("com.yinglishzhi.SpyCore");
             Object instance = server.getMethod("getInstance", Instrumentation.class).invoke(null, inst);
             server.getMethod("test").invoke(instance);
         } catch (ClassNotFoundException | IllegalAccessException | InvocationTargetException | NoSuchMethodException | MalformedURLException e) {
