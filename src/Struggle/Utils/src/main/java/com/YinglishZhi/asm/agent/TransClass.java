@@ -21,11 +21,10 @@ public class TransClass {
 
     public static void main(String[] args) throws NoSuchMethodException, ClassNotFoundException, InvocationTargetException, IllegalAccessException, MalformedURLException {
 
-        String JAR_PATH = "/Users/zhiyinglish/dev/struggle-object/src/Struggle/agent/target/agent-1.0-SNAPSHOT.jar";
+        String JAR_PATH = "/Users/zhiyinglish/dev/struggle-object/src/Struggle/out/artifacts/Utils_jar/Utils.jar";
         File agentJarFile = new File(JAR_PATH);
         ClassLoader c = new MyClassLoader(new URL[]{agentJarFile.toURI().toURL()});
-//        ClassLoader now = Thread.currentThread().getContextClassLoader();
-        final Class<?> server = c.loadClass("com.yinglishzhi.asm.AddField");
+        final Class<?> server = c.loadClass("com.yinglishzhi.asm.Demo");
         Object instance = server.getMethod("getInstance", Instrumentation.class).invoke(null, null);
 
         server.getMethod("test").invoke(instance);
