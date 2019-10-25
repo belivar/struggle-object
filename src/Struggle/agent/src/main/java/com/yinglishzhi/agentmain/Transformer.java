@@ -1,13 +1,13 @@
 package com.yinglishzhi.agentmain;
 
+import com.yinglishzhi.asm.AddField;
+import jdk.internal.org.objectweb.asm.*;
 import lombok.extern.slf4j.Slf4j;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.io.InputStream;
+import java.io.*;
 import java.lang.instrument.ClassFileTransformer;
 import java.security.ProtectionDomain;
+import java.util.Arrays;
 
 /**
  * @author LDZ
@@ -25,6 +25,26 @@ public class Transformer implements ClassFileTransformer {
      * 要改变的类的字节码
      */
     private static final String classNumberReturns2 = "/Users/zhiyinglish/dev/struggle-object/src/Struggle/agent/target/classes/com/yinglishzhi/agentmain/TransClass.class";
+
+
+    public static byte[] addField(String fileName) {
+        String out = "/Users/zhiyinglish/dev/struggle-object/src/Struggle/agent/target/classes/com/yinglishzhi/agentmain";
+        ClassReader classReader = null;
+        try {
+            classReader = new ClassReader(new FileInputStream(fileName));
+            ClassWriter classWriter = new ClassWriter(classReader, ClassWriter.COMPUTE_MAXS);
+            ClassVisitor addField = new AddField(classWriter, "field", Opcodes.ACC_PRIVATE, Type.getDescriptor(String.class), "demo");
+            classReader.accept(addField, ClassReader.EXPAND_FRAMES);
+            byte[] newClass = classWriter.toByteArray();
+            File newFile = new File(out, "NewTransClass.class");
+            new FileOutputStream(newFile).write(newClass);
+            log.info("newFile = {}", newFile.getName());
+            return newClass;
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
 
     public static byte[] getBytesFromFile(String fileName) {
         try {
@@ -51,13 +71,17 @@ public class Transformer implements ClassFileTransformer {
         }
     }
 
+    @Override
     public byte[] transform(ClassLoader l, String className, Class<?> c, ProtectionDomain pd, byte[] b) {
 
-        log.info("加载了类：{}", className);
+        log.info("加载了类加载器 = {}, 类 = {}, CLASS = {}, ProtectionDomain = {}, byte = {}", l.toString(), className, c.getName(), pd.toString(), Arrays.toString(b));
         if (!className.equals(replaceClassName)) {
             return null;
         }
+        ClassReader cr = new ClassReader(b);
+        log.info("读了byte className = {}, access = {}, item count = {}", cr.getClassName(), cr.getAccess(), cr.getItemCount());
         log.info("从文件中加载新的字节码进行替换");
+        addField(classNumberReturns2);
         return getBytesFromFile(classNumberReturns2);
 
     }

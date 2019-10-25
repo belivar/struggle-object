@@ -58,6 +58,6 @@ public class DownLoadImage {
     }
 
     public static void main(String[] args) {
-        downloadImg("http://uploads.xuexila.com/allimg/1708/28-1FP1213111.jpg", "/Users/liudezhi/Pictures/test/");
+        downloadImg("http://uploads.xuexila.com/allimg/1708/28-1FP1213111.jpg", "/Users/liudezhi/Pictures/AddField/");
     }
 }

@@ -1,16 +1,6 @@
 package com.YinglishZhi.test;
 
-import com.alibaba.fastjson.JSON;
-
-import javax.script.ScriptException;
-import java.time.LocalDateTime;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
 import java.util.concurrent.Callable;
-import java.util.concurrent.Future;
-import java.util.concurrent.FutureTask;
 
 /**
  * @author LDZ
@@ -19,7 +9,7 @@ import java.util.concurrent.FutureTask;
 public class Solution {
 
     public static void main(String[] args) {
-//        Solution s = new Solution();
+//        AddField s = new AddField();
 //
 //        new Thread(s::showService1).start();
 //        new Thread(s::showService2).start();

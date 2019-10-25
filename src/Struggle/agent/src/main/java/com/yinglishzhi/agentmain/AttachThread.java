@@ -39,6 +39,7 @@ public class AttachThread extends Thread {
         new AttachThread(JAR_PATH, vmList).start();
     }
 
+    @Override
     public void run() {
         VirtualMachine vm = null;
         List<VirtualMachineDescriptor> listAfter;
@@ -55,7 +56,7 @@ public class AttachThread extends Thread {
                         log.info("找到新启动的虚拟机 id = {}, name = {}, 附加到该虚拟机", vmd.id(), vmd.displayName());
                         if (vmd.displayName().contains(TEST_CLASS.getSimpleName())) {
                             vm = VirtualMachine.attach(vmd);
-                            vm.loadAgent(jar, "666");
+                            vm.loadAgent(jar);
                             vm.detach();
                             log.info("从该虚拟机中分离");
                             break;

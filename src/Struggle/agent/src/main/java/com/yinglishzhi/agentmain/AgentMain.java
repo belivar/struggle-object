@@ -26,11 +26,9 @@ public class AgentMain {
         StackTraceElement[] se = Thread.currentThread().getStackTrace();
         for (StackTraceElement stackTraceElement : se) {
             log.info(stackTraceElement.toString());
-            System.out.println(stackTraceElement.toString());
         }
         log.info("#########################");
         inst.addTransformer(new Transformer(), true);
-        log.info("重新加载类 {}", TransClass.class);
         try {
             inst.retransformClasses(TransClass.class);
         } catch (UnmodifiableClassException e) {

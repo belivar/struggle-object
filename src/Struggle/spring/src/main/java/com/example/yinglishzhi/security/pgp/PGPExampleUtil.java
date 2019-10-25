@@ -1,17 +1,25 @@
 package com.example.yinglishzhi.security.pgp;
 
+import lombok.extern.slf4j.Slf4j;
+import org.bouncycastle.bcpg.ArmoredOutputStream;
+import org.bouncycastle.jce.provider.BouncyCastleProvider;
 import org.bouncycastle.openpgp.*;
-import org.bouncycastle.openpgp.operator.jcajce.JcaKeyFingerprintCalculator;
-import org.bouncycastle.openpgp.operator.jcajce.JcePBESecretKeyDecryptorBuilder;
+import org.bouncycastle.openpgp.operator.jcajce.*;
 
 import java.io.*;
 import java.security.NoSuchProviderException;
+import java.security.SecureRandom;
+import java.security.Security;
+import java.util.Date;
 import java.util.Iterator;
+
+import static org.springframework.util.StreamUtils.BUFFER_SIZE;
 
 /**
  * @author LDZ
  * @date 2019-10-14 15:03
  */
+@Slf4j
 public class PGPExampleUtil {
     static byte[] compressFile(String fileName, int algorithm) throws IOException {
         ByteArrayOutputStream bOut = new ByteArrayOutputStream();
@@ -54,6 +62,99 @@ public class PGPExampleUtil {
 
         return pubKey;
 
+    }
+
+    public static void main(String[] args) throws NoSuchProviderException, IOException, PGPException {
+        String path = "/Users/zhiyinglish/security/morgan/";
+        String filename = "morgan.txt";
+        String out = path + filename + ".asc";
+        String in = path + filename;
+        String pub = path + "public.asc";
+        String pri = path + "private.asc";
+        encryptFile(out, in, pub, pri, true, true, "");
+    }
+
+
+    private static void encryptFile(String outputFileName, String inputFileName, String encKeyFileName, String secertFilename, boolean armor, boolean withIntegrityCheck, String password) throws IOException, NoSuchProviderException, PGPException {
+
+        OutputStream out = new BufferedOutputStream(new FileOutputStream(outputFileName));
+
+        PGPPublicKey encKey = PGPExampleUtil1.readPublicKey(encKeyFileName);
+
+        PGPSecretKey pgpSecretKey = PGPExampleUtil1.readSecretKey(secertFilename);
+
+        encryptPGPFile(out, inputFileName, encKey, pgpSecretKey, armor, withIntegrityCheck, password.toCharArray());
+
+        out.close();
+
+    }
+
+    public static void encryptPGPFile(OutputStream out, String fileName, PGPPublicKey encKey, PGPSecretKey pgpSec, boolean armor, boolean withIntegrityCheck, char[] pass) throws IOException, NoSuchProviderException {
+        Security.addProvider(new BouncyCastleProvider());
+
+        if (armor) {
+            out = new ArmoredOutputStream(out);
+        }
+
+        try {
+
+            PGPEncryptedDataGenerator encGen =
+                    new PGPEncryptedDataGenerator(
+                            new JcePGPDataEncryptorBuilder(PGPEncryptedData.CAST5).setWithIntegrityPacket(withIntegrityCheck).setSecureRandom(
+                                    new SecureRandom())
+                                    .setProvider("BC"));
+
+            encGen.addMethod(new JcePublicKeyKeyEncryptionMethodGenerator(encKey).setProvider("BC"));
+            OutputStream encryptedOut = encGen.open(out, new byte[BUFFER_SIZE]);
+
+            PGPCompressedDataGenerator comData = new PGPCompressedDataGenerator(PGPCompressedData.ZIP);
+            OutputStream compressedData = comData.open(encryptedOut);
+
+            PGPPrivateKey pgpPrivKey = pgpSec.extractPrivateKey(
+                    new JcePBESecretKeyDecryptorBuilder().setProvider("BC").build(pass));
+            PGPSignatureGenerator sGen = new PGPSignatureGenerator(new JcaPGPContentSignerBuilder(
+                    pgpSec.getPublicKey().getAlgorithm(), PGPUtil.SHA1).setProvider("BC"));
+            sGen.init(PGPSignature.BINARY_DOCUMENT, pgpPrivKey);
+
+            Iterator it = pgpSec.getPublicKey().getUserIDs();
+            if (it.hasNext()) {
+                PGPSignatureSubpacketGenerator spGen = new PGPSignatureSubpacketGenerator();
+                spGen.setSignerUserID(false, (String) it.next());
+                sGen.setHashedSubpackets(spGen.generate());
+            }
+            //BCPGOutputStream bOut = new BCPGOutputStream(compressedData);
+            sGen.generateOnePassVersion(false).encode(compressedData);
+
+            File file = new File(fileName);
+            PGPLiteralDataGenerator lGen = new PGPLiteralDataGenerator();
+            OutputStream lOut = lGen.open(compressedData, PGPLiteralData.BINARY, file.getName(), new Date(),
+                    new byte[BUFFER_SIZE]);
+            FileInputStream fIn = new FileInputStream(file);
+            int ch;
+
+            while ((ch = fIn.read()) >= 0) {
+                lOut.write(ch);
+                sGen.update((byte) ch);
+            }
+
+            fIn.close();
+            lOut.close();
+            lGen.close();
+            sGen.generate().encode(compressedData);
+            comData.close();
+            compressedData.close();
+
+            encryptedOut.close();
+            encGen.close();
+
+            if (armor) {
+                out.close();
+            }
+        } catch (PGPException e) {
+            log.error("PGPException:" + fileName + e.getMessage());
+        } catch (Exception e) {
+            log.error("encryptPGPFile Exception:" + fileName + e.getMessage());
+        }
     }
 
     /**

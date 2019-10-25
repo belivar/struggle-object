@@ -5,9 +5,7 @@ import com.YinglishZhi.Utils.StringUtils;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringEscapeUtils;
 import org.jsoup.Jsoup;
-import org.jsoup.helper.StringUtil;
 import org.jsoup.nodes.Document;
-
 
 import java.io.IOException;
 import java.util.List;
@@ -55,7 +53,7 @@ public class JsoupBaidu {
         List<String> downCatalogs = StringUtils.String2List(downCatalog);
         for (String keyword : downCatalogs) {
             Runnable r = () -> {
-                getPicture(keyword, 1, "/Users/liudezhi/Pictures/test/", WIDTH, HEIGHT);
+                getPicture(keyword, 1, "/Users/liudezhi/Pictures/AddField/", WIDTH, HEIGHT);
             };
             new Thread(r).start();
         }
