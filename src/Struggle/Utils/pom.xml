@@ -11,6 +11,12 @@
 
     <artifactId>Utils</artifactId>
     <packaging>pom</packaging>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.source>1.8</maven.compiler.source>
+    </properties>
     <build>
         <plugins>
             <plugin>
@@ -19,6 +25,39 @@
                 <configuration>
                     <source>1.8</source>
                     <target>1.8</target>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <addClasspath>true</addClasspath>
+                        </manifest>
+                        <manifestEntries>
+                            <!-- 参数方式启动agent需要这个 -->
+                            <Premain-Class>
+                                com.yinglishzhi.agent.AgentLauncher
+                            </Premain-Class>
+
+                            <!-- 启动后附加启动agent需要这个 -->
+                            <Agent-Class>
+                                com.yinglishzhi.agent.AgentLauncher
+                            </Agent-Class>
+
+                            <!-- 是否可以重新转换类 -->
+                            <Can-Retransform-Classes>
+                                true
+                            </Can-Retransform-Classes>
+
+                            <!-- 是否可以重新定义类 -->
+                            <Can-Redefine-Classes>
+                                true
+                            </Can-Redefine-Classes>
+
+                        </manifestEntries>
+                    </archive>
                 </configuration>
             </plugin>
         </plugins>

@@ -1,12 +1,12 @@
+com/yinglishzhi/agent/AgentLauncher.class
 com/yinglishzhi/agentmain/TestMainJar.class
-com/yinglishzhi/agent/PrintClassFileAgent.class
 com/yinglishzhi/agenttest/ViMaTest.class
-com/yinglishzhi/agentmain/Transformer.class
-com/yinglishzhi/asm/AddField.class
 com/yinglishzhi/agentmain/AttachThread.class
 com/yinglishzhi/agenttest/MyAgentMain.class
-com/yinglishzhi/agent/PreMainExecutor.class
 com/yinglishzhi/agenttest/VMTest.class
 com/yinglishzhi/agentmain/AgentMain.class
-com/yinglishzhi/agentmain/TransClass.class
 com/yinglishzhi/agenttest/VMTest$WaitThread.class
+com/yinglishzhi/agent/AgentClassLoader.class
+com/yinglishzhi/agentmain/Transformer.class
+com/yinglishzhi/asm/AddField.class
+com/yinglishzhi/agentmain/TransClass.class

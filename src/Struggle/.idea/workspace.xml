@@ -5,7 +5,7 @@
   </component>
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="agent:jar" />
+      <artifact name="Utils:jar" />
     </artifacts-to-build>
   </component>
   <component name="BookmarkManager">
@@ -15,46 +15,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77fff2c1-a066-4db3-a62b-e0be4af82274" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/Utils/IOUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/asm/AddField.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/asm/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/banner/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/netty/NettyTelnetHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/netty/NettyTelnetInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/netty/NettyTelnetServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/netty/telnet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/shell/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Utils/src/main/resources/com/YinglishZhi/res/thanks.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Utils/target/classes/com/YinglishZhi/res/logo.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agent/src/main/java/com/yinglishzhi/asm/AddField.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/example/yinglishzhi/security/pgp/PGPExampleUtil1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Utils/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/asm/MyClassLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/asm/agent/AttachThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/asm/agent/TestMainJar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/asm/agent/TransClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agent/src/main/java/com/yinglishzhi/agent/AgentClassLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agent/src/main/java/com/yinglishzhi/agent/AgentLauncher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agent/src/main/resources/com/yinglishzhi/res/logo.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agent/target/classes/com/yinglishzhi/res/logo.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/smartfox_info.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/target/classes/META-INF/Algorithm.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Utils/Utils.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Utils/Utils.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Utils/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Utils/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/DownLoad/DownLoadImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/DownLoad/DownLoadImage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/Spider/JsoupBaidu.java" beforeDir="false" afterPath="$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/Spider/JsoupBaidu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/jvm/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/jvm/test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/test/SocketTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/test/SocketTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/test/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/test/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/asm/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/asm/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utils/target/classes/com/YinglishZhi/res/logo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Utils/src/main/resources/com/YinglishZhi/res/logo.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/agent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/agent/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/src/main/java/com/yinglishzhi/agent/PreMainExecutor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/src/main/java/com/yinglishzhi/agent/PrintClassFileAgent.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/agent/src/main/java/com/yinglishzhi/agentmain/AgentMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/agent/src/main/java/com/yinglishzhi/agentmain/AgentMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/agent/src/main/java/com/yinglishzhi/agentmain/AttachThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/agent/src/main/java/com/yinglishzhi/agentmain/AttachThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/agent/src/main/java/com/yinglishzhi/agentmain/Transformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/agent/src/main/java/com/yinglishzhi/agentmain/Transformer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/agent/target/agent-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/agent/target/agent-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/agent/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/agent/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/agent/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/agent/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/agent/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/agent/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/leetcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/leetcode.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/target/classes/META-INF/LintCode.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/agent_jar/agent.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/agent_jar/agent.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/src/main/java/com/example/yinglishzhi/security/pgp/PGPExampleUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/com/example/yinglishzhi/security/pgp/PGPExampleUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/src/main/java/com/example/yinglishzhi/security/pgp/PgpSecurity.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/com/example/yinglishzhi/security/pgp/PgpSecurity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Utils_jar/Utils.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Utils_jar/commons-lang3-3.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Utils_jar/fastjson-1.2.58.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Utils_jar/jsoup-1.11.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Utils_jar/okhttp-3.11.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Utils_jar/okio-1.14.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Utils_jar/slf4j-api-1.7.25.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Utils_jar/slf4j-simple-1.6.4.jar" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/javaCore/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -99,81 +90,99 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring/pom.xml">
+        <entry file="file://$PROJECT_DIR$/agent/src/main/java/com/yinglishzhi/agent/AgentLauncher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="62" column="51" lean-forward="true" selection-start-line="62" selection-start-column="51" selection-end-line="62" selection-end-column="51" />
-            </state>
-          </provider>
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/Utils/IOUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="128" column="40" selection-start-line="128" selection-start-column="40" selection-end-line="128" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/io/InputStreamReader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="71" selection-start-line="71" selection-end-line="71" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/com/sun/org/apache/xerces/internal/utils/SecuritySupport.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="124" column="30" selection-start-line="124" selection-start-column="30" selection-end-line="124" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/lang/Class.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="2209" column="10" selection-start-line="2209" selection-start-column="10" selection-end-line="2209" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/banner/Solution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="515">
-              <caret line="68" column="74" selection-start-line="68" selection-start-column="74" selection-end-line="68" selection-end-column="74" />
+            <state relative-caret-position="696">
+              <caret line="47" selection-start-line="47" selection-end-line="47" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3318#3319#0" expanded="true" />
-                <element signature="e#3345#3346#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Utils/target/classes/com/YinglishZhi/res/logo.txt">
+        <entry file="file://$PROJECT_DIR$/agent/src/main/java/com/yinglishzhi/agent/AgentClassLoader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="29" column="3" lean-forward="true" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
+            <state relative-caret-position="243">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#230#231#0" expanded="true" />
+                <element signature="e#257#258#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/repository/com/taobao/text/text-ui/0.0.2/text-ui-0.0.2-sources.jar!/com/taobao/text/util/RenderUtil.java">
+        <entry file="file://$PROJECT_DIR$/agent/src/main/java/com/yinglishzhi/agentmain/AgentMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="904">
-              <caret line="160" column="55" selection-start-line="160" selection-start-column="55" selection-end-line="160" selection-end-column="55" />
+            <state relative-caret-position="783">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/agent/src/main/java/com/yinglishzhi/agenttest/MyAgentMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/agent/src/main/java/com/yinglishzhi/asm/AddField.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
               <folding>
-                <element signature="e#5138#5139#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/asm/agent/AttachThread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="526">
+              <caret line="60" column="34" selection-start-line="60" selection-start-column="34" selection-end-line="60" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/agent/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="163">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Utils/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="486">
+              <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/asm/agent/TransClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="422">
+              <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#138#139#0" expanded="true" />
+                <element signature="e#162#163#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -191,9 +200,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>readPublicKey</find>
-      <find>AttachThread</find>
-      <find>target/java-agent-test-0.0.1-SNAPSHOT.jar</find>
       <find>agent</find>
       <find>bouncycastle</find>
       <find>从文件中加载新的字节码进行替换</find>
@@ -221,6 +227,9 @@
       <find>加载了类加载器</find>
       <find>#########################</find>
       <find>&lt;r</find>
+      <find>执行了 agentmain 方法......</find>
+      <find>tr</find>
+      <find>Transclass</find>
     </findStrings>
     <replaceStrings>
       <replace>}</replace>
@@ -235,15 +244,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spring/src/main/java/com/example/yinglishzhi/entity/user.java" />
-        <option value="$PROJECT_DIR$/spring/src/main/resources/bean.xml" />
-        <option value="$PROJECT_DIR$/spring/src/test/java/com/example/yinglishzhi/YinglishzhiApplicationTests.java" />
-        <option value="$PROJECT_DIR$/spring/src/main/java/com/example/yinglishzhi/security/pgp/ClearSignedFileProcessor.java" />
-        <option value="$PROJECT_DIR$/spring/src/main/java/com/example/yinglishzhi/security/pgp/KeyBasedFileProcessor.java" />
-        <option value="$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/attach/test.java" />
-        <option value="$PROJECT_DIR$/Utils/src/META-INF/MANIFEST.MF" />
-        <option value="$PROJECT_DIR$/Utils/src/main/java/META-INF/MANIFEST.MF" />
-        <option value="$PROJECT_DIR$/javaCore/pom.xml" />
         <option value="$PROJECT_DIR$/agent/src/main/java/com/yinglishzhi/agent.java" />
         <option value="$PROJECT_DIR$/agent/src/main/java/com/yinglishzhi/Agent.java" />
         <option value="$PROJECT_DIR$/agent/src/main/java/com/yinglishzhi/agent/PreMainExecutor.java" />
@@ -274,18 +274,27 @@
         <option value="$PROJECT_DIR$/agent/src/main/java/com/yinglishzhi/agentmain/TestMainJar.java" />
         <option value="$PROJECT_DIR$/agent/src/main/java/com/yinglishzhi/asm/AddFiled.java" />
         <option value="$PROJECT_DIR$/agent/src/main/java/com/yinglishzhi/asm/AddField.java" />
-        <option value="$PROJECT_DIR$/agent/pom.xml" />
         <option value="$PROJECT_DIR$/agent/target/agent-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
         <option value="$PROJECT_DIR$/agent/src/main/java/com/yinglishzhi/agentmain/AttachThread.java" />
         <option value="$PROJECT_DIR$/agent/src/main/java/com/yinglishzhi/agentmain/Transformer.java" />
-        <option value="$PROJECT_DIR$/agent/src/main/java/com/yinglishzhi/agentmain/AgentMain.java" />
         <option value="$PROJECT_DIR$/Utils/src/main/resource/static/logo.txt" />
         <option value="$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/Utils/IOUtils.java" />
-        <option value="$PROJECT_DIR$/Utils/pom.xml" />
         <option value="$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/test.java" />
         <option value="$PROJECT_DIR$/Utils/src/main/resources/com/YinglishZhi/res/logo.txt" />
         <option value="$PROJECT_DIR$/Utils/target/classes/com/YinglishZhi/res/logo.txt" />
         <option value="$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/banner/Solution.java" />
+        <option value="$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/asm/AttachThread.java" />
+        <option value="$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/asm/TestMainJar.java" />
+        <option value="$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/asm/TransClass.java" />
+        <option value="$PROJECT_DIR$/agent/src/main/java/com/yinglishzhi/agentmain/AgentMain.java" />
+        <option value="$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/asm/Demo.java" />
+        <option value="$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/asm/agent/AttachThread.java" />
+        <option value="$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/asm/MyClassLoader.java" />
+        <option value="$PROJECT_DIR$/agent/src/main/java/com/yinglishzhi/agent/AgentClassLoader.java" />
+        <option value="$PROJECT_DIR$/agent/src/main/java/com/yinglishzhi/agent/AgentLauncher.java" />
+        <option value="$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/asm/agent/TransClass.java" />
+        <option value="$PROJECT_DIR$/agent/pom.xml" />
+        <option value="$PROJECT_DIR$/Utils/pom.xml" />
       </list>
     </option>
   </component>
@@ -301,27 +310,18 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="agent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Algorithm" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="agent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Algorithm" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="agent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Algorithm" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
           <item name="resources" type="36feed69:MavenProjectsStructure$PluginNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="LintCode" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="LintCode" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
@@ -358,13 +358,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="YinglishZhi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="agent" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="YinglishZhi" type="b2602c69:ProjectViewProjectNode" />
@@ -403,85 +402,24 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="YinglishZhi" type="462c0819:PsiDirectoryNode" />
-              <item name="banner" type="462c0819:PsiDirectoryNode" />
+              <item name="asm" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="YinglishZhi" type="b2602c69:ProjectViewProjectNode" />
               <item name="Utils" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="YinglishZhi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Utils" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="YinglishZhi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Utils" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="YinglishZhi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Utils" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="YinglishZhi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Utils" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="YinglishZhi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Utils" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="YinglishZhi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="YinglishZhi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Utils" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="YinglishZhi" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="YinglishZhi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="YinglishZhi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.boot:spring-boot:2.0.4.RELEASE" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="YinglishZhi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.boot:spring-boot:2.0.4.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-boot-2.0.4.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="YinglishZhi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.boot:spring-boot:2.0.4.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-boot-2.0.4.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="boot" type="462c0819:PsiDirectoryNode" />
+              <item name="asm" type="462c0819:PsiDirectoryNode" />
+              <item name="agent" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -496,14 +434,14 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Utils/src/main" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Utils/src/main/resources/com/YinglishZhi/res" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -523,11 +461,13 @@
       <recent name="$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.YinglishZhi.asm" />
       <recent name="com.YinglishZhi.Utils" />
       <recent name="com.example.yinglishzhi.security.pgp" />
       <recent name="com.YinglishZhi.thread.synchronize.test" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Utils/src/main/resources/com/YinglishZhi/res" />
       <recent name="$PROJECT_DIR$/Utils/src/main" />
       <recent name="$PROJECT_DIR$/agent/src/META-INF" />
     </key>
@@ -547,20 +487,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution">
+  <component name="RunManager" selected="Application.TransClass">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AddField" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.YinglishZhi.asm.AddField" />
+    <configuration name="AttachThread (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.YinglishZhi.asm.agent.AttachThread" />
       <module name="Utils" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.YinglishZhi.asm.*" />
+          <option name="PATTERN" value="com.YinglishZhi.asm.agent.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -582,13 +522,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.YinglishZhi.banner.Solution" />
+    <configuration name="TestMainJar (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.YinglishZhi.asm.agent.TestMainJar" />
       <module name="Utils" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.YinglishZhi.banner.*" />
+          <option name="PATTERN" value="com.YinglishZhi.asm.agent.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -610,13 +550,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Transformer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yinglishzhi.agentmain.Transformer" />
-      <module name="agent" />
+    <configuration name="TransClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.YinglishZhi.asm.agent.TransClass" />
+      <module name="Utils" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yinglishzhi.agentmain.*" />
+          <option name="PATTERN" value="com.YinglishZhi.asm.agent.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -663,20 +603,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.AddField" />
       <item itemvalue="Application.TestMainJar" />
-      <item itemvalue="Application.Transformer" />
       <item itemvalue="Application.AttachThread" />
       <item itemvalue="Spring Boot.YinglishzhiApplication" />
-      <item itemvalue="Application.Solution" />
+      <item itemvalue="Application.AttachThread (1)" />
+      <item itemvalue="Application.TestMainJar (1)" />
+      <item itemvalue="Application.TransClass" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.TransClass" />
+        <item itemvalue="Application.TestMainJar (1)" />
+        <item itemvalue="Application.AttachThread (1)" />
         <item itemvalue="Application.TestMainJar" />
         <item itemvalue="Application.AttachThread" />
-        <item itemvalue="Application.Transformer" />
-        <item itemvalue="Application.AddField" />
       </list>
     </recent_temporary>
   </component>
@@ -744,7 +684,8 @@
       <workItem from="1571732077238" duration="12443000" />
       <workItem from="1571884148407" duration="55000" />
       <workItem from="1571884478779" duration="4895000" />
-      <workItem from="1571911774234" duration="4991000" />
+      <workItem from="1571911774234" duration="5762000" />
+      <workItem from="1571972104517" duration="9348000" />
     </task>
     <servers />
   </component>
@@ -781,7 +722,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="386043000" />
+    <option name="totallyTimeSpent" value="396162000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -793,10 +734,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="1057" extended-state="6" />
+    <frame x="0" y="23" width="1920" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49948078" visible="true" weight="0.18869936" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49948078" visible="true" weight="0.19083156" />
       <window_info id="Structure" order="1" sideWeight="0.49948078" weight="0.25239617" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -807,7 +748,7 @@
       <window_info id="Web" order="8" sideWeight="0.5005192" side_tool="true" weight="0.20979765" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32917964" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946752" visible="true" weight="0.31464174" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946752" visible="true" weight="0.33852544" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.2741433" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -835,7 +776,7 @@
       <window_info anchor="right" id="Maven Projects" order="6" weight="0.32960597" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info active="true" anchor="right" id="Maven" order="9" visible="true" weight="0.15671642" />
+      <window_info anchor="right" id="Maven" order="9" weight="0.15671642" />
       <window_info anchor="right" id="RestServices" order="10" />
       <window_info anchor="right" id="Mybatis datasource" order="11" side_tool="true" />
       <window_info anchor="right" id="Coverage" order="12" side_tool="true" weight="0.32960597" />
@@ -844,33 +785,33 @@
       <window_info anchor="right" id="ASM" order="15" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.15761448" />
-      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49948078" visible="true" weight="0.19083156" />
+      <window_info id="Structure" order="1" sideWeight="0.49948078" weight="0.25239617" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="JRebel" order="7" side_tool="true" />
-      <window_info id="Web" order="8" side_tool="true" />
+      <window_info id="Favorites" order="6" sideWeight="0.5005192" side_tool="true" weight="0.24973376" />
+      <window_info id="JRebel" order="7" sideWeight="0.5005192" side_tool="true" weight="0.20979765" />
+      <window_info id="Web" order="8" sideWeight="0.5005192" side_tool="true" weight="0.20979765" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33125648" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.2596054" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32917964" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946752" weight="0.31464174" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.2741433" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32917964" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.33541018" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5005325" side_tool="true" weight="0.22326064" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32917964" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.2596054" />
+      <window_info anchor="bottom" id="Messages" order="11" visible="true" weight="0.2596054" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Tail" order="14" />
       <window_info anchor="bottom" id="JRebel Executor" order="15" />
-      <window_info anchor="bottom" id="JRebel Console" order="16" side_tool="true" />
-      <window_info anchor="bottom" id="Spring" order="17" />
+      <window_info anchor="bottom" id="JRebel Console" order="16" sideWeight="0.5005325" side_tool="true" weight="0.22326064" />
+      <window_info anchor="bottom" id="Spring" order="17" weight="0.32917964" />
       <window_info anchor="bottom" id="Inspection Results" order="18" weight="0.32917964" />
       <window_info anchor="bottom" id="Java Enterprise" order="19" />
       <window_info anchor="bottom" id="ConsoleMavenPlugin" order="20" />
@@ -883,11 +824,13 @@
       <window_info anchor="right" id="Maven Projects" order="6" weight="0.32960597" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Maven" order="9" weight="0.36900958" />
+      <window_info active="true" anchor="right" id="Maven" order="9" visible="true" weight="0.15671642" />
       <window_info anchor="right" id="RestServices" order="10" />
       <window_info anchor="right" id="Mybatis datasource" order="11" side_tool="true" />
       <window_info anchor="right" id="Coverage" order="12" side_tool="true" weight="0.32960597" />
       <window_info anchor="right" id="Bean Validation" order="13" />
+      <window_info anchor="right" id="jclasslib" order="14" weight="0.5266241" />
+      <window_info anchor="right" id="ASM" order="15" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1150,185 +1093,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/jvm/agent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/jvm/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/agent/src/main/java/com/yinglishzhi/agentmain/G.java" />
-    <entry file="file://$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/asm/Demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/asm/AddField.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="53" column="24" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/agent/target/classes/com/yinglishzhi/agentmain/TransClass.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#0#256#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/Locale.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3107">
-          <caret line="2837" column="5" selection-start-line="2837" selection-start-column="5" selection-end-line="2837" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/agent/target/agent-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
-    <entry file="file://$PROJECT_DIR$/agent/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2511">
-          <caret line="93" column="82" selection-start-line="93" selection-start-column="82" selection-end-line="93" selection-end-column="82" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/agent/target/classes/com/yinglishzhi/agentmain/NewTransClass.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/agent/agent.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="23" column="15" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/lib/tools.jar!/com/sun/tools/attach/VirtualMachine.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2268">
-          <caret line="97" column="25" selection-start-line="97" selection-start-column="25" selection-end-line="97" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/agent/src/main/java/com/yinglishzhi/asm/AddField.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/agent/src/main/java/com/yinglishzhi/agent/PreMainExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/io/FileInputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="91" column="11" selection-start-line="91" selection-start-column="11" selection-end-line="91" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/rt.jar!/jdk/internal/org/objectweb/asm/ClassReader.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="30" column="45" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/security/ProtectionDomain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="64" column="28" selection-start-line="64" selection-start-column="28" selection-end-line="64" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/lang/instrument/ClassFileTransformer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="45" column="65" selection-start-line="45" selection-start-column="65" selection-end-line="45" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/lang/instrument/IllegalClassFormatException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="38" column="60" selection-start-line="38" selection-start-column="60" selection-end-line="38" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/lang/ClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3026">
-          <caret line="177" column="22" selection-start-line="177" selection-start-column="22" selection-end-line="177" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/rt.jar!/sun/instrument/InstrumentationImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="94" column="58" selection-start-line="94" selection-start-column="58" selection-end-line="94" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/agent/src/main/java/com/yinglishzhi/agentmain/Transformer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="33" column="60" selection-start-line="33" selection-start-column="60" selection-end-line="33" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/agent/src/main/java/com/yinglishzhi/agentmain/TransClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/lang/instrument/Instrumentation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6264">
-          <caret line="257" column="4" selection-start-line="257" selection-start-column="4" selection-end-line="257" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/agent/src/main/java/com/yinglishzhi/agentmain/AgentMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/netty/NettyTelnetServer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
@@ -1346,13 +1110,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/agent/src/main/java/com/yinglishzhi/agentmain/AttachThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1458">
-          <caret line="59" column="39" selection-start-line="59" selection-start-column="39" selection-end-line="59" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -1419,62 +1176,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/com/sun/org/apache/xerces/internal/utils/SecuritySupport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="124" column="30" selection-start-line="124" selection-start-column="30" selection-end-line="124" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/Utils/IOUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="128" column="40" selection-start-line="128" selection-start-column="40" selection-end-line="128" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/io/InputStreamReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="71" selection-start-line="71" selection-end-line="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Utils/src/main/java/logo.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/agent/src/main/java/com/yinglishzhi/agentmain/TestMainJar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Utils/src/main/java/logo.txt" />
+    <entry file="file://$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/test.java" />
     <entry file="file://$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/test/OddEven.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
           <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Utils/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="75" column="50" selection-start-line="75" selection-start-column="50" selection-end-line="75" selection-end-column="50" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Utils/.classpath">
       <provider selected="true" editor-type-id="text-editor">
@@ -1483,47 +1192,280 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/lang/Class.java">
+    <entry file="file://$PROJECT_DIR$/Utils/target/classes/com/YinglishZhi/res/logo.txt" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/com/sun/org/apache/xerces/internal/utils/SecuritySupport.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="2209" column="10" selection-start-line="2209" selection-start-column="10" selection-end-line="2209" selection-end-column="10" />
+        <state relative-caret-position="312">
+          <caret line="124" column="30" selection-start-line="124" selection-start-column="30" selection-end-line="124" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1674">
+          <caret line="62" column="51" selection-start-line="62" selection-start-column="51" selection-end-line="62" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/Utils/IOUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3456">
+          <caret line="128" column="40" selection-start-line="128" selection-start-column="40" selection-end-line="128" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/io/InputStreamReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="63" column="34" selection-start-line="63" selection-start-column="34" selection-end-line="63" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/repository/com/taobao/text/text-ui/0.0.2/text-ui-0.0.2-sources.jar!/com/taobao/text/ui/TableElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1161">
+          <caret line="70" column="33" selection-start-line="70" selection-start-column="33" selection-end-line="70" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/repository/com/taobao/text/text-ui/0.0.2/text-ui-0.0.2-sources.jar!/com/taobao/text/util/RenderUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="904">
-          <caret line="160" column="55" selection-start-line="160" selection-start-column="55" selection-end-line="160" selection-end-column="55" />
+        <state relative-caret-position="324">
+          <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
           <folding>
+            <element signature="e#5086#5087#0" expanded="true" />
             <element signature="e#5138#5139#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring/pom.xml">
+    <entry file="file://$PROJECT_DIR$/Utils/src/main/resources/com/YinglishZhi/res/logo.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="62" column="51" lean-forward="true" selection-start-line="62" selection-start-column="51" selection-end-line="62" selection-end-column="51" />
+        <state relative-caret-position="297">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
         </state>
       </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Utils/target/classes/com/YinglishZhi/res/logo.txt">
+    <entry file="file://$PROJECT_DIR$/agent/src/main/java/com/yinglishzhi/agenttest/VMTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="29" column="3" lean-forward="true" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
+        <state relative-caret-position="403">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/agent/src/main/java/com/yinglishzhi/agenttest/ViMaTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/agent/src/main/resources/com/yinglishzhi/res/logo.txt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/banner/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="68" column="74" selection-start-line="68" selection-start-column="74" selection-end-line="68" selection-end-column="74" />
+        <state relative-caret-position="238">
+          <caret line="21" column="79" selection-start-line="21" selection-start-column="79" selection-end-line="21" selection-end-column="79" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3318#3319#0" expanded="true" />
-            <element signature="e#3345#3346#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datastructure/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/src/main/java/com/example/yinglishzhi/security/pgp/KeyBasedFileProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/agent/src/main/java/com/yinglishzhi/agent/PreMainExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/agent/src/main/java/com/yinglishzhi/agentmain/TestMainJar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/agent/src/main/java/com/yinglishzhi/agentmain/Transformer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-301">
+          <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/agent/src/main/java/com/yinglishzhi/agentmain/AttachThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="976">
+          <caret line="59" column="39" selection-start-line="59" selection-start-column="39" selection-end-line="59" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithm/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="1785" column="18" selection-start-line="1785" selection-start-column="18" selection-end-line="1785" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/lib/tools.jar!/com/sun/tools/attach/VirtualMachine.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="97" column="25" selection-start-line="97" selection-start-column="25" selection-end-line="97" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/lang/ClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="355" column="20" selection-start-line="355" selection-start-column="20" selection-end-line="355" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/asm/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="536">
+          <caret line="40" column="33" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/agent/src/main/java/com/yinglishzhi/agentmain/TransClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/asm/agent/TestMainJar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/asm/MyClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#223#224#0" expanded="true" />
+            <element signature="e#301#302#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/asm/agent/TransClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#138#139#0" expanded="true" />
+            <element signature="e#162#163#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/asm/agent/AttachThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="526">
+          <caret line="60" column="34" selection-start-line="60" selection-start-column="34" selection-end-line="60" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/agent/src/main/java/com/yinglishzhi/agentmain/AgentMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="783">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/agent/src/main/java/com/yinglishzhi/agenttest/MyAgentMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/agent/src/main/java/com/yinglishzhi/asm/AddField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/agent/src/main/java/com/yinglishzhi/agent/AgentClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#230#231#0" expanded="true" />
+            <element signature="e#257#258#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/agent/src/main/java/com/yinglishzhi/agent/AgentLauncher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="696">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Utils/.project">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/agent/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Utils/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -1533,11 +1475,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>agent:jar</last-edited>
+          <last-edited>Utils:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -1580,12 +1523,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>yinglishzhi</last-edited>
+          <last-edited>Utils</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

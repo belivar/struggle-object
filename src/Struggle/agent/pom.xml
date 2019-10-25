@@ -58,12 +58,12 @@
                         <manifestEntries>
                             <!-- 参数方式启动agent需要这个 -->
                             <Premain-Class>
-                                com.yinglishzhi.agentmain.AgentMain
+                                com.yinglishzhi.agent.AgentLauncher
                             </Premain-Class>
 
                             <!-- 启动后附加启动agent需要这个 -->
                             <Agent-Class>
-                                com.yinglishzhi.agentmain.AgentMain
+                                com.yinglishzhi.agent.AgentLauncher
                             </Agent-Class>
 
                             <!-- 是否可以重新转换类 -->

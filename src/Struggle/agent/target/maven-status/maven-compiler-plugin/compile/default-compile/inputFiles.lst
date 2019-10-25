@@ -2,8 +2,8 @@
 /Users/zhiyinglish/dev/struggle-object/src/Struggle/agent/src/main/java/com/yinglishzhi/agentmain/AttachThread.java
 /Users/zhiyinglish/dev/struggle-object/src/Struggle/agent/src/main/java/com/yinglishzhi/asm/AddField.java
 /Users/zhiyinglish/dev/struggle-object/src/Struggle/agent/src/main/java/com/yinglishzhi/agenttest/VMTest.java
-/Users/zhiyinglish/dev/struggle-object/src/Struggle/agent/src/main/java/com/yinglishzhi/agent/PreMainExecutor.java
-/Users/zhiyinglish/dev/struggle-object/src/Struggle/agent/src/main/java/com/yinglishzhi/agent/PrintClassFileAgent.java
+/Users/zhiyinglish/dev/struggle-object/src/Struggle/agent/src/main/java/com/yinglishzhi/agent/AgentClassLoader.java
+/Users/zhiyinglish/dev/struggle-object/src/Struggle/agent/src/main/java/com/yinglishzhi/agent/AgentLauncher.java
 /Users/zhiyinglish/dev/struggle-object/src/Struggle/agent/src/main/java/com/yinglishzhi/agenttest/ViMaTest.java
 /Users/zhiyinglish/dev/struggle-object/src/Struggle/agent/src/main/java/com/yinglishzhi/agenttest/MyAgentMain.java
 /Users/zhiyinglish/dev/struggle-object/src/Struggle/agent/src/main/java/com/yinglishzhi/agentmain/TestMainJar.java

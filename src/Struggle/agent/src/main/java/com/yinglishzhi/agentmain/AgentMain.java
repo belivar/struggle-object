@@ -29,6 +29,7 @@ public class AgentMain {
         }
         log.info("#########################");
         inst.addTransformer(new Transformer(), true);
+        printClasses(inst);
         try {
             inst.retransformClasses(TransClass.class);
         } catch (UnmodifiableClassException e) {
@@ -37,6 +38,12 @@ public class AgentMain {
         log.info("Agent Main Done");
     }
 
+    private static void printClasses(Instrumentation inst) {
+        Class[] allLoadedClasses = inst.getAllLoadedClasses();
+        for (Class clazz : allLoadedClasses) {
+            log.info("class = {}", clazz.getName());
+        }
+    }
 
     /**
      * 启动参数的方式执行的是这个方法
