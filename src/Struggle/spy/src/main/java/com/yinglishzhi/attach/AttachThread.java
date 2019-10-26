@@ -1,9 +1,12 @@
-package com.YinglishZhi.asm.agent;
+package com.yinglishzhi.attach;
 
 import com.sun.tools.attach.VirtualMachine;
 import com.sun.tools.attach.VirtualMachineDescriptor;
+import com.yinglishzhi.SpyCore;
+import com.yinglishzhi.test.TestMainJar;
 import lombok.extern.slf4j.Slf4j;
 
+import java.lang.instrument.Instrumentation;
 import java.util.List;
 
 /**
@@ -55,7 +58,7 @@ public class AttachThread extends Thread {
                         log.info("找到新启动的虚拟机 id = {}, name = {}, 附加到该虚拟机", vmd.id(), vmd.displayName());
                         if (vmd.displayName().contains(TEST_CLASS.getSimpleName())) {
                             vm = VirtualMachine.attach(vmd);
-                            vm.loadAgent(jar, "test");
+                            vm.loadAgent(jar, "/Users/zhiyinglish/dev/struggle-object/src/Struggle/spy/target/spy-core.jar");
                             vm.detach();
                             log.info("从该虚拟机中分离");
                             break;
