@@ -6,12 +6,12 @@ package com.yinglishzhi.test;
  */
 public class TestMainJar {
     public static void main(String[] args) throws InterruptedException {
-        System.out.println(new TransClass().getNumber());
+        System.out.println(new TransClass1().getNumber());
         int count = 0;
         while (true) {
             Thread.sleep(500);
             count++;
-            int number = new TransClass().getNumber();
+            int number = new TransClass1().getNumber();
             System.out.println(number);
             if (3 == number || count >= 1000) {
                 break;

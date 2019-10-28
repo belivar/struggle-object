@@ -1,6 +1,10 @@
 package com.yinglishzhi;
 
+import com.yinglishzhi.test.TransClass1;
+import com.yinglishzhi.test.Transformer;
+
 import java.lang.instrument.Instrumentation;
+import java.lang.instrument.UnmodifiableClassException;
 
 /**
  * @author LDZ
@@ -19,14 +23,19 @@ public class SpyCore {
 
     private static void printClasses(Instrumentation inst) {
         Class[] allLoadedClasses = inst.getAllLoadedClasses();
-        for (Class clazz : allLoadedClasses) {
-            System.out.println(clazz.getName());
-        }
+        System.out.println(allLoadedClasses.length + "哈哈");
     }
 
     public void test() {
-        Class[] classes = spyCore.instrumentation.getAllLoadedClasses();
-        System.out.println("总共这些 {} 类" + classes.length);
+        System.out.println("执行 test 方法");
+        Instrumentation inst = spyCore.instrumentation;
+        System.out.println("=========");
+        inst.addTransformer(new Transformer());
+        try {
+            inst.retransformClasses(TransClass1.class);
+        } catch (UnmodifiableClassException e) {
+            e.printStackTrace();
+        }
     }
 
     public static SpyCore getInstance(Instrumentation instrumentation) {
