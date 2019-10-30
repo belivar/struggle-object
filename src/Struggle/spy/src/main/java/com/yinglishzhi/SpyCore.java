@@ -1,6 +1,6 @@
 package com.yinglishzhi;
 
-import com.yinglishzhi.test.TransClass1;
+import com.yinglishzhi.test.TransClass;
 import com.yinglishzhi.test.Transformer;
 
 import java.lang.instrument.Instrumentation;
@@ -32,7 +32,7 @@ public class SpyCore {
         System.out.println("=========");
         inst.addTransformer(new Transformer());
         try {
-            inst.retransformClasses(TransClass1.class);
+            inst.retransformClasses(TransClass.class);
         } catch (UnmodifiableClassException e) {
             e.printStackTrace();
         }

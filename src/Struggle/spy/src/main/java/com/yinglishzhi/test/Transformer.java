@@ -1,5 +1,6 @@
 package com.yinglishzhi.test;
 
+import com.yinglishzhi.asmtest.AddSecurityCheckClassAdapter;
 import jdk.internal.org.objectweb.asm.*;
 import lombok.extern.slf4j.Slf4j;
 
@@ -17,12 +18,12 @@ public class Transformer implements ClassFileTransformer {
     /**
      * 要改变的类名
      */
-    private static final String replaceClassName = "com/yinglishzhi/test/TransClass1";
+    private static final String replaceClassName = "com/yinglishzhi/test/TransClass";
 
     /**
      * 要改变的类的字节码
      */
-    private static final String classNumberReturns2 = "/Users/zhiyinglish/dev/struggle-object/src/Struggle/spy/target/classes/com/yinglishzhi/test/TransClass1.class";
+    private static final String classNumberReturns2 = "/Users/zhiyinglish/dev/struggle-object/src/Struggle/spy/target/classes/com/yinglishzhi/test/TransClass.class";
 
 
     public static byte[] addField(String fileName) {
@@ -73,6 +74,30 @@ public class Transformer implements ClassFileTransformer {
         }
     }
 
+
+    private void aop(byte[] classByte) {
+        System.out.println("===aop===");
+        ClassReader cr = new ClassReader(classByte);
+        ClassWriter cw = new ClassWriter(ClassWriter.COMPUTE_MAXS | ClassWriter.COMPUTE_FRAMES);
+        AddSecurityCheckClassAdapter classAdapter = new AddSecurityCheckClassAdapter(cw);
+        cr.accept(classAdapter, ClassReader.SKIP_DEBUG);
+
+        byte[] data = cw.toByteArray();
+
+        File file = new File("/Users/zhiyinglish/dev/struggle-object/src/Struggle/spy/target/classes/com/yinglishzhi/test/TransClass.class");
+        FileOutputStream fout = null;
+        try {
+            fout = new FileOutputStream(file);
+            fout.write(data);
+            fout.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        TransClass transClass = new TransClass();
+        int i = transClass.getNumber();
+        System.out.println("====" + i);
+    }
+
     @Override
     public byte[] transform(ClassLoader l, String className, Class<?> c, ProtectionDomain pd, byte[] b) {
 
@@ -81,6 +106,7 @@ public class Transformer implements ClassFileTransformer {
         }
         ClassReader cr = new ClassReader(b);
         System.out.println("从文件中加载新的字节码进行替换");
+        aop(b);
         addField(classNumberReturns2);
         return getBytesFromFile(classNumberReturns2);
 

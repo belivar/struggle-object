@@ -1,4 +1,4 @@
-package com.YinglishZhi.asm.generate;
+package com.yinglishzhi.asmtest;
 
 import jdk.internal.org.objectweb.asm.ClassVisitor;
 import jdk.internal.org.objectweb.asm.MethodVisitor;

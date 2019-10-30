@@ -1,0 +1,11 @@
+com/yinglishzhi/asmtest/MyClassAdapter.class
+com/yinglishzhi/asmtest/GenerateClass.class
+com/yinglishzhi/attach/AttachThread.class
+com/yinglishzhi/SpyCore.class
+com/yinglishzhi/test/AddField.class
+com/yinglishzhi/asmtest/SecurityChecker.class
+com/yinglishzhi/test/TransClass.class
+com/yinglishzhi/test/TestMainJar.class
+com/yinglishzhi/asmtest/AddSecurityCheckMethodAdapter.class
+com/yinglishzhi/asmtest/AddSecurityCheckClassAdapter.class
+com/yinglishzhi/test/Transformer.class

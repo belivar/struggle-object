@@ -49,7 +49,7 @@ public class AddField extends ClassVisitor {
         super.visitEnd();
     }
 
-    private static final String classNumberReturns2 = "/Users/zhiyinglish/dev/struggle-object/src/Struggle/spy/target/classes/com/yinglishzhi/test/TransClass1.class";
+    private static final String classNumberReturns2 = "/Users/zhiyinglish/dev/struggle-object/src/Struggle/spy/target/classes/com/yinglishzhi/test/TransClass.class";
     private static final String ou = "/Users/zhiyinglish/dev/struggle-object/src/Struggle/spy/target/classes/com/yinglishzhi/test/";
 
     public static void main(String[] args) throws Exception {
@@ -64,9 +64,9 @@ public class AddField extends ClassVisitor {
         classReader.accept(addField, ClassReader.EXPAND_FRAMES);
         byte[] newClass = classWriter.toByteArray();
         File newFile = new File(ou, "NewDemo.class");
-        Class clazz = Class.forName("com.yinglishzhi.test.TransClass1");
+        Class clazz = Class.forName("com.yinglishzhi.test.TransClass");
         Method getNumber = clazz.getMethod("getNumber");
-        System.out.println(getNumber.invoke(new TransClass1()));
+        System.out.println(getNumber.invoke(new TransClass()));
         new FileOutputStream(newFile).write(newClass);
     }
 
