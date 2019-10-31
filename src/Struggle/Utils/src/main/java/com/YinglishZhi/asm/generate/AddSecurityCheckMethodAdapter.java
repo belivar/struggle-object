@@ -1,8 +1,7 @@
 package com.YinglishZhi.asm.generate;
 
-import jdk.internal.org.objectweb.asm.MethodVisitor;
-import jdk.internal.org.objectweb.asm.Opcodes;
 
+import org.objectweb.asm.*;
 /**
  * @author LDZ
  * @date 2019-10-28 15:02
@@ -17,5 +16,6 @@ public class AddSecurityCheckMethodAdapter extends MethodVisitor {
                 "checkSecurity", "()Z");
         super.visitCode();
     }
+
 
 }

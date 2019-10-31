@@ -1,13 +1,10 @@
 package com.yinglishzhi.test;
 
-import com.yinglishzhi.asmtest.AddSecurityCheckClassAdapter;
-import jdk.internal.org.objectweb.asm.*;
-import lombok.extern.slf4j.Slf4j;
-
+import com.yinglishzhi.asmtest.AdviceWeaver;
+import org.objectweb.asm.*;
 import java.io.*;
 import java.lang.instrument.ClassFileTransformer;
 import java.security.ProtectionDomain;
-import java.util.Arrays;
 
 /**
  * @author LDZ
@@ -79,7 +76,7 @@ public class Transformer implements ClassFileTransformer {
         System.out.println("===aop===");
         ClassReader cr = new ClassReader(classByte);
         ClassWriter cw = new ClassWriter(ClassWriter.COMPUTE_MAXS | ClassWriter.COMPUTE_FRAMES);
-        AddSecurityCheckClassAdapter classAdapter = new AddSecurityCheckClassAdapter(cw);
+        AdviceWeaver classAdapter = new AdviceWeaver(cw);
         cr.accept(classAdapter, ClassReader.SKIP_DEBUG);
 
         byte[] data = cw.toByteArray();

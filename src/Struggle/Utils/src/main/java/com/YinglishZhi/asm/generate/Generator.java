@@ -1,13 +1,11 @@
 package com.YinglishZhi.asm.generate;
 
 import com.YinglishZhi.asm.agent.TransClass;
-import jdk.internal.org.objectweb.asm.ClassReader;
-import jdk.internal.org.objectweb.asm.ClassWriter;
 
 import java.io.File;
 import java.io.FileOutputStream;
-import java.net.URL;
-import java.net.URLClassLoader;
+
+import org.objectweb.asm.*;
 
 /**
  * @author LDZ
