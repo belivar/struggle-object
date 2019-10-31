@@ -13,6 +13,12 @@ class GenerateClassTest {
 
     @Test
     void generateTest() {
+        try {
+            Class<?> advice = Thread.currentThread().getContextClassLoader().loadClass("com.yinglishzhi.asmtest.AdviceWeaver");
+            Heck.init(advice.getMethod("testMethod", String.class));
+        } catch (ClassNotFoundException | NoSuchMethodException e) {
+            e.printStackTrace();
+        }
         ClassReader cr = null;
         try {
             cr = new ClassReader("com.yinglishzhi.test.TransClass");
@@ -39,4 +45,17 @@ class GenerateClassTest {
         System.out.println(i);
     }
 
+    @Test
+    public void test() {
+        try {
+            Class<?> advice = Thread.currentThread().getContextClassLoader().loadClass("com.yinglishzhi.asmtest.AdviceWeaver");
+            Heck.init(advice.getMethod("testMethod", String.class));
+        } catch (ClassNotFoundException | NoSuchMethodException e) {
+            e.printStackTrace();
+        }
+
+        TransClass transClass = new TransClass();
+        int i = transClass.getNumber();
+        System.out.println(i);
+    }
 }

@@ -15,23 +15,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77fff2c1-a066-4db3-a62b-e0be4af82274" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/spy/src/main/java/com/yinglishzhi/asmtest/AdviceWeaver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spy/src/test/java/com/yinglishzhi/asmtest/GenerateClassTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spy/src/main/java/com/yinglishzhi/asmtest/Heck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/asm/generate/AddSecurityCheckClassAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/asm/generate/AddSecurityCheckClassAdapter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/asm/generate/AddSecurityCheckMethodAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/asm/generate/AddSecurityCheckMethodAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/asm/generate/Generator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/asm/generate/Generator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spy/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spy/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spy/src/main/java/com/yinglishzhi/asmtest/AddSecurityCheckClassAdapter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spy/src/main/java/com/yinglishzhi/asmtest/AddSecurityCheckMethodAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/spy/src/main/java/com/yinglishzhi/asmtest/CustomAdviceAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spy/src/main/java/com/yinglishzhi/test/AddField.java" beforeDir="false" afterPath="$PROJECT_DIR$/spy/src/main/java/com/yinglishzhi/test/AddField.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spy/src/main/java/com/yinglishzhi/test/Transformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/spy/src/main/java/com/yinglishzhi/test/Transformer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spy/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spy/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spy/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spy/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spy/target/spy-core.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spy/src/main/java/com/yinglishzhi/asmtest/AdviceWeaver.java" beforeDir="false" afterPath="$PROJECT_DIR$/spy/src/main/java/com/yinglishzhi/asmtest/AdviceWeaver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spy/src/main/java/com/yinglishzhi/asmtest/CustomAdviceAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/spy/src/main/java/com/yinglishzhi/asmtest/CustomAdviceAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spy/src/main/java/com/yinglishzhi/asmtest/GenerateClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/asm/generate/GenerateClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spy/src/main/java/com/yinglishzhi/test/TransClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/spy/src/main/java/com/yinglishzhi/test/TransClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spy/src/test/java/com/yinglishzhi/asmtest/GenerateClassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spy/src/test/java/com/yinglishzhi/asmtest/GenerateClassTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/javaCore/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -75,14 +66,135 @@
     <favorites_list name="YinglishZhi" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spy/src/main/java/com/yinglishzhi/asmtest/AdviceWeaver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="206">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#471#472#0" expanded="true" />
+                <element signature="e#411#412#0" expanded="true" />
+                <element signature="e#450#451#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spy/src/test/java/com/yinglishzhi/asmtest/GenerateClassTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="394">
+              <caret line="38" column="25" lean-forward="true" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spy/src/main/java/com/yinglishzhi/test/Transformer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="31" column="94" selection-start-line="31" selection-start-column="94" selection-end-line="31" selection-end-column="94" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spy/src/main/java/com/yinglishzhi/asmtest/CustomAdviceAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2115#2116#0" expanded="true" />
+                <element signature="e#2182#2183#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spy/target/classes/com/yinglishzhi/test/TransClass.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spy/src/main/java/com/yinglishzhi/asmtest/Heck.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+              <folding>
+                <element signature="e#234#235#0" expanded="true" />
+                <element signature="e#273#274#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spy/src/main/java/com/yinglishzhi/test/TestMainJar.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spy/src/main/java/com/yinglishzhi/asmtest/MyClassAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding>
+                <element signature="e#305#306#0" expanded="true" />
+                <element signature="e#330#331#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spy/src/main/java/com/yinglishzhi/test/TransClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+              <folding>
+                <element signature="e#238#239#0" expanded="true" />
+                <element signature="e#195#196#0" expanded="true" />
+                <element signature="e#220#221#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/lang/reflect/Method.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="483" column="18" selection-start-line="483" selection-start-column="18" selection-end-line="483" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Go File" />
         <option value="Arquillian JUnit Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -91,11 +203,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>compilerArguments</find>
-      <find>maven-compiler-plugin</find>
-      <find>maven-compiler-plugin:3.1:compile</find>
-      <find>comp</find>
-      <find>byte</find>
       <find>加载了类加载器</find>
       <find>#########################</find>
       <find>&lt;r</find>
@@ -121,6 +228,11 @@
       <find>getInstance</find>
       <find>661哈哈</find>
       <find>ClassFileTransformer</find>
+      <find>debug:visitInsn()</find>
+      <find>visitMethodInsn</find>
+      <find>add</find>
+      <find>INVOKEVIRTUAL</find>
+      <find>invokevirtual</find>
     </findStrings>
     <replaceStrings>
       <replace>}</replace>
@@ -138,7 +250,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Utils/src/main/resource/static/logo.txt" />
         <option value="$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/Utils/IOUtils.java" />
         <option value="$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/test.java" />
         <option value="$PROJECT_DIR$/Utils/src/main/resources/com/YinglishZhi/res/logo.txt" />
@@ -164,7 +275,6 @@
         <option value="$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/asm/AddField.java" />
         <option value="$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/asm/generate/MyClassAdapter.java" />
         <option value="$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/asm/Demo.java" />
-        <option value="$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/asm/generate/GenerateClass.java" />
         <option value="$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/asm/generate/Account.java" />
         <option value="$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/asm/generate/SecurityChecker.java" />
         <option value="$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/asm/generate/gen/GenerateClass.java" />
@@ -177,7 +287,6 @@
         <option value="$PROJECT_DIR$/spy/src/main/java/com/yinglishzhi/test/TestMainJar.java" />
         <option value="$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/asm/agent/TestMainJar.java" />
         <option value="$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/asm/generate/AddSecurityCheckClassAdapter.java" />
-        <option value="$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/asm/generate/AddSecurityCheckMethodAdapter.java" />
         <option value="$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/asm/generate/Generator.java" />
         <option value="$PROJECT_DIR$/Utils/target/classes/com/YinglishZhi/asm/Generate.go" />
         <option value="$PROJECT_DIR$/spy/src/main/java/com/yinglishzhi/test/Transformer.java" />
@@ -185,10 +294,13 @@
         <option value="$PROJECT_DIR$/spy/src/main/java/com/yinglishzhi/asmtest/AddSecurityCheckClassAdapter.java" />
         <option value="$PROJECT_DIR$/spy/src/main/java/com/yinglishzhi/asmtest/AddSecurityCheckMethodAdapter.java" />
         <option value="$PROJECT_DIR$/spy/pom.xml" />
+        <option value="$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/asm/generate/GenerateClass.java" />
+        <option value="$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/asm/generate/AddSecurityCheckMethodAdapter.java" />
         <option value="$PROJECT_DIR$/spy/src/main/java/com/yinglishzhi/asmtest/AdviceWeaver.java" />
-        <option value="$PROJECT_DIR$/spy/src/main/java/com/yinglishzhi/test/TransClass.java" />
-        <option value="$PROJECT_DIR$/spy/src/main/java/com/yinglishzhi/asmtest/CustomAdviceAdapter.java" />
+        <option value="$PROJECT_DIR$/spy/src/main/java/com/yinglishzhi/asmtest/Heck.java" />
         <option value="$PROJECT_DIR$/spy/src/test/java/com/yinglishzhi/asmtest/GenerateClassTest.java" />
+        <option value="$PROJECT_DIR$/spy/src/main/java/com/yinglishzhi/asmtest/CustomAdviceAdapter.java" />
+        <option value="$PROJECT_DIR$/spy/src/main/java/com/yinglishzhi/test/TransClass.java" />
       </list>
     </option>
   </component>
@@ -320,25 +432,42 @@
             </path>
             <path>
               <item name="YinglishZhi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="spy" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="YinglishZhi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spy" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="YinglishZhi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spy" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="YinglishZhi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spy" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yinglishzhi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="YinglishZhi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spy" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yinglishzhi" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="YinglishZhi" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.ow2.asm:asm-commons:6.0" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="YinglishZhi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.ow2.asm:asm-commons:6.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="asm-commons-6.0.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="YinglishZhi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.ow2.asm:asm-commons:6.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="asm-commons-6.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="commons" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -425,20 +554,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AttachThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yinglishzhi.attach.AttachThread" />
-      <module name="spy" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yinglishzhi.attach.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Generator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.YinglishZhi.asm.generate.Generator" />
       <module name="Utils" />
@@ -453,22 +568,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMainJar (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.YinglishZhi.asm.agent.TestMainJar" />
-      <module name="Utils" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.YinglishZhi.asm.agent.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestMainJar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yinglishzhi.test.TestMainJar" />
+    <configuration name="TransClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yinglishzhi.test.TransClass" />
       <module name="spy" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -487,6 +588,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GenerateClassTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yinglishzhi.asmtest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yinglishzhi.asmtest" />
+      <option name="MAIN_CLASS_NAME" value="com.yinglishzhi.asmtest.GenerateClassTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GenerateClassTest.generateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spy" />
       <extension name="coverage">
@@ -498,6 +615,23 @@
       <option name="PACKAGE_NAME" value="com.yinglishzhi.asmtest" />
       <option name="MAIN_CLASS_NAME" value="com.yinglishzhi.asmtest.GenerateClassTest" />
       <option name="METHOD_NAME" value="generateTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GenerateClassTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yinglishzhi.asmtest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yinglishzhi.asmtest" />
+      <option name="MAIN_CLASS_NAME" value="com.yinglishzhi.asmtest.GenerateClassTest" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -538,19 +672,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Generator" />
-      <item itemvalue="Application.AttachThread" />
-      <item itemvalue="Application.TestMainJar" />
-      <item itemvalue="Application.TestMainJar (1)" />
-      <item itemvalue="Spring Boot.YinglishzhiApplication" />
+      <item itemvalue="Application.TransClass" />
       <item itemvalue="JUnit.GenerateClassTest.generateTest" />
+      <item itemvalue="Spring Boot.YinglishzhiApplication" />
+      <item itemvalue="JUnit.GenerateClassTest" />
+      <item itemvalue="JUnit.GenerateClassTest.test" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.GenerateClassTest.generateTest" />
+        <item itemvalue="Application.TransClass" />
+        <item itemvalue="JUnit.GenerateClassTest.test" />
+        <item itemvalue="JUnit.GenerateClassTest" />
         <item itemvalue="Application.Generator" />
-        <item itemvalue="Application.TestMainJar (1)" />
-        <item itemvalue="Application.TestMainJar" />
-        <item itemvalue="Application.AttachThread" />
       </list>
     </recent_temporary>
   </component>
@@ -629,44 +763,45 @@
       <workItem from="1572245543080" duration="519000" />
       <workItem from="1572246116059" duration="12854000" />
       <workItem from="1572341887827" duration="6878000" />
-      <workItem from="1572407775199" duration="16570000" />
+      <workItem from="1572407775199" duration="30855000" />
+      <workItem from="1572509735229" duration="8814000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GenerateClassTest_generateTest - 2019.10.30 at 19h 45m 02s.xml">
+    <history-entry file="GenerateClassTest_generateTest - 2019.10.31 at 18h 17m 16s.xml">
       <configuration name="GenerateClassTest.generateTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GenerateClassTest_generateTest - 2019.10.30 at 19h 46m 28s.xml">
+    <history-entry file="GenerateClassTest_generateTest - 2019.10.31 at 18h 20m 57s.xml">
       <configuration name="GenerateClassTest.generateTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GenerateClassTest_generateTest - 2019.10.30 at 19h 47m 36s.xml">
+    <history-entry file="GenerateClassTest_generateTest - 2019.10.31 at 18h 22m 32s.xml">
       <configuration name="GenerateClassTest.generateTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GenerateClassTest_generateTest - 2019.10.30 at 19h 48m 00s.xml">
+    <history-entry file="GenerateClassTest_generateTest - 2019.10.31 at 18h 33m 56s.xml">
       <configuration name="GenerateClassTest.generateTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GenerateClassTest_generateTest - 2019.10.30 at 19h 48m 58s.xml">
+    <history-entry file="GenerateClassTest_generateTest - 2019.10.31 at 18h 38m 36s.xml">
       <configuration name="GenerateClassTest.generateTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GenerateClassTest_generateTest - 2019.10.30 at 19h 50m 02s.xml">
+    <history-entry file="GenerateClassTest_generateTest - 2019.10.31 at 18h 39m 49s.xml">
       <configuration name="GenerateClassTest.generateTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GenerateClassTest_generateTest - 2019.10.30 at 19h 52m 07s.xml">
+    <history-entry file="GenerateClassTest_test - 2019.10.31 at 18h 40m 28s.xml">
+      <configuration name="GenerateClassTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GenerateClassTest_generateTest - 2019.10.31 at 18h 40m 50s.xml">
       <configuration name="GenerateClassTest.generateTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GenerateClassTest_generateTest - 2019.10.30 at 19h 52m 34s.xml">
+    <history-entry file="GenerateClassTest_generateTest - 2019.10.31 at 18h 45m 29s.xml">
       <configuration name="GenerateClassTest.generateTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GenerateClassTest_generateTest - 2019.10.30 at 19h 54m 21s.xml">
-      <configuration name="GenerateClassTest.generateTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GenerateClassTest_generateTest - 2019.10.31 at 10h 01m 25s.xml">
+    <history-entry file="GenerateClassTest_generateTest - 2019.10.31 at 18h 46m 07s.xml">
       <configuration name="GenerateClassTest.generateTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="452274000" />
+    <option name="totallyTimeSpent" value="475373000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -679,8 +814,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49837133" visible="true" weight="0.21882641" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49837133" visible="true" weight="0.22249389" />
       <window_info id="Structure" order="1" sideWeight="0.49837133" weight="0.25183374" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -691,8 +827,8 @@
       <window_info id="Web" order="8" sideWeight="0.5005192" side_tool="true" weight="0.20979765" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3290461" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946752" visible="true" weight="0.24330118" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.22079314" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946752" weight="0.33440515" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.27224007" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32917964" />
@@ -725,7 +861,7 @@
       <window_info anchor="right" id="Coverage" order="12" side_tool="true" weight="0.32960597" />
       <window_info anchor="right" id="Bean Validation" order="13" />
       <window_info anchor="right" id="jclasslib" order="14" weight="0.5256724" />
-      <window_info anchor="right" id="ASM" order="15" weight="0.6589242" />
+      <window_info anchor="right" x="1743" y="81" width="1398" height="933" id="ASM" order="15" type="FLOATING" weight="0.5311736" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49948078" visible="true" weight="0.19083156" />
@@ -969,10 +1105,16 @@
           <option name="timeStamp" value="145" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/spy/src/main/java/com/yinglishzhi/asmtest/AdviceWeaver.java</url>
-          <line>14</line>
+          <url>file://$PROJECT_DIR$/spy/src/main/java/com/yinglishzhi/asmtest/CustomAdviceAdapter.java</url>
+          <line>16</line>
           <properties />
-          <option name="timeStamp" value="147" />
+          <option name="timeStamp" value="149" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spy/target/classes/com/yinglishzhi/test/TransClass.class</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="153" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/banner/Solution.java</url>
@@ -1054,100 +1196,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/agent/src/main/java/com/yinglishzhi/agent/AgentClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/asm/agent/TransClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/src/main/java/producerconsumer/waitnotify/Produce.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/src/main/java/producerconsumer/lock/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaCore/src/main/java/com/YinglishZhi/io/test/MultiplexerTimeServerHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="701">
-          <caret line="130" selection-start-line="130" selection-end-line="130" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaCore/src/main/java/com/YinglishZhi/io/test/TimeClientHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="28" column="50" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaCore/src/main/java/com/YinglishZhi/io/test/NioSocketServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="626">
-          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/netty/NettyTelnetHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="596">
-          <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/src/main/java/search/src/api/ISearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/src/main/java/search/src/Search.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/jetbrains-agent/fuck_the_regulations/aM.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/jetbrains-agent/fuck_the_regulations/A.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/jetbrains-agent/fuck_the_regulations/b5.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/asm/generate/Account.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -1187,24 +1235,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Utils/target/classes/com/YinglishZhi/asm/Generate.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="11" selection-start-column="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spy/src/main/java/com/yinglishzhi/asmtest/MyClassAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="e#305#306#0" expanded="true" />
-            <element signature="e#330#331#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Utils/target/classes/com/YinglishZhi/asm/Generate.go" />
     <entry file="file://$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/asm/generate/Generator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -1250,20 +1281,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/asm/generate/AddSecurityCheckMethodAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spy/src/main/java/com/yinglishzhi/attach/AttachThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="764">
-          <caret line="60" column="121" selection-start-line="60" selection-start-column="121" selection-end-line="60" selection-end-column="121" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/rt.jar!/jdk/internal/org/objectweb/asm/Opcodes.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="302">
@@ -1288,84 +1305,156 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/repository/org/ow2/asm/asm/7.2/asm-7.2-sources.jar!/org/objectweb/asm/ClassVisitor.java">
+    <entry file="file://$PROJECT_DIR$/spy/target/classes/com/yinglishzhi/asmtest/GenerateClass.class" />
+    <entry file="jar://$USER_HOME$/repository/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7-sources.jar!/org/apache/commons/lang3/StringUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="47" column="25" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
+        <state relative-caret-position="298">
+          <caret line="116" column="13" selection-start-line="116" selection-start-column="13" selection-end-line="116" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spy/target/classes/com/yinglishzhi/asmtest/GenerateClass.class">
+    <entry file="jar://$USER_HOME$/repository/org/junit/platform/junit-platform-commons/1.6.0-M1/junit-platform-commons-1.6.0-M1.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#1973#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="537">
+          <caret line="357" column="8" selection-start-line="357" selection-start-column="8" selection-end-line="357" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Utils/src/main/java/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/DownLoad/DownLoadImage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/repository/org/ow2/asm/asm/7.2/asm-7.2-sources.jar!/org/objectweb/asm/Type.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/repository/org/ow2/asm/asm/7.2/asm-7.2-sources.jar!/org/objectweb/asm/Opcodes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="530" column="6" selection-start-line="530" selection-start-column="6" selection-end-line="530" selection-end-column="6" />
+        <state relative-caret-position="302">
+          <caret line="435" column="6" selection-start-line="435" selection-start-column="6" selection-end-line="435" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spy/src/main/java/com/yinglishzhi/asmtest/GenerateClass.java">
+    <entry file="jar://$USER_HOME$/repository/org/ow2/asm/asm-commons/6.0/asm-commons-6.0-sources.jar!/org/objectweb/asm/commons/GeneratorAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="31" column="75" selection-start-line="31" selection-start-column="75" selection-end-line="31" selection-end-column="75" />
+        <state relative-caret-position="302">
+          <caret line="739" column="16" selection-start-line="739" selection-start-column="16" selection-end-line="739" selection-end-column="16" />
+          <folding>
+            <element signature="e#23655#23656#0" expanded="true" />
+            <element signature="e#23696#23697#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="69" column="25" selection-start-line="69" selection-start-column="25" selection-end-line="69" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/asm/generate/GenerateClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="260" column="27" selection-start-line="260" selection-start-column="27" selection-end-line="260" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/repository/org/ow2/asm/asm-commons/6.0/asm-commons-6.0-sources.jar!/org/objectweb/asm/commons/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="135" column="47" selection-start-line="135" selection-start-column="47" selection-end-line="135" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/io/PrintStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="550" column="20" selection-start-line="550" selection-start-column="20" selection-end-line="550" selection-end-column="20" />
+          <folding>
+            <element signature="e#24380#24381#0" expanded="true" />
+            <element signature="e#24405#24406#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/asm/generate/AddSecurityCheckMethodAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+          <folding>
+            <element signature="e#243#244#0" expanded="true" />
+            <element signature="e#281#282#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/repository/org/ow2/asm/asm/7.2/asm-7.2-sources.jar!/org/objectweb/asm/ClassVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/repository/org/ow2/asm/asm/7.2/asm-7.2-sources.jar!/org/objectweb/asm/ClassWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9963">
+          <caret line="397" column="29" selection-start-line="397" selection-start-column="29" selection-end-line="397" selection-end-column="29" />
+          <folding>
+            <element signature="e#9238#9239#0" expanded="true" />
+            <element signature="e#9265#9266#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/repository/org/ow2/asm/asm-commons/6.0/asm-commons-6.0-sources.jar!/org/objectweb/asm/commons/AdviceAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="62" column="22" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
+        <state relative-caret-position="2079">
+          <caret line="114" selection-start-line="114" selection-end-line="114" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spy/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    <entry file="jar://$USER_HOME$/repository/org/ow2/asm/asm/7.2/asm-7.2-sources.jar!/org/objectweb/asm/MethodVisitor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="126" column="20" selection-start-line="126" selection-start-column="20" selection-end-line="126" selection-end-column="20" />
+        <state relative-caret-position="19467">
+          <caret line="749" column="14" selection-start-line="749" selection-start-column="14" selection-end-line="749" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spy/target/classes/com/yinglishzhi/test/AddField.class">
+    <entry file="jar://$USER_HOME$/repository/org/ow2/asm/asm/7.2/asm-7.2-sources.jar!/org/objectweb/asm/MethodWriter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-321">
-          <folding>
-            <element signature="e#0#2597#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="31536">
+          <caret line="1198" column="14" selection-start-line="1198" selection-start-column="14" selection-end-line="1198" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/repository/org/ow2/asm/asm/7.2/asm-7.2-sources.jar!/org/objectweb/asm/ClassReader.java">
+    <entry file="file://$PROJECT_DIR$/spy/src/main/java/com/yinglishzhi/attach/AttachThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="400" selection-start-line="400" selection-end-line="400" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spy/target/classes/com/yinglishzhi/test/TransClass.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spy/src/test/java/com/yinglishzhi/asmtest/GenerateClassTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="326">
+          <caret line="52" column="31" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -1379,74 +1468,130 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/spy/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="126" column="20" selection-start-line="126" selection-start-column="20" selection-end-line="126" selection-end-column="20" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="jar://$USER_HOME$/repository/org/ow2/asm/asm/7.2/asm-7.2-sources.jar!/org/objectweb/asm/ClassReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="687" selection-start-line="687" selection-end-line="687" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spy/target/classes/com/yinglishzhi/test/AddField.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spy/target/classes/com/yinglishzhi/test/TestMainJar.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2">
+          <folding>
+            <element signature="e#0#669#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/lang/reflect/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="483" column="18" selection-start-line="483" selection-start-column="18" selection-end-line="483" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/spy/src/main/java/com/yinglishzhi/test/Transformer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1909">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        <state relative-caret-position="540">
+          <caret line="31" column="94" selection-start-line="31" selection-start-column="94" selection-end-line="31" selection-end-column="94" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spy/src/main/java/com/yinglishzhi/asmtest/MyClassAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#330#331#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spy/src/main/java/com/yinglishzhi/test/TestMainJar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        <state relative-caret-position="243">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spy/src/main/java/com/yinglishzhi/asmtest/Heck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+          <folding>
+            <element signature="e#234#235#0" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spy/src/main/java/com/yinglishzhi/asmtest/AdviceWeaver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1053">
-          <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
+        <state relative-caret-position="206">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#317#318#0" expanded="true" />
-            <element signature="e#356#357#0" expanded="true" />
+            <element signature="e#471#472#0" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+            <element signature="e#450#451#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/repository/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7-sources.jar!/org/apache/commons/lang3/StringUtils.java">
+    <entry file="file://$PROJECT_DIR$/spy/target/classes/com/yinglishzhi/test/TransClass.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="116" column="13" selection-start-line="116" selection-start-column="13" selection-end-line="116" selection-end-column="13" />
+        <state relative-caret-position="378">
+          <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spy/src/test/java/com/yinglishzhi/asmtest/GenerateClassTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="38" column="25" lean-forward="true" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spy/src/main/java/com/yinglishzhi/asmtest/CustomAdviceAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
+        <state relative-caret-position="374">
+          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2115#2116#0" expanded="true" />
+            <element signature="e#2182#2183#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spy/src/main/java/com/yinglishzhi/test/TransClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        <state relative-caret-position="216">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
           <folding>
-            <element signature="e#134#135#0" expanded="true" />
-            <element signature="e#158#159#0" expanded="true" />
+            <element signature="e#238#239#0" expanded="true" />
+            <element signature="e#195#196#0" expanded="true" />
+            <element signature="e#220#221#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/io/PrintStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="747" column="16" selection-start-line="747" selection-start-column="16" selection-end-line="747" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/repository/org/junit/platform/junit-platform-commons/1.6.0-M1/junit-platform-commons-1.6.0-M1.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="537">
-          <caret line="357" column="8" selection-start-line="357" selection-start-column="8" selection-end-line="357" selection-end-column="8" />
         </state>
       </provider>
     </entry>

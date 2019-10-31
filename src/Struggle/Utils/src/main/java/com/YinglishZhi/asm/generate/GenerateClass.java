@@ -1,4 +1,4 @@
-package com.yinglishzhi.asmtest;
+package com.YinglishZhi.asm.generate;
 
 
 import jdk.internal.org.objectweb.asm.*;

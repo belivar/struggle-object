@@ -7,6 +7,11 @@ package com.yinglishzhi.test;
 public class TransClass {
 
     public int getNumber() {
-        return 1;
+        return add(1, 2);
     }
+
+    private int add(int a, int b) {
+        return a + b;
+    }
+
 }
