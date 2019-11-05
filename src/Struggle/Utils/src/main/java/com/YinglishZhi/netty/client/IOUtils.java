@@ -12,7 +12,7 @@ import java.io.*;
  * destination. The threads terminate when the remote input source closes.
  ***/
 
-public final class IOUtil {
+public final class IOUtils {
 
     public static final void readWrite(final InputStream remoteInput, final OutputStream remoteOutput,
                                        final InputStream localInput, final Writer localOutput) {
@@ -39,11 +39,8 @@ public final class IOUtil {
                     if (singleChar == -1) {
                         break;
                     }
-                    System.out.println((char) singleChar);
-//                    remoteOutput.write(singleChar);
-//                    remoteOutput.flush();
-//                        localOutput.write(singleChar);
-//                        localOutput.flush();
+                    localOutput.write(singleChar);
+                    localOutput.flush();
                 }
             } catch (IOException e) {
                 e.printStackTrace();
