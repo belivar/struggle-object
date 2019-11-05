@@ -1,6 +1,6 @@
 package com.YinglishZhi.banner;
 
-import com.YinglishZhi.Utils.IOUtils;
+import com.YinglishZhi.Utils.IOUtil;
 import com.taobao.text.Color;
 import com.taobao.text.Decoration;
 import com.taobao.text.ui.TableElement;
@@ -10,7 +10,6 @@ import lombok.extern.slf4j.Slf4j;
 import java.io.InputStream;
 import java.util.Collections;
 import java.util.Map;
-
 import static com.taobao.text.ui.Element.label;
 
 /**
@@ -36,11 +35,11 @@ public class Solution {
             if (inputStream == null){
                 System.out.println(666);
             }
-            String logoText = IOUtils.toString(inputStream);
-//            THANKS = IOUtils.toString(ShellServerOptions.class.getResourceAsStream(CREDIT_LOCATION));
+            String logoText = com.YinglishZhi.Utils.IOUtil.toString(inputStream);
+//            THANKS = IOUtil.toString(ShellServerOptions.class.getResourceAsStream(CREDIT_LOCATION));
 //            InputStream versionInputStream = ShellServerOptions.class.getResourceAsStream(VERSION_LOCATION);
 //            if (versionInputStream != null) {
-//                VERSION = IOUtils.toString(versionInputStream).trim();
+//                VERSION = IOUtil.toString(versionInputStream).trim();
 //            } else {
 //                String implementationVersion = ArthasBanner.class.getPackage().getImplementationVersion();
 //                if (implementationVersion != null) {

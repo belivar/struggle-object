@@ -6,8 +6,9 @@ package com.YinglishZhi.Utils;
  */
 
 import java.io.*;
+import java.nio.charset.Charset;
 
-public class IOUtils {
+public class IOUtil {
 
     private static final int EOF = -1;
 
