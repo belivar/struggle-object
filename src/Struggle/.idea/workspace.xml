@@ -14,10 +14,7 @@
     <bookmark url="file://$PROJECT_DIR$/../../../arthas/agent/pom.xml" description="&lt;manifestEntries&gt;" line="53" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77fff2c1-a066-4db3-a62b-e0be4af82274" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/leetcode/src/main/java/com/YinglishZhi/LeetCode_10/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="77fff2c1-a066-4db3-a62b-e0be4af82274" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/javaCore/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/Utils/target/" />
@@ -60,20 +57,7 @@
     <favorites_list name="YinglishZhi" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/leetcode/src/main/java/com/YinglishZhi/LeetCode_10/Solution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="33" column="61" selection-start-line="33" selection-start-column="61" selection-end-line="33" selection-end-column="61" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -222,7 +206,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="y" value="23" />
     <option name="width" value="1680" />
     <option name="height" value="1027" />
@@ -585,7 +569,7 @@
       <workItem from="1572509735229" duration="8899000" />
       <workItem from="1572590464157" duration="8598000" />
       <workItem from="1572833073381" duration="10480000" />
-      <workItem from="1572924261953" duration="5898000" />
+      <workItem from="1572924261953" duration="6411000" />
     </task>
     <servers />
   </component>
@@ -622,7 +606,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="500434000" />
+    <option name="totallyTimeSpent" value="500947000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -634,10 +618,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
+    <frame x="0" y="23" width="1680" height="1027" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49680716" visible="true" weight="0.28361857" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49680716" visible="true" weight="0.28361857" />
       <window_info id="Structure" order="1" sideWeight="0.49837133" weight="0.25159913" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -648,7 +632,7 @@
       <window_info id="Web" order="8" sideWeight="0.5005192" side_tool="true" weight="0.20979765" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3290461" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946752" visible="true" weight="0.25294748" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946752" weight="0.25294748" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.27009645" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1450,8 +1434,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/src/main/java/com/YinglishZhi/LeetCode_10/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="33" column="61" selection-start-line="33" selection-start-column="61" selection-end-line="33" selection-end-column="61" />
+        <state relative-caret-position="632">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
