@@ -150,6 +150,13 @@
             <version>2.14.6</version>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/com.alibaba.middleware/cli -->
+        <dependency>
+            <groupId>com.alibaba.middleware</groupId>
+            <artifactId>cli</artifactId>
+            <version>1.0.2</version>
+        </dependency>
+
     </dependencies>
 
 </project>

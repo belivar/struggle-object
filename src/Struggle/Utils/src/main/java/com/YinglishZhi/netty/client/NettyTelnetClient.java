@@ -7,11 +7,13 @@ import jline.console.ConsoleReader;
 import org.apache.commons.net.telnet.TelnetClient;
 import sun.nio.ch.IOUtil;
 
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
-import java.io.PrintStream;
+import java.io.*;
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
+import java.net.MalformedURLException;
 import java.net.SocketException;
+import java.net.URL;
+import java.net.URLClassLoader;
 
 /**
  * @author LDZ
@@ -201,7 +203,15 @@ public class NettyTelnetClient {
     public static void main(String[] args) throws Exception {
         // support mingw/cygw jline color
 
-
+        try {
+            URLClassLoader classLoader = new URLClassLoader(
+                    new URL[]{new File("/Users/zhiyinglish/dev/rhine/client/target/terminal-jar-with-dependencies.jar").toURI().toURL()});
+            Class<?> telnetConsoleClas = classLoader.loadClass("com.rhine.client.TelnetConsole");
+            Method mainMethod = telnetConsoleClas.getMethod("main", String[].class);
+            mainMethod.invoke(null, new Object[]{new String[]{"123", "456"}});
+        } catch (NoSuchMethodException | MalformedURLException | ClassNotFoundException | IllegalAccessException | InvocationTargetException e) {
+            e.printStackTrace();
+        }
         try {
             final ConsoleReader consoleReader = new ConsoleReader(System.in, System.out);
             consoleReader.setHandleUserInterrupt(true);
