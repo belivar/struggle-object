@@ -15,18 +15,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77fff2c1-a066-4db3-a62b-e0be4af82274" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/javaCore/src/main/java/com/YinglishZhi/jvm/oom/HeapOutOfMemory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/main/java/com/YinglishZhi/Interview_1/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mohout/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/netty/NettyTelnetServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/netty/NettyTelnetServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/shell/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Utils/src/main/java/com/YinglishZhi/shell/test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/agent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/agent/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaCore/src/main/java/com/YinglishZhi/io/test/NIO/NIOClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaCore/src/main/java/com/YinglishZhi/io/test/NIO/NIOClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaCore/src/main/java/com/YinglishZhi/io/test/NIO/NIOServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaCore/src/main/java/com/YinglishZhi/io/test/NIO/NIOServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/main/java/com/YinglishZhi/Interview_1/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/main/java/com/YinglishZhi/Interview_1/Solution.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/javaCore/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -123,8 +112,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/leetcode/src/main/java/com/YinglishZhi/Interview_1/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="797">
-              <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
+            <state relative-caret-position="2403">
+              <caret line="89" column="5" lean-forward="true" selection-start-line="89" selection-start-column="5" selection-end-line="89" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1927#1928#0" expanded="true" />
@@ -729,14 +718,11 @@
       <workItem from="1572958354931" duration="8935000" />
       <workItem from="1573037924684" duration="3914000" />
       <workItem from="1573311750785" duration="1325000" />
-      <workItem from="1573525416631" duration="2583000" />
+      <workItem from="1573525416631" duration="2629000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Solution_testCase1 - 2019.11.06 at 16h 29m 02s.xml">
-      <configuration name="Solution.testCase1" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Solution_testCase2 - 2019.11.06 at 16h 30m 48s.xml">
       <configuration name="Solution.testCase2" configurationId="JUnit" />
     </history-entry>
@@ -764,9 +750,12 @@
     <history-entry file="Solution_testCase1 - 2019.11.12 at 11h 14m 12s.xml">
       <configuration name="Solution.testCase1" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Solution_testCase1 - 2019.11.12 at 11h 14m 23s.xml">
+      <configuration name="Solution.testCase1" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="525320000" />
+    <option name="totallyTimeSpent" value="525366000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1575,8 +1564,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/src/main/java/com/YinglishZhi/Interview_1/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="797">
-          <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
+        <state relative-caret-position="2403">
+          <caret line="89" column="5" lean-forward="true" selection-start-line="89" selection-start-column="5" selection-end-line="89" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1927#1928#0" expanded="true" />
