@@ -12,9 +12,9 @@
         <module name="Algorithm" />
         <module name="yinglishzhi" />
         <module name="LintCode" />
-        <module name="agent" />
         <module name="spy" />
         <module name="designpattern" />
+        <module name="mohout" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -24,6 +24,7 @@
       <module name="designpattern" target="1.5" />
       <module name="javaCore" target="8" />
       <module name="LeetCode" target="1.8" />
+      <module name="mohout" target="1.8" />
       <module name="spy" target="1.8" />
       <module name="Utils" target="1.8" />
       <module name="yinglishzhi" target="1.8" />
@@ -31,6 +32,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="mohout" options="-extdirs libs -verbose -bootclasspath /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/lib/resources.jar" />
       <module name="spy" options="-extdirs libs -verbose -bootclasspath /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/lib/resources.jar" />
     </option>
   </component>

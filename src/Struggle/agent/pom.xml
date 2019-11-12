@@ -6,7 +6,12 @@
 
     <groupId>YInglishZhi</groupId>
     <artifactId>agent</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>mahout</module>
+        <module>../mohout</module>
+    </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 

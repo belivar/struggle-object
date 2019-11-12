@@ -47,17 +47,31 @@ public class NIOServer implements Runnable {
                 Iterator<SelectionKey> ite = selector.selectedKeys().iterator();
                 while (ite.hasNext()) {
                     SelectionKey key = ite.next();
-                    if (key.isAcceptable()) {
-                        SocketChannel channel = serverSocketChannel.accept();
-                        channel.configureBlocking(false);
-                        channel.register(selector, SelectionKey.OP_READ);
-                    } else if (key.isReadable()) {
-                        recvAndReply(key);
-                    }
                     ite.remove();
+
+                    if (key.isAcceptable()) {
+                        accept(key);
+                    } else if (key.isReadable()) {
+                        read(key);
+                    }
+
                 }
             }
         } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void accept(SelectionKey key) {
+        try {
+            ServerSocketChannel serverSocketChannel = (ServerSocketChannel) key.channel();
+            SocketChannel socketChannel = serverSocketChannel.accept();
+            System.out.println("is acceptable");
+            socketChannel.configureBlocking(false);
+            socketChannel.register(selector, SelectionKey.OP_READ);
+
+        } catch (IOException e) {
+            // TODO Auto-generated catch block
             e.printStackTrace();
         }
     }
@@ -74,6 +88,33 @@ public class NIOServer implements Runnable {
         } else {
             channel.close();
         }
+    }
+
+    public void read(SelectionKey selectionKey) {
+        try {
+            SocketChannel channel = (SocketChannel) selectionKey.channel();
+            ByteBuffer byteBuffer = ByteBuffer.allocate(100);
+            int len = channel.read(byteBuffer);
+            if (len > 0) {
+
+                byteBuffer.flip();
+                byte[] byteArray = new byte[byteBuffer.limit()];
+                byteBuffer.get(byteArray);
+                System.out.println("NioSocketServer receive from client:" + new String(byteArray));
+
+            }
+        } catch (IOException e) {
+            // TODO Auto-generated catch block
+            try {
+                serverSocketChannel.close();
+                selectionKey.cancel();
+            } catch (IOException e1) {
+                // TODO Auto-generated catch block
+                e1.printStackTrace();
+            }
+            e.printStackTrace();
+        }
+
     }
 
     public static void main(String[] args) throws IOException {
