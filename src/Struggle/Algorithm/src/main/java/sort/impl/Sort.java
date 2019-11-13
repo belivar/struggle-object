@@ -180,12 +180,4 @@ public class Sort implements ISort {
         return sb.toString();
     }
 
-    public static void main(String[] args) {
-        int[] nums = {3, 8, 5, 2, 10, 4};
-        ISort sort = new Sort(nums);
-
-        sort.quickSort();
-
-        System.out.println(sort.toString());
-    }
 }
