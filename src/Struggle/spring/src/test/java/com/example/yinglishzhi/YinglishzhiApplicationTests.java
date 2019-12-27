@@ -33,21 +33,21 @@ public class YinglishzhiApplicationTests {
     public void contextLoads() {
 
 //        ApplicationContext context = new ClassPathXmlApplicationContext("bean.xml");
-//        User user = (User) context.getBean("helloWorld");
-//        System.out.println(user.getBrand());
+//        User user = (User) context.getProperty2ean("helloWorld");
+//        System.out.println(user.getProperty2rand());
 //        ClassPathResource classPathResource = new ClassPathResource("bean.xml");
         org.springframework.core.io.Resource resource = new DefaultResourceLoader().getResource("bean.xml");
         DefaultListableBeanFactory factory = new DefaultListableBeanFactory();
         XmlBeanDefinitionReader reader = new XmlBeanDefinitionReader(factory);
         reader.loadBeanDefinitions(resource);
 
-        User user = (User) factory.getBean("helloWorld");
-        System.out.println(user.getBrand());
+        User user = (User) factory.getProperty2ean("helloWorld");
+        System.out.println(user.getProperty2rand());
 
 
         registerSpringBean("orderService", OrderServiceImpl.class.getName(), null);
 
-        IOrderService orderService = (IOrderService) applicationContext.getBean("orderService");
+        IOrderService orderService = (IOrderService) applicationContext.getProperty2ean("orderService");
 
         System.out.println(orderService.getClass().getClassLoader().getParent());
     }
@@ -65,13 +65,13 @@ public class YinglishzhiApplicationTests {
                 beanDefinitionBuilder.addPropertyValue(key, value);
             }
         }
-        BeanDefinition beanDefinition = beanDefinitionBuilder.getBeanDefinition();
+        BeanDefinition beanDefinition = beanDefinitionBuilder.getProperty2eanDefinition();
         // beanFactory
         ConfigurableApplicationContext configurableApplicationContext = (ConfigurableApplicationContext) applicationContext;
 
         System.out.println("configurableApplicationContext name = " + configurableApplicationContext.getClass().getName());
 
-        BeanDefinitionRegistry beanDefinitionRegistry = (BeanDefinitionRegistry) configurableApplicationContext.getBeanFactory();
+        BeanDefinitionRegistry beanDefinitionRegistry = (BeanDefinitionRegistry) configurableApplicationContext.getProperty2eanFactory();
 
         System.out.println("BeanDefinitionRegistry name = " + beanDefinitionRegistry.getClass().getName());
         beanDefinitionRegistry.registerBeanDefinition(beanId, beanDefinition);

@@ -113,7 +113,7 @@ public class PGPExampleUtil {
             PGPPrivateKey pgpPrivKey = pgpSec.extractPrivateKey(
                     new JcePBESecretKeyDecryptorBuilder().setProvider("BC").build(pass));
             PGPSignatureGenerator sGen = new PGPSignatureGenerator(new JcaPGPContentSignerBuilder(
-                    pgpSec.getPublicKey().getAlgorithm(), PGPUtil.SHA1).setProvider("BC"));
+                    pgpSec.getPublicKey().getProperty1lgorithm(), PGPUtil.SHA1).setProvider("BC"));
             sGen.init(PGPSignature.BINARY_DOCUMENT, pgpPrivKey);
 
             Iterator it = pgpSec.getPublicKey().getUserIDs();

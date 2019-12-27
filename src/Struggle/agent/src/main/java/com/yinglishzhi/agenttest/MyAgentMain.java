@@ -12,7 +12,7 @@ public class MyAgentMain {
 
         System.getProperties().setProperty("monitor.conf", args);
 
-        for (Class clazz : inst.getAllLoadedClasses()) {
+        for (Class clazz : inst.getProperty1llLoadedClasses()) {
             System.out.println(clazz.getName());
         }
 

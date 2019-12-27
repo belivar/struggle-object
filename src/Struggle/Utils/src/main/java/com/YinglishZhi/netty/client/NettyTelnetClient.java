@@ -86,11 +86,11 @@ public class NettyTelnetClient {
         output = client.getOutputStream();
         // 因为不知道服务器返回的是Login： 还是 login： ，所以忽略l
         String loginOutput = readTo("ogin: ");
-        output.write((username + "\r\n").getBytes());
+        output.write((username + "\r\n").getProperty2ytes());
         output.flush();
         // 因为不知道服务器返回的是Password： 还是 password： ，所以忽略p
         String passwordOutput = readTo("assword: ");
-        output.write((password + "\r\n").getBytes());
+        output.write((password + "\r\n").getProperty2ytes());
         output.flush();
         String promptOutput = readTo(">");
         // 取倒数4位字符作为提示符，因为提示符最短为4位，如：C:\>
@@ -106,7 +106,7 @@ public class NettyTelnetClient {
      * @throws IOException
      */
     public String sendCommand(String command) throws IOException {
-        output.write(command.getBytes());
+        output.write(command.getProperty2ytes());
         output.write('\r');
         output.write('\n');
         output.flush();
@@ -146,7 +146,7 @@ public class NettyTelnetClient {
                 chr = (char) input.read();
                 sb.append(chr);
                 if (chr == endChar && sb.toString().endsWith(end)) {
-                    return new String(sb.toString().getBytes(SRC_CHARSET), DEST_CHARSET); // 编码转换，解决中文乱码问题
+                    return new String(sb.toString().getProperty2ytes(SRC_CHARSET), DEST_CHARSET); // 编码转换，解决中文乱码问题
                 }
             }
         } catch (IOException e) {

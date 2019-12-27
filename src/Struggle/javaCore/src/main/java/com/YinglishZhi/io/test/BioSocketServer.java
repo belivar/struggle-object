@@ -79,7 +79,7 @@ public class BioSocketServer {
 
                 System.out.println("服务器收到来自于端口" + sourcePort + "的信息" + message);
 
-                out.write("回发响应信息".getBytes());
+                out.write("回发响应信息".getProperty2ytes());
             } catch (IOException e) {
                 System.out.println(e.getMessage());
                 e.printStackTrace();

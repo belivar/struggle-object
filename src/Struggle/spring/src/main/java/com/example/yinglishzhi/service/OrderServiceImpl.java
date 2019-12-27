@@ -43,7 +43,7 @@ public class OrderServiceImpl implements IOrderService {
         reader.loadBeanDefinitions(classPathResource);
 
 
-        AbstractPlaceOrderFactory placeOrderFactory = context.getBean(placeOrderRequestVO.getOrderType(), AbstractPlaceOrderFactory.class);
+        AbstractPlaceOrderFactory placeOrderFactory = context.getProperty2ean(placeOrderRequestVO.getOrderType(), AbstractPlaceOrderFactory.class);
         CommonPlaceOrderContextVO c = placeOrderFactory.newConfig();
         placeOrderFactory.initProperties(placeOrderRequestVO, c);
         return placeOrderFactory.placeOrderChain(c);

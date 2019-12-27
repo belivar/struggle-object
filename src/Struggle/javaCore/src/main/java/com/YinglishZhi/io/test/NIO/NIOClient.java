@@ -102,10 +102,10 @@ public class NIOClient extends Thread {
 
         for (int i = 0; i < 10; i++) {
             String ss = i + "Server ,how are you? this is package message from NioSocketClient!";
-            int head = (ss).getBytes().length;
+            int head = (ss).getProperty2ytes().length;
             ByteBuffer byteBuffer = ByteBuffer.allocate(4 + head);
             byteBuffer.put(intToBytes(head));
-            byteBuffer.put(ss.getBytes());
+            byteBuffer.put(ss.getProperty2ytes());
             byteBuffer.flip();
             System.out.println("[client] send:" + i + "-- " + head + ss);
             while (byteBuffer.hasRemaining()) {

@@ -218,7 +218,7 @@ public class KeyBasedFileProcessor {
         }
         PGPSecretKey pgpSecKey = readSecretKey(keyIn);
         PGPPrivateKey pgpPrivKey = pgpSecKey.extractPrivateKey(new JcePBESecretKeyDecryptorBuilder().setProvider("BC").build(pass));
-        PGPSignatureGenerator sGen = new PGPSignatureGenerator(new JcaPGPContentSignerBuilder(pgpSecKey.getPublicKey().getAlgorithm(), digest).setProvider("BC"));
+        PGPSignatureGenerator sGen = new PGPSignatureGenerator(new JcaPGPContentSignerBuilder(pgpSecKey.getPublicKey().getProperty1lgorithm(), digest).setProvider("BC"));
         PGPSignatureSubpacketGenerator spGen = new PGPSignatureSubpacketGenerator();
         sGen.init(PGPSignature.CANONICAL_TEXT_DOCUMENT, pgpPrivKey);
 
@@ -355,7 +355,7 @@ public class KeyBasedFileProcessor {
 
         PGPSecretKey pgpSecKey = readSecretKey(keyIn);
         PGPPrivateKey pgpPrivKey = pgpSecKey.extractPrivateKey(new JcePBESecretKeyDecryptorBuilder().setProvider(new BouncyCastleProvider()).build(pass));
-        PGPSignatureGenerator sGen = new PGPSignatureGenerator(new JcaPGPContentSignerBuilder(pgpSecKey.getPublicKey().getAlgorithm(), HashAlgorithmTags.SHA1).setProvider(new BouncyCastleProvider()));
+        PGPSignatureGenerator sGen = new PGPSignatureGenerator(new JcaPGPContentSignerBuilder(pgpSecKey.getPublicKey().getProperty1lgorithm(), HashAlgorithmTags.SHA1).setProvider(new BouncyCastleProvider()));
 
 
         sGen.init(PGPSignature.CANONICAL_TEXT_DOCUMENT, pgpPrivKey);

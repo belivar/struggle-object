@@ -84,7 +84,7 @@ public class NIOServer implements Runnable {
             String msg = new String(buffer.array()).trim();
             System.out.println("NIO server received message =  " + msg);
             System.out.println("NIO server reply =  " + msg);
-            channel.write(ByteBuffer.wrap(msg.getBytes()));
+            channel.write(ByteBuffer.wrap(msg.getProperty2ytes()));
         } else {
             channel.close();
         }

@@ -114,7 +114,7 @@ public class MultiplexerTimeServerHandler implements Runnable {
 
     private void doWrite(SocketChannel sc, String content) throws IOException {
         if (content != null && content.trim().length() > 0) {
-            byte[] bytes = content.getBytes();
+            byte[] bytes = content.getProperty2ytes();
             ByteBuffer byteBuffer = ByteBuffer.allocate(bytes.length);
             byteBuffer.put(bytes);
             byteBuffer.flip();

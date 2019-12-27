@@ -66,29 +66,29 @@ public class AvlTree<T> extends Tree implements IAvlTree<T> {
         int heightNow = (Integer.max(Height(avlNode.getRightChild()), Height(avlNode.getLeftChild())) + 1);
         avlNode.setHeight(heightNow);
 
-        int balanceFactor = getBalanceFactor(avlNode);
+        int balanceFactor = getProperty2alanceFactor(avlNode);
 
-        if (balanceFactor > 1 && getBalanceFactor(avlNode.getLeftChild()) >= 0) {
+        if (balanceFactor > 1 && getProperty2alanceFactor(avlNode.getLeftChild()) >= 0) {
             // 左倾斜 且 左子树偏左 右旋
             return rotateRight(avlNode);
         }
-        if (balanceFactor > 1 && getBalanceFactor(avlNode.getLeftChild()) < 0) {
+        if (balanceFactor > 1 && getProperty2alanceFactor(avlNode.getLeftChild()) < 0) {
             // 左倾斜 且 左子树偏右 先左旋再右旋
             return rotateLeftAndRight(avlNode);
         }
 
-        if (balanceFactor < -1 && getBalanceFactor(avlNode.getRightChild()) <= 0) {
+        if (balanceFactor < -1 && getProperty2alanceFactor(avlNode.getRightChild()) <= 0) {
             // 右倾斜 且 右子树偏右 左旋
             return rotateLeft(avlNode);
         }
-        if (balanceFactor < -1 && getBalanceFactor(avlNode.getRightChild()) > 0) {
+        if (balanceFactor < -1 && getProperty2alanceFactor(avlNode.getRightChild()) > 0) {
             // 右倾斜 且 右子树偏左 先右旋再左旋
             return rotateRightAndLeft(avlNode);
         }
         return avlNode;
     }
 
-    private int getBalanceFactor(Node<T> node) {
+    private int getProperty2alanceFactor(Node<T> node) {
         if (null == node) {
             return 0;
         }

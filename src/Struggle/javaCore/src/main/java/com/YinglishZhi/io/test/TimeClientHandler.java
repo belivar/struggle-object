@@ -126,7 +126,7 @@ public class TimeClientHandler implements Runnable {
     }
 
     private void doWrite(SocketChannel sc) throws IOException {
-        byte[] bytes = "time".getBytes();
+        byte[] bytes = "time".getProperty2ytes();
         ByteBuffer writeBuff = ByteBuffer.allocate(bytes.length);
         writeBuff.put(bytes);
         writeBuff.flip();

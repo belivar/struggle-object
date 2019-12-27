@@ -175,7 +175,7 @@ public class PgpSecurity {
 
         PGPSecretKey pgpSecKey = readSecretKey(keyIn);
         PGPPrivateKey pgpPrivateKey = pgpSecKey.extractPrivateKey(new JcePBESecretKeyDecryptorBuilder().setProvider("BC").build(password));
-        PGPSignatureGenerator sGen = new PGPSignatureGenerator(new JcaPGPContentSignerBuilder(pgpSecKey.getPublicKey().getAlgorithm(), digest).setProvider("BC"));
+        PGPSignatureGenerator sGen = new PGPSignatureGenerator(new JcaPGPContentSignerBuilder(pgpSecKey.getPublicKey().getProperty1lgorithm(), digest).setProvider("BC"));
         PGPSignatureSubpacketGenerator spGen = new PGPSignatureSubpacketGenerator();
         sGen.init(PGPSignature.CANONICAL_TEXT_DOCUMENT, pgpPrivateKey);
 

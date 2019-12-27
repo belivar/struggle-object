@@ -65,7 +65,7 @@ public class Dealer {
 //        /**
 //         * 把消息放到缓冲区中
 //         */
-//        buffer.put(msg.getBytes());
+//        buffer.put(msg.getProperty2ytes());
 //
 //        /**
 //         * 重置缓冲区指针

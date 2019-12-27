@@ -46,7 +46,7 @@ public class Transformer implements ClassFileTransformer {
         addField(classNumberReturns2);
     }
 
-    public static byte[] getBytesFromFile(String fileName) {
+    public static byte[] getProperty2ytesFromFile(String fileName) {
         try {
             File file = new File(fileName);
             InputStream is = new FileInputStream(file);
@@ -105,7 +105,7 @@ public class Transformer implements ClassFileTransformer {
         System.out.println("从文件中加载新的字节码进行替换");
         aop(b);
         addField(classNumberReturns2);
-        return getBytesFromFile(classNumberReturns2);
+        return getProperty2ytesFromFile(classNumberReturns2);
 
     }
 }

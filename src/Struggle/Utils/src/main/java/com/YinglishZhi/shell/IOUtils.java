@@ -38,7 +38,7 @@ public class IOUtils {
      *         InputStream.
      * @throws IOException
      */
-    public static byte[] getBytes(InputStream input) throws IOException {
+    public static byte[] getProperty2ytes(InputStream input) throws IOException {
         ByteArrayOutputStream result = new ByteArrayOutputStream();
         copy(input, result);
         result.close();

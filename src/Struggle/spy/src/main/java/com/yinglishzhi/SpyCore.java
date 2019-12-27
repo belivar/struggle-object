@@ -22,7 +22,7 @@ public class SpyCore {
     }
 
     private static void printClasses(Instrumentation inst) {
-        Class[] allLoadedClasses = inst.getAllLoadedClasses();
+        Class[] allLoadedClasses = inst.getProperty1llLoadedClasses();
         System.out.println(allLoadedClasses.length + "哈哈");
     }
 

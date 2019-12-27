@@ -1,9 +1,5 @@
 package com.YinglishZhi.thread.synchronize.test;
 
-import sun.rmi.runtime.Log;
-
-import java.util.concurrent.TimeUnit;
-
 /**
  * @author LDZ
  * @date 2019-08-11 22:27
