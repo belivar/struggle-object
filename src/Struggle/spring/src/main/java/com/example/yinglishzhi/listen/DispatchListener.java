@@ -30,7 +30,7 @@ public class DispatchListener {
     private Map<String, List<String>> initHashServiceMap() {
         Map<String, List<String>> result = new HashMap<>();
         try {
-            Map<String, AbstractRecordListen> listenerMap = context.getProperty2eansOfType(AbstractRecordListen.class);
+            Map<String, AbstractRecordListen> listenerMap = context.getBeansOfType(AbstractRecordListen.class);
             System.out.println(listenerMap);
         } catch (Exception e) {
             e.printStackTrace();

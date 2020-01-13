@@ -39,7 +39,7 @@ public class GenerateClass {
 
         // 生成字节码
         byte[] classFile = classWriter.toByteArray();
-        File file = new File("/Users/zhiyinglish/dev/struggle-object/src/Struggle/Utils/target/classes/com/YinglishZhi/asm/generate/MyClass.class");
+        File file = new File("/Users/mtdp/dev/SELF/struggle-object/src/Struggle/Utils/target/classes/com/YinglishZhi/asm/generate/MyClass.class");
         FileOutputStream fout = new FileOutputStream(file);
         fout.write(classFile);
         fout.close();
