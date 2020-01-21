@@ -39,7 +39,7 @@ public class AgentMain {
     }
 
     private static void printClasses(Instrumentation inst) {
-        Class[] allLoadedClasses = inst.getProperty1llLoadedClasses();
+        Class[] allLoadedClasses = inst.getAllLoadedClasses();
         for (Class clazz : allLoadedClasses) {
             log.info("class = {}", clazz.getName());
         }

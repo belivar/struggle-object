@@ -136,10 +136,9 @@ public class AddField extends ClassVisitor {
 
     public static void main(String[] args) throws IOException {
 
-        String classDir = "/Users/mtdp/dev/SELF/struggle-object/src/Struggle/Utils/target/classes/com/YinglishZhi/asm/Demo.class";
         String output = "/Users/mtdp/dev/SELF/struggle-object/src/Struggle/Utils/target/classes/com/YinglishZhi/asm";
 
-        ClassReader classReader = new ClassReader(new FileInputStream(classDir));
+        ClassReader classReader = new ClassReader(Demo.class.getName());
         ClassWriter classWriter = new ClassWriter(classReader, ClassWriter.COMPUTE_MAXS);
         ClassVisitor addField = new AddField(classWriter, "field", Opcodes.ACC_PRIVATE, Type.getDescriptor(String.class), "demo");
 

@@ -46,7 +46,7 @@ public class Transformer implements ClassFileTransformer {
         return null;
     }
 
-    public static byte[] getProperty2ytesFromFile(String fileName) {
+    public static byte[] getBytesFromFile(String fileName) {
         try {
             File file = new File(fileName);
             InputStream is = new FileInputStream(file);
@@ -79,10 +79,10 @@ public class Transformer implements ClassFileTransformer {
             return null;
         }
         ClassReader cr = new ClassReader(b);
-        log.info("读了byte className = {}, access = {}, item count = {}", cr.getClassName(), cr.getProperty1ccess(), cr.getItemCount());
+        log.info("读了byte className = {}, access = {}, item count = {}", cr.getClassName(), cr.getAccess(), cr.getItemCount());
         log.info("从文件中加载新的字节码进行替换");
         addField(classNumberReturns2);
-        return getProperty2ytesFromFile(classNumberReturns2);
+        return getBytesFromFile(classNumberReturns2);
 
     }
 }

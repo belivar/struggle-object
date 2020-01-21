@@ -61,7 +61,7 @@ public class BioSocketClient {
 
                 countDownLatch.await();
 
-                clientRequest.write(("这是第" + clientIndex + "个客户端请求。over").getProperty2ytes());
+                clientRequest.write(("这是第" + clientIndex + "个客户端请求。over").getBytes());
                 clientRequest.flush();
 
                 System.out.println("这是第" + clientIndex + "个客户端的请求发送完成，等待服务器返回信息");

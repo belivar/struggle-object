@@ -70,13 +70,9 @@ public class DealExcel {
 
                     }
 
-                    try {
-                        writeWithoutHead(Arrays.asList(re11, re12));
+                    writeWithoutHead(Arrays.asList(re11, re12));
 //                        writeWithoutHead11(re11);
 //                        writeWithoutHead12(re12);
-                    } catch (IOException e) {
-                        e.printStackTrace();
-                    }
                 }
             };
             ExcelReader excelReader = ExcelReaderFactory.getExcelReader(in, null, listener);
@@ -86,7 +82,7 @@ public class DealExcel {
     }
 
 
-    private static void writeWithoutHead(List<Map<String, Result>> re) throws IOException {
+    private static void writeWithoutHead(List<Map<String, Result>> re)  {
         try (OutputStream out = new FileOutputStream("/Users/zhiyinglish/OneDrive/doc/MEITUAN_DOC/withoutHead.xlsx");) {
             ExcelWriter writer = new ExcelWriter(out, ExcelTypeEnum.XLSX, false);
             int i = 1;
@@ -107,6 +103,10 @@ public class DealExcel {
             }
             writer.finish();
 
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
         }
     }
 
