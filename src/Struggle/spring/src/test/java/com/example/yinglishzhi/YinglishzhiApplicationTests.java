@@ -41,13 +41,13 @@ public class YinglishzhiApplicationTests {
         XmlBeanDefinitionReader reader = new XmlBeanDefinitionReader(factory);
         reader.loadBeanDefinitions(resource);
 
-        User user = (User) factory.getProperty2ean("helloWorld");
-        System.out.println(user.getProperty2rand());
+        User user = (User) factory.getBean("helloWorld");
+        System.out.println(user.getBrand());
 
 
         registerSpringBean("orderService", OrderServiceImpl.class.getName(), null);
 
-        IOrderService orderService = (IOrderService) applicationContext.getProperty2ean("orderService");
+        IOrderService orderService = (IOrderService) applicationContext.getBean("orderService");
 
         System.out.println(orderService.getClass().getClassLoader().getParent());
     }
@@ -65,13 +65,13 @@ public class YinglishzhiApplicationTests {
                 beanDefinitionBuilder.addPropertyValue(key, value);
             }
         }
-        BeanDefinition beanDefinition = beanDefinitionBuilder.getProperty2eanDefinition();
+        BeanDefinition beanDefinition = beanDefinitionBuilder.getBeanDefinition();
         // beanFactory
         ConfigurableApplicationContext configurableApplicationContext = (ConfigurableApplicationContext) applicationContext;
 
         System.out.println("configurableApplicationContext name = " + configurableApplicationContext.getClass().getName());
 
-        BeanDefinitionRegistry beanDefinitionRegistry = (BeanDefinitionRegistry) configurableApplicationContext.getProperty2eanFactory();
+        BeanDefinitionRegistry beanDefinitionRegistry = (BeanDefinitionRegistry) configurableApplicationContext.getBeanFactory();
 
         System.out.println("BeanDefinitionRegistry name = " + beanDefinitionRegistry.getClass().getName());
         beanDefinitionRegistry.registerBeanDefinition(beanId, beanDefinition);

@@ -12,6 +12,7 @@ import org.springframework.beans.factory.xml.XmlBeanDefinitionReader;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.core.io.ClassPathResource;
+import org.springframework.stereotype.Service;
 
 /**
  * order service impl
@@ -19,7 +20,7 @@ import org.springframework.core.io.ClassPathResource;
  * @author YinglishZhi
  * @date 2019/5/23 下午11:02
  **/
-//@Service("orderService")
+@Service("orderService")
 @Slf4j
 public class OrderServiceImpl implements IOrderService {
 
